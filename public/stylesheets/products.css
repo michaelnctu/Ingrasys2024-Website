@@ -1,0 +1,322 @@
+body {
+  width: 100%;
+  background-color: #000000;
+  font-family: "Noto Sans TC", sas-serif;
+  margin:0;
+  padding:0;
+}
+
+h5, li ,hr{
+  color:white;
+}
+
+ul, li {
+    list-style-type: unset;
+} 
+
+hr {
+  height: 1px ;
+  background-color:#e7eaf3 !important;
+  opacity: 1!important;
+}
+
+.btn-primary{
+  margin-top:0.5rem;
+  background-color: #00285E !important;
+  border-color: #00285E  !important;
+}
+
+
+
+.slider-top {
+  position:relative;
+  top:0;
+}
+
+/* 分頁 */
+.under-header-products{
+  position:absolute;
+  margin-top:10rem;
+  z-index:500
+}
+
+
+.breadcrumb{
+  padding-left:2.5rem;
+  margin:0;
+  align-items: center;
+  justify-content:flex-start;
+}
+
+.breadcrumb-item a{
+  color:white;
+}
+
+.breadcrumb-item.active{
+  color:#F58522;
+}
+
+/* slider-container */
+
+.slider-container{
+  position:relative;
+}
+
+.slider-caption {
+  position: absolute;
+  bottom:8%;
+  left:2.5rem;
+  padding:1rem; 
+  background:rgba(30, 32, 34, 0.3);
+  text-align:left;
+  width:45%;
+
+}
+
+.slider-caption h{
+color:#F58522;
+font-size: 2.5rem;
+line-height:150%;
+}
+
+.slider-caption p {
+  font-size: 1.5rem ;
+}
+
+.carousel-fade .carousel-item {
+	opacity: 0;
+	transition-duration: .6s;
+	transition-property: opacity;
+}
+
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right {
+	opacity: 1;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-right {
+	opacity: 0;
+}
+
+.carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-prev {
+	transform: translateX(0);
+	transform: translate3d(0, 0, 0);
+}
+
+
+.carousel .carousel-indicators li {
+  background-color: grey;
+  width:50px;
+  height:10px;
+  margin:10px;
+}
+.carousel-indicators{
+  cursor:pointer
+}
+
+.carousel .carousel-indicators li.active {
+  background-color:#F58522;
+}
+.carousel-control-next-icon:hover, 
+.carousel-control-prev-icon:hover {
+background-color:#F58522;
+border-radius: 50%;
+opacity:0.7;
+}
+
+
+
+
+
+/* caption on slider */
+
+
+
+.carousel .carousel-item {
+  max-height:100vh;
+
+}
+
+.carousel-item img{
+width: 100%;
+object-fit:cover;
+object-position: bottom;
+}
+
+
+/* 產品格子 */
+
+.card {
+  background-color:transparent;
+  min-width:500px;
+  /* height:700px; */
+  position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid #e7eaf3;
+    border-radius: 0.3125rem;
+}
+
+.card-text{
+  font-size:0.8em;
+  line-height:1.5em
+} 
+
+/* if new product */
+.card .new-tag {
+  position:absolute;
+  width:25%;
+  height:8%;
+  background-color: #F58522;
+  color:white;
+  text-align:center;
+}
+
+.text-box{
+  overflow: hidden;
+}
+
+
+
+.slider-bottom {
+  width:100%;
+  background-size: 100% 100%;
+  background-size: cover;
+  background-position: -50px -250px;
+  background-image: url("/assets/img/backgrounds/productsMain.jpg");
+}
+
+
+/* 下方產品的container */
+.content-container{
+  width:85%;
+  margin-left:7.5%; 
+  margin-top:3rem;
+  padding:10rem 3rem 10rem; 
+}
+
+.content-container{
+  
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 5%;
+  justify-items: center;
+  align-items: stretch;
+  overflow:hidden;
+
+}
+
+@media screen and (max-width: 1440px) {
+
+
+.card-text{
+  font-size:0.8em;
+} 
+
+}
+
+@media screen and (max-width: 1280px) {
+
+.slider-caption h {
+  font-size: 2.5rem ;
+
+}
+
+.slider-caption p {
+  font-size: 1.125rem ;
+}
+
+.card-text{
+  font-size:0.8em;
+} 
+
+}
+
+
+@media screen and (max-width: 1024px) {
+
+  .slider-caption h {
+  font-size: 2rem ;
+
+}
+
+.slider-caption p {
+  font-size: 0.9rem ;
+}
+
+.content-container{
+  padding:8rem 0rem 10rem; 
+}
+
+.card-text{
+  font-size:0.7em;
+} 
+
+
+}
+
+@media screen and (max-width: 768px) { 
+
+  .nav-container {
+ 
+    opacity:0.8;
+
+  }
+
+
+
+  .carousel-mobile{
+
+    margin-top:10rem;
+    width:100%;
+  }
+
+.slider-caption {
+  position: relative;
+  left:0;
+  width:100%;
+  text-align:left;
+  overflow:visible;
+}
+
+.carousel-indicators{
+  display:none
+}
+
+
+.content-container {
+      padding: 3rem 3rem 10rem;
+}
+
+.slider-bottom {
+  background-position: -500px -250px;
+}
+
+
+
+}
+
+@media screen and (max-width: 400px) { 
+
+.content-container {
+  width:100%;
+  margin-left:0; 
+}
+
+.slider-bottom {
+  background-position: 70%;
+}
+
+
+}

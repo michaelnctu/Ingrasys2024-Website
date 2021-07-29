@@ -1,0 +1,354 @@
+<section>
+
+  <div class="custom-container margin-box">
+
+    <nav class="under-header" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">About Ingrasys</li>
+      </ol>
+    </nav>
+
+    {{!-- banner pic in css --}}
+    <div class="about-banner">
+
+    </div>
+
+  </div>
+
+  <div class="custom-container margin-box">
+
+    <div class="title-box title-left">
+      <h1 class="about-title"> Ingrasys Story</h1>
+      <h class="line"> </h>
+    </div>
+    <br>
+
+    <div class="story-wrapper">
+      <div class="story-img">
+        <img src="/assets/img/about/ingrasys.jpg"" alt=" office">
+      </div>
+      <div class="story-para">
+        <p>
+          Ingrasys is a global leading cloud infrustructure provider, aimed at leveraging technological
+          innovations—Hyperconverged
+          infrastructure, HPC with CDI Architecture,AI , Advanced Cooling —to help worldwide customers meet their needs
+          for
+          sophistigated data center operation.
+        </p>
+
+        <br>
+
+        <p>
+          Building on our expertise in engineering, business and operation, we not only offer a wide range of
+          products,including servers, storages, HPC accelerators and workstaions, but also provide full integrated
+          services.
+        </p>
+
+        <br>
+        <p>
+          In the future, Ingrasys will continue to develop its technology solutions and services to ensure long term
+          partnerships
+          and support for our clients. We strive to anticipate future evolution, innovation and to expand the hyperscale
+          cloud
+          ecosystem.
+        </p>
+
+
+
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="custom-container margin-box">
+
+    <div class="title-box title-left">
+      <h1 class="about-title"> Leadership</h1>
+      <h class="line"> </h>
+    </div>
+    <br>
+
+
+    <div class="leader-wrapper">
+      <div class="card">
+        <img src=" /assets/img/about/photo_Chou.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tai-Yu Chou</h5>
+          <p class="card-text"> Fii-President
+          </p>
+        </div>
+      </div>
+      <div class="card" ">
+          <img src=" /assets/img/about/photo_Ben.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Benjamin Ting</h5>
+          <p class="card-text">Ingrasys-President
+          </p>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+  </div>
+
+  <div class="custom-container margin-box">
+
+    <div class="title-box title-left">
+      <h1 class="about-title"> Our Office</h1>
+      <h class="line"> </h>
+    </div>
+    <br>
+
+    <div class="container-boxy">
+      <a class="collapsed collapse-header" data-toggle="collapse" data-target="#collaspe1" href="javascript:;"
+        aria-expanded="false">
+        <h4>North America</h4>
+      </a>
+
+      <div class="collapse" id="collaspe1">
+
+        <div class="country-section">
+
+          <div class="country">
+            <h4> United States</h4>
+          </div>
+
+          <div class="office-container">
+
+            {{#each offices.usa}}
+            <div class="card card-location">
+
+              <img src={{this.image}} class="card-img-top" alt="...">
+              <div class="card-body">
+
+                <h class="city-text">{{this.city}}</h>
+
+
+                <p class="card-text card-address"><i class="fas fa-map-marker-alt"></i> {{this.address}}
+                </p>
+                <a class="card-text card-address" href={{this.address}}>Get Direction</a>
+              </div>
+            </div>
+            {{/each}}
+            {{!--
+            <div class="card card-location">
+
+              <img src=" /assets/img/about/seattle.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+
+                <h class="city-text">Seattle, WA</h>
+
+                <p class="card-text card-address"><i class="fas fa-map-marker-alt"></i> 2025 Gateway Pl Suite 190
+                  San Jose, CA 95110<br>
+                  <i class="fas fa-phone"></i>+1 408-727-8060
+                </p>
+                <a class="card-text card-address" href="https://goo.gl/maps/L6Ni5MmhgHSzSMXL8">Get Direction</a>
+              </div>
+            </div>
+
+            <div class="card card-location">
+              <img src="/assets/img/about/sj.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+
+                <h class="city-text">San Jose, CA</h>
+                <p class="card-text card-address"><i class="fas fa-map-marker-alt"></i> 2025 Gateway Pl Suite 190
+                  San Jose, CA 95110<br>
+
+                </p>
+                <a class="card-text card-address" href="https://goo.gl/maps/L6Ni5MmhgHSzSMXL8">Get Direction</a>
+              </div>
+            </div>
+            <div class="card card-location">
+              <img src=" /assets/img/about/wisconsin.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+
+                <h class="city-text">Mt Pleasant, WI </h>
+                <p class="card-text card-address"><i class="fas fa-map-marker-alt"></i> 2025 Gateway Pl Suite 190
+                  San Jose, CA 95110<br>
+                  <i class="fas fa-phone"></i>+1 408-727-8060
+                </p>
+                <a class="card-text card-address" href="https://goo.gl/maps/L6Ni5MmhgHSzSMXL8">Get Direction</a>
+              </div>
+            </div> --}}
+
+
+
+          </div>
+
+        </div>
+
+        <div class="country-section">
+          <div class="country">
+            <h4>Mexico</h4>
+          </div>
+
+          <div class="office-container">
+
+            {{#each offices.mexico}}
+            <div class="card card-location">
+
+              <img src={{this.image}} class="card-img-top" alt="...">
+              <div class="card-body">
+
+                <h class="city-text">{{this.city}}</h>
+
+                <p class="card-text card-address"><i class="fas fa-map-marker-alt"></i> {{this.address}}
+                </p>
+                <a class="card-text card-address" href={{this.address}}>Get Direction</a>
+              </div>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+
+      </div>
+
+      <a class="collapsed collapse-header" data-toggle="collapse" data-target="#collaspe2" href="javascript:;"
+        aria-expanded="false">
+        <h4>Asia</h4>
+      </a>
+
+      <div class="collapse" id="collaspe2">
+        <div class="country-section">
+
+          <div class="country">
+            <h4> Taiwan</h4>
+          </div>
+          <div class="office-container">
+            {{#each offices.taiwan}}
+            <div class="card card-location">
+
+              <img src={{this.image}} class="card-img-top" alt="...">
+              <div class="card-body">
+
+                <h class="city-text">{{this.city}}</h>
+
+                <p class="card-text card-address"><i class="fas fa-map-marker-alt"></i> {{this.address}}
+                </p>
+                <a class="card-text card-address" href={{this.map}}>Get Direction</a>
+              </div>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+
+        <div class="country-section">
+          <div class="country">
+            <h4> China</h4>
+          </div>
+
+          <div class="office-container">
+            {{#each offices.china}}
+            <div class="card card-location">
+
+              <img src={{this.image}} class="card-img-top" alt="...">
+              <div class="card-body">
+
+                <h class="city-text">{{this.city}}</h>
+
+                <p class="card-text card-address"><i class="fas fa-map-marker-alt"></i> {{this.address}}
+                </p>
+                <a class="card-text card-address" href={{this.map}}>Get Direction</a>
+              </div>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+
+        <div class="country-section">
+          <div class="country">
+            <h4> Singapore</h4>
+          </div>
+
+          <div class="office-container">
+            {{#each offices.singapore}}
+            <div class="card card-location">
+
+              <img src={{this.image}} class="card-img-top" alt="...">
+              <div class="card-body">
+
+                <h class="city-text">{{this.city}}</h>
+
+                <p class="card-text card-address"><i class="fas fa-map-marker-alt"></i> {{this.address}}
+                </p>
+                <a class="card-text card-address" href={{this.map}}>Get Direction</a>
+              </div>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+      </div>
+
+      <a class="collapsed collapse-header" data-toggle="collapse" data-target="#collaspe3" href="javascript:;"
+        aria-expanded="false">
+        <h4>Europe</h4>
+      </a>
+      <div class="collapse" id="collaspe3">
+
+        <div class="country-section">
+
+          <div class="country">
+            <h4>Hungary</h4>
+          </div>
+
+          <div class="office-container">
+
+            <div class="card card-location">
+
+              <img src=" /assets/img/about/hungary.png" class="card-img-top" alt="...">
+              <div class="card-body">
+
+                <h class="city-text">Hungary</h>
+
+                <p class="card-text card-address"><i class="fas fa-map-marker-alt"></i> Komárom, Bánki Donát u. 1, 2900
+                  Hungary<br>
+                </p>
+                <a class="card-text card-address" href="https://goo.gl/maps/iP9JWBqmXVLw3gnx7">Get Direction</a>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+        <div class="country-section">
+          <div class="country">
+            <h4>Czech Republic</h4>
+          </div>
+
+          <div class="office-container">
+
+            <div class="card card-location">
+
+              <img src=" /assets/img/about/cz.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+
+                <h class="city-text">Czech</h>
+
+                <p class="card-text card-address"><i class="fas fa-map-marker-alt"></i> Karlov 245, 284 01 Kutná
+                  Hora,Czech Republic<br>
+                </p>
+                <a class="card-text card-address" href="https://goo.gl/maps/cpM3jQnGSSKm3krG8">Get Direction</a>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+  </div>
+
+</section>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" ontent="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css">
+  <!-- Compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  {{!-- 動畫 --}}
+
+  <link rel="stylesheet" href="/stylesheets/styles.css">
+
+  {{#if dlCSS}}
+  <link rel="stylesheet" href="/stylesheets/dl.css">
+  {{/if}}
+
+  {{#if productsCSS}}
+  <link rel="stylesheet" href="/stylesheets/products.css">
+  {{/if}}
+  {{#if csrCSS}}
+  <link rel="stylesheet" href="/stylesheets/csr.css">
+  {{/if}}
+  {{#if productCSS}}
+  <link rel="stylesheet" href="/stylesheets/product.css">
+  {{/if}}
+
+  {{#if aboutCSS}}
+  <link rel="stylesheet" href="/stylesheets/about.css">
+  {{/if}}
+
+  {{#if coolCSS}}
+  <link rel="stylesheet" href="/stylesheets/cooling.css">
+  {{/if}}
+
+
+
+</head>
+
+<body>
+
+
+  <!--Main Header-->
+
+  <header>
+
+    <div class="blur-mask">
+    </div>
+
+    <div class="custom-container">
+      <div class="nav-container">
+
+        <a href="/" class="navbar-brand">
+          <img src="/assets/img/logos/Ingrasys logo_white2.svg" alt="Ingrasy logo" class="header-img">
+        </a>
+
+
+
+      </div>
+
+    </div>
+
+    <div class="side-bar">
+
+      <div class="menu-btn">
+        <div class="hamburger" id="hamburger-1">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </div>
+
+
+      <div class="menu">
+        <div class="item">
+          <a href="/about">
+            About Ingrasys</a>
+        </div>
+        <div class="item">
+          <a class="sub-btn">
+            Products
+
+            <i class="fas fa-angle-right dropdown">
+            </i>
+          </a>
+          <div class="sub-menu">
+            <a href="/products" class="sub-item">Server</a>
+            <a href="#" class="sub-item">Storage</a>
+            <a href="#" class="sub-item">HPC Accelerator</a>
+            <a href="#" class="sub-item">Workstation</a>
+          </div>
+        </div>
+        <div class="item">
+          <a class="sub-btn">Solutions<i class="fas fa-angle-right dropdown"></i></a>
+          <div class="sub-menu">
+            <a href="/cooling" class="sub-item">Advanced Cooling Solution</a>
+            <a href="/ci" class="sub-item">Cloud Infrastructure</a>
+          </div>
+        </div>
+        <div class="item">
+          <a href="/download">Downloads</a>
+        </div>
+        <div class="item">
+          <a href="/csr">CSR</a>
+        </div>
+      </div>
+    </div>
+
+
+  </header>
+
+  <!-- partial templates will replace the part of "body" here -->
+  {{{body}}}
+
+
+
+  <footer>
+    <div class="custom-container">
+      <div class="footer-wrapper">
+
+        <div href="#" class="footer-item footer-logo">
+          <img src="/assets/img/logos/Ingrasys logo_white2.svg
+                    " alt="Ingrasy logo" class="footer-img">
+          <p class="copyright">© 2021 Ingrasys Technology Inc. All rights reserved.</p>
+        </div>
+
+
+        <div class=" footer-item footer-office">
+          <h class="office-location"> Contact
+          </h>
+          <div class="office-address">
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+              2025 Gateway Pl Suite 190</br> San Jose, CA 95110
+              </br>
+            </span>
+            <span>
+              <i class="fas fa-envelope"></i>
+              Sales@ingrasys.com
+            </span>
+            <span>
+              <i class="fas fa-phone"></i>
+              +1 408-727-8060
+            </span>
+            </br>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- jquery -->
+
+
+  <!-- jquery -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+
+
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script type="text/javascript" src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+  <!-- Compiled and minified JavaScript -->
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+  <script type="text/javascript" src="/javascripts/index.js"></script>
+
+
+  {{#if coolCSS}}
+  <script type="text/javascript" src="/javascripts/cooling.js"></script>
+  {{/if}}
+
+  {{#if csrCSS}}
+  <script type="text/javascript" src="/javascripts/csr.js"></script>
+  {{/if}}
+
+
+  {{#if productCSS}}
+
+  <script type="text/javascript" src="/javascripts/product.js"></script>
+
+  {{/if}}
+
+
+  {{#if productsCSS}}
+  <script type="text/javascript" src="/javascripts/products.js"></script>
+
+  {{/if}}
+
+
+</body>
+
+</html>

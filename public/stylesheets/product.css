@@ -1,0 +1,693 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,700&display=swap&subset=chinese-traditional");
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+/* nav-tabs */
+@media (min-width: 768px) {
+
+    .responsive-tabs .dropdown-arrow {
+        display: none; 
+    } 
+
+    .open{
+      all:unset;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .responsive-tabs {
+        position: relative;
+        border:none; 
+    
+    }
+    .custom-btn{
+      height:100%;
+      padding: .5rem 1rem;
+      color:white;
+      border-radius: 0;
+    }
+
+    .custom-btn.active {
+      color:white !important;
+      background:#00285E!important;
+      border:none !important;
+            border-radius: 0;
+    }
+
+
+    .responsive-tabs li {
+        width: 100%; 
+        margin: 0 !important; 
+    }
+    .responsive-tabs li > a {
+        display: none; 
+        border: 0 !important; 
+        border-radius: 0 !important;
+    }
+
+  
+
+
+    .responsive-tabs.open li > a, .responsive-tabs li > a.active {
+        display:block;
+
+    }
+
+    .responsive-tabs.open {
+
+      width:100%;
+      border:none;
+    }
+
+
+    .responsive-tabs .dropdown-arrow { 
+        position: absolute;
+        top: 15px;
+        right: 15px; 
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+        vertical-align: middle;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transition: all ease .5s;
+        cursor: pointer; 
+    }
+    .responsive-tabs.open .dropdown-arrow {
+        transform: rotate(-135deg);
+        transition: all ease .5s; 
+    } 
+}  
+
+
+
+.custom-container {
+  
+  overflow: visible;
+}
+
+.title {
+  color:#F58522
+}
+
+.breadcrumb{
+  padding-left:2.5rem;
+  margin:0;
+  align-items: center;
+  justify-content:flex-start;
+}
+
+.breadcrumb-item a{
+  color:white;
+}
+
+.breadcrumb-item.active{
+  color:#F58522;
+}
+
+.nav-wrapper{
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items: center;;
+}
+
+nav ul {
+  height:100%;
+  width:60%;
+  display:grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-gap:0;
+  justify-items: center;
+  align-items: center;
+  
+}
+
+.bar-top {
+  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
+   background-image: url("/assets/img/temp/silk.jpg");
+}
+
+.bar-bottom {
+  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
+   background-image: url("/assets/img/backgrounds/productsMain.jpg");
+}
+
+
+
+i{
+    background:transparent;
+}
+
+h,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  line-height: 0.9;
+  font-size: 2rem;
+  color: #FFFFFF;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+p {
+  margin: 0;
+  font-size: 1.2rem;
+  color:white;
+}
+
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color:white;
+}
+
+a {
+  text-decoration:none !important ;
+}
+
+.dots {
+  font-size:50px;
+}
+
+
+span{
+  all:unset
+}
+
+.line{
+  display:inline-block;
+  margin-bottom:1rem;
+}
+
+
+.link-top {
+  width: 100%;
+  height: 1px;
+  border-top: solid #d8baac 1px;
+}
+
+/* 此處有margin collapse的問題 請參考overflow:visible */
+
+.under-header {
+  padding-top:10rem;
+}
+
+/* product-wrapper  */
+
+
+img{
+    width: 100%;
+    display: block;
+}
+.img-display{
+    overflow: hidden;
+}
+.img-showcase{
+    display: flex;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+.img-showcase img{
+    min-width: 100%;
+}
+.img-select{
+    display: flex;
+}
+.img-item{
+    margin: 0.3rem;
+}
+.img-item:nth-child(1),
+.img-item:nth-child(2),
+.img-item:nth-child(3){
+    margin-right: 0;
+}
+.img-item:hover{
+    opacity: 0.8;
+}
+
+.product-content{
+    padding: 0rem 1rem;
+        margin: 2rem 0rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+
+.product-detail h1{
+      line-height: 150%;
+}
+
+
+.product-detail p{
+    font-size: 1.1rem;
+    line-height: 150%;
+    padding: 0.3rem;
+    opacity: 0.8;
+}
+.product-detail ul{
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.product-detail ul li{
+    margin: 0;
+    list-style: none;
+    background: url(shoes_images/checked.png) left center no-repeat;
+    background-size: 18px;
+    /* padding-left: 1.7rem; */
+    margin: 0.4rem 0;
+    font-weight: 450;
+    opacity: 0.9;
+}
+
+.processor > img {
+  margin-left:0;
+  width:18%;
+  margin-top:1.5rem;
+}
+
+
+/* select-bar */
+/* .select-bar {
+  width:100%;
+  height:5rem;
+  border:none;
+background: rgba(0, 40, 94, 0.8);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+padding-left:2rem;
+  color:white;
+  display:flex;
+  flex-direction:row;
+}
+
+.select-bar >　option{
+  color:white
+} */
+
+/* application */
+
+.app-container{
+  width:80%;
+  margin-left:10%;
+  padding:5%;
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  grid-gap: 6rem;
+  justify-items: center;
+  align-items: center;
+
+}
+
+.app-title{
+  margin-top:5rem;
+  text-align:center;
+}
+
+.item-img {
+  width:50%;
+  margin:auto;
+  /* padding:30%;; */
+}
+
+.item-title {
+  text-align: center;
+  font-size:1.5rem;
+}
+
+
+/* point-container */
+
+
+
+.point-container{
+  padding:3rem 0 0rem;
+  width:90%;
+  margin-left:5%;
+}
+
+.point-item{
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 7rem;
+}
+
+.point-title{
+  text-align:right;
+  font-size:1.5rem;
+}
+
+.graph-right{
+  flex-direction:column-reverse;
+}
+
+.point-description{
+  margin-top:2rem;
+  font-size:1.3rem;
+}
+
+.certif-container{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  width:80%;
+  margin-left:10%;
+  text-align:center;
+  margin-bottom:5rem
+}
+
+
+
+
+.certif-title{
+  margin-bottom:5rem;
+  text-align:center;
+}
+
+.certif-item{
+
+  max-width:100px;
+  margin-left:2rem;
+}
+
+
+
+
+
+.custom-menu{
+  width:100%;
+}
+
+
+
+
+/* spec */
+.table {
+  background: rgba(140, 136, 136, 0.2);
+  margin-top:3rem;
+  width:95%;
+  margin-left:2.5%;
+}
+
+
+.table>:not(caption)>*>* {
+    padding: 1.5rem 1rem;
+    background-color: var(--bs-table-bg);
+    border-bottom-width: 1px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+
+td, th{
+  color:white;
+  font-size:1rem;
+}
+
+.table th td{
+  font-size:1rem;
+}
+
+/* @media screen and (max-width: 1024px) {
+
+.product-detail h1{
+    font-size: 2.5rem;
+}
+  .product-detail p{
+    font-size: 0.9rem;
+}
+.product-detail ul{
+
+    font-size: 1.7rem;
+}
+.product-detail ul li{
+      font-size: 1rem;
+}
+
+.processor p {
+  font-size: 1.3rem;
+}
+
+.point-title {
+  font-size: 1.5rem;
+}
+
+.point-description {
+    margin-top: 1.3rem;
+}
+
+} */
+
+@media screen and (min-width: 768px){
+
+h1{
+    font-size:2rem;
+}
+
+.product-container{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;        padding:2%  
+    }
+
+.product{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 4rem;
+
+    }
+
+ .product-imgs{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+ .product-detail ul{
+    font-size: 1rem;
+}
+
+/* nav-tabs */
+
+.select-bar{
+  display:none
+}
+
+.nav {
+  transform: unset;
+}
+
+.nav{
+  all:unset;
+  position:relative;
+  height:5rem;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content: center;
+  background: linear-gradient(180deg, rgba(14, 14, 14, 0.651) 7.81%, rgba(46, 39, 39, 0.61771) 25.96%, rgba(99, 93, 93, 0) 91.67%), #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-item {
+  text-align:center;
+  font-size:2rem;
+  height:100%;
+  width:20%;
+}
+
+.nav-item:hover {
+cursor:pointer
+}
+
+.custom-btn {
+  display:block;
+  color:#ffffff;
+  width:100%;
+  height:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size:1.5rem;
+}
+
+.custom-btn.active {
+  background-color:#00285E!important;
+  color:white!important;
+  border:none;
+}
+
+.custom-btn:hover{
+  border:none;
+  color: #F58522;
+}
+
+/* banner */
+
+.banner-wrapper {
+  width: 100%;
+  height:100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  padding:3rem;
+}
+
+.main-caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.caption-description {
+  margin: 2rem 0;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.banner-footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+
+.point-container{
+  width:90%;
+  margin-left:5%;
+}
+
+/* .point-title{
+  font-size:2.1rem;
+} */
+
+.point-item{
+  width:100%;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:0;
+  justify-items: center;
+  align-items: center;
+  /* border:solid red; */
+
+}
+
+/* .point-content {
+  border:solid blue;
+} */
+
+/* .point-img {
+   border:solid pink; 
+   
+} */
+
+.point-img img {
+
+  width:80%;
+  margin:auto;
+}
+
+.graph-right .point-img img {
+  /* border:solid red; */
+  width:80%;
+  margin:0;
+}
+
+.point-tile {
+  font-size:1.3rem;
+}
+
+.point-description{
+  margin-top:2rem;
+  font-size:1rem;
+}
+
+.certif-container{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  width:80%;
+  margin-left:10%;
+  text-align:center;
+  margin-bottom:5rem
+}
+
+
+
+}
+
+@media screen and (min-width:1024px){
+
+
+
+.product-detail ul li{
+    font-size:1.1rem;
+}
+
+/* spec */
+.table {
+
+  width:90%;
+  margin-left:5%;
+}
+
+}
+
+@media screen and (min-width:1280px){
+
+.product-detail ul li{
+    font-size:1.4rem;
+}
+
+.processor > img{
+  padding:1.5rem;
+}
+
+td, th{
+  color:white;
+  font-size:1.3rem;
+}
+
+.point-title {
+  font-size:2rem;
+}
+
+.point-description{
+  font-size:1.5rem;
+}
+
+
+
+}
+
+@media screen and (min-width:1440px){
+
+  .app-container{
+
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+
+}
+}

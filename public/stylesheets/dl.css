@@ -1,0 +1,128 @@
+ul,li {
+  color:white;
+  opacity:0.8
+}
+
+.under-header{
+  position:absolute;
+  top:10rem;
+}
+
+.breadcrumb{
+  padding-left:2.5rem;
+  margin:0;
+  align-items: center;
+  justify-content:flex-start;
+}
+
+.breadcrumb-item a{
+  color:white;
+}
+
+.breadcrumb-item.active{
+  color:#F58522;
+}
+
+.dl-container{
+  padding:4rem 0;
+}
+
+.dl-banner{
+  width:100%;
+  height:75vh;
+  background-size:cover ;
+  background-position:bottom;
+  background-image: url("/assets/img/download/pcb.jpg");
+}
+ 
+
+
+.dl-banner img {
+  object-position: center;
+  max-width:100%;
+  min-height:80%;
+}
+
+th, td{
+  color:white;
+  vertical-align: middle !important;
+  text-align: center;
+}
+
+
+.table-dl{
+  background: rgba(151, 140, 140, 0.3);
+  width:90%;
+  margin-left:5%;
+}
+
+.table-dl thead{
+
+background: rgba(0, 40, 94, 0.8);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+td, th{
+  font-size:0.8rem;
+}
+
+td i{
+  color:#F58522;
+  font-size:1rem;
+}
+
+
+
+
+.dl-bottom{
+  padding:3rem;
+  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
+   background-image: url("/assets/img/backgrounds/productsMain.jpg");
+}
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+
+
+
+.table-dl{
+  background: rgba(151, 140, 140, 0.3);
+  width:80%;
+  margin-left:10%;
+}
+
+td, th{
+  font-size:1.3rem;
+}
+
+td i{
+  color:#F58522;
+  font-size:1.3rem;
+}
+
+}
+
+
+
+@media screen and (min-width:1024px) {
+  .csr-wrapper h1{
+  font-size: 2rem;
+ 
+}
+
+.csr-wrapper p{
+  font-size:1.5rem;
+}
+
+ .csr-wrapper li{
+  font-size:1.2rem;
+}
+
+}
+

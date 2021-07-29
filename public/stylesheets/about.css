@@ -1,0 +1,287 @@
+section{
+  background-size:cover;
+  background-position:20% -100%;
+  background-image: url("/assets/img/temp/trial-90.png");
+   background-attachment: fixed;
+  
+}
+
+ 
+
+
+.under-header{
+  position:absolute;
+  top:10rem;
+}
+
+.breadcrumb{
+  padding-left:2.5rem;
+  margin:0;
+  align-items: center;
+  justify-content:flex-start;
+}
+
+.breadcrumb-item a{
+  color:white;
+}
+
+.breadcrumb-item.active{
+  color:#F58522;
+}
+
+.about-banner{
+  width:100%; 
+  height:60vh;
+  overflow:hidden;
+  background-size: 100% 100%;
+  background-size: cover;
+  background-position: bottom;
+  background-image: url("/assets/img/about/pcb.jpg");
+}
+
+.margin-box {
+  padding-bottom: 4rem;
+}
+
+
+/* story */
+
+.story-wrapper{
+  overflow:hidden;
+  padding:5%;
+
+}
+
+.story-img {
+  width:100%;
+}
+
+.story-img img {
+  width:100%;
+}
+
+.story-para p{
+  font-size: 0.7em;
+  padding-top:1rem;
+}
+
+/* leadership */
+
+.leader-wrapper{
+  width:80%;
+  margin-left:10%;
+  padding:5%;
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-gap: 5rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.card {
+  background: transparent;
+  height: 400px;
+  display:grid;
+  grid-template-rows: 75% 20%;
+  border:none;
+}
+
+.leader-wrapper .card img {
+  object-fit:contain;
+  object-position:top ;
+  height:100%;  
+  /* width:100%; */
+}
+
+
+.card img {
+  object-fit:cover;
+  object-position:top ;
+  height:100%;  
+  /* width:100%; */
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-body  .card-title{
+  color: #F58522;
+}
+
+.card-text{
+  font-size:0.75em;
+  line-height:1.2em;
+}
+
+/* collapse */
+.container-boxy {
+  width:90%;
+  height:auto;
+  margin: 20px auto;
+
+}
+
+.collapse-header {
+  position: relative;
+  margin-bottom: 10px;
+  padding: 15px 50px 15px 20px;
+  display: block;
+  /* overflow: hidden; */
+}
+
+.collapse-header h4 {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  color: #fff;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+
+.collapse-header::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00285E;
+  opacity:0.7;
+  /* transform: translateX(-100%);
+  transition: 0.3s; */
+}
+.collapse-header::after {
+  content: "+";
+  position: absolute;
+  z-index: 3;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+  -webkit-transform: translateY(-50%) rotate(45deg);
+  -ms-transform: translateY(-50%) rotate(45deg);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  line-height: 1em;
+  color: #fff;
+  transition: 0.2s;
+}
+.collapse-header.collapsed {
+  background-color:  #00285E;
+}
+.collapse-header.collapsed::after {
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+.collapse-header:hover::before {
+  transform: translateX(0);
+}
+
+.country {
+  width:100%;
+  padding-bottom:2rem; 
+}
+
+.country h4{
+    color:#F58522
+}
+
+/* office card */
+
+.office-container{
+  width:100%;
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  grid-gap:3em;
+  justify-items: center;
+  align-items: center;
+  /* overflow:visible; */
+}
+
+
+.card-location{
+  width: 100%;
+  height: 450px;
+   overflow: hidden;
+}
+
+
+.country-section {
+  display:flex;
+  flex-direction: column;
+  height:auto;
+  overflow:visible;
+  padding:2rem;
+}
+
+.card-location img{
+  opacity:0.5
+
+}
+
+.city-text{
+  position: absolute;
+  top: 35%;
+  /* left: 50%; */
+  transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+.card-address {
+  text-align:left;
+}
+
+.card:hover .city-text {
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+.card:hover img{
+  opacity: 1;
+  transition: opacity 0.3s ease-out;
+}
+
+.card-body a{
+  display:block;
+  color: #2251ff;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+.story-wrapper {
+  width:90%;
+  margin-left:5%;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap:2%;
+  justify-items: center;
+  align-items: center;
+}
+
+
+.story-para p{
+  font-size: 0.8em;
+  padding-top:1rem;
+}
+
+.container-boxy {
+  width:70%;
+
+}
+
+.city-text {
+  font-size:1em;
+}
+
+
+
+}
+
+
+/* 

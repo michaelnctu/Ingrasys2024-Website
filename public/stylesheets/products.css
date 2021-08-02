@@ -36,16 +36,20 @@ hr {
 /* 分頁 */
 .under-header-products{
   position:absolute;
-  margin-top:10rem;
+  margin-top:10rem; 
   z-index:500
 }
 
+nav{
+  border:solid blue;
+}
 
 .breadcrumb{
   padding-left:2.5rem;
   margin:0;
   align-items: center;
   justify-content:flex-start;
+  background-color:transparent;
 }
 
 .breadcrumb-item a{
@@ -60,6 +64,8 @@ hr {
 
 .slider-container{
   position:relative;
+  width:100%;
+  box-sizing: border-box;
 }
 
 .slider-caption {
@@ -83,7 +89,7 @@ line-height:150%;
   font-size: 1.5rem ;
 }
 
-.carousel-fade .carousel-item {
+/* .carousel-fade .carousel-item {
 	opacity: 0;
 	transition-duration: .6s;
 	transition-property: opacity;
@@ -107,7 +113,7 @@ line-height:150%;
 .carousel-fade .active.carousel-item-prev {
 	transform: translateX(0);
 	transform: translate3d(0, 0, 0);
-}
+} */
 
 
 .carousel .carousel-indicators li {
@@ -138,7 +144,7 @@ opacity:0.7;
 
 
 
-.carousel .carousel-item {
+.item{
   max-height:100vh;
 
 }
@@ -154,7 +160,6 @@ object-position: bottom;
 
 .card {
   background-color:transparent;
-  min-width:500px;
   /* height:700px; */
   position: relative;
     display: -ms-flexbox;
@@ -168,6 +173,18 @@ object-position: bottom;
     border-radius: 0.3125rem;
 }
 
+.card{
+  width:330px;
+  margin:3.5rem;
+}
+
+
+.card img{
+  flex: 1 0 auto;
+  min-height: 1px;
+  width:100% !important;
+}
+
 .card-text{
   font-size:0.8em;
   line-height:1.5em
@@ -176,12 +193,16 @@ object-position: bottom;
 /* if new product */
 .card .new-tag {
   position:absolute;
+  top:0;
+  left:0;
   width:25%;
   height:8%;
   background-color: #F58522;
   color:white;
   text-align:center;
 }
+
+
 
 .text-box{
   overflow: hidden;
@@ -200,22 +221,23 @@ object-position: bottom;
 
 /* 下方產品的container */
 .content-container{
-  width:85%;
-  margin-left:7.5%; 
-  margin-top:3rem;
-  padding:10rem 3rem 10rem; 
+  width:90%;
+  margin-left:5%; 
+  padding:10rem 5rem 10rem; 
+  border:solid red;
+
 }
 
 .content-container{
   
-  display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 5%;
-  justify-items: center;
-  align-items: stretch;
-  overflow:hidden;
+  display:flex;
+  flex-direction:row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap:wrap;
 
 }
+
 
 @media screen and (max-width: 1440px) {
 
@@ -255,13 +277,13 @@ object-position: bottom;
   font-size: 0.9rem ;
 }
 
-.content-container{
+/* .content-container{
   padding:8rem 0rem 10rem; 
 }
 
 .card-text{
   font-size:0.7em;
-} 
+}  */
 
 
 }
@@ -274,11 +296,15 @@ object-position: bottom;
 
   }
 
+  .under-header-products {
+    margin-top:0rem; 
+  }
+
 
 
   .carousel-mobile{
 
-    margin-top:10rem;
+    margin-top:10rem; 
     width:100%;
   }
 
@@ -294,10 +320,10 @@ object-position: bottom;
   display:none
 }
 
-
+/* 
 .content-container {
       padding: 3rem 3rem 10rem;
-}
+} */
 
 .slider-bottom {
   background-position: -500px -250px;
@@ -308,11 +334,11 @@ object-position: bottom;
 }
 
 @media screen and (max-width: 400px) { 
-
+/* 
 .content-container {
   width:100%;
   margin-left:0; 
-}
+} */
 
 .slider-bottom {
   background-position: 70%;

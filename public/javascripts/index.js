@@ -1,6 +1,8 @@
 //burger
 
 
+console.log("hello")
+
 $(document).ready(function () {
 
   $('.sub-btn').click(function () {
@@ -16,14 +18,6 @@ $(document).ready(function () {
     $('.menu').toggleClass('active');
     $('.blur-mask').toggleClass('active');
   });
-
-  $('#youtube').magnificPopup({
-    items: {
-      src: './assets/video/index-intro.mp4'
-    },
-    type: 'iframe'
-  });
-
 
 
 
@@ -142,18 +136,21 @@ particlesJS("particles-js", {
 
 //banner video popup function
 
-$(document).ready(function () {
-  $('#youtube').magnificPopup({
-    items: {
-      src: './assets/video/index-intro.mp4'
-    },
-    type: 'iframe'
-  });
+// $(document).ready(function () {
+//   $('#youtube').magnificPopup({
+//     items: {
+//       src: './assets/video/index-intro.mp4'
+//     },
+//     type: 'iframe'
+//   });
 
-});
+// });
 
 //text scroller
 $(document).on("scroll", function () {
+  console.log("hello")
+
+  console.log("succsess")
 
   // scroll位置可以在max後面數字改變
   $(".text-1").css("left", Math.max(1350 - 0.4 * window.scrollY) + "px");
@@ -217,38 +214,12 @@ $(document).on("scroll", function () {
 });
 
 
-// slick
-
-$('.slider').slick({
-  centerMode: true,
-  centerPadding: '0px',
-  slidesToShow: 1,
-  autoplay: true,
-  autoplaySpeed: 2000,
-  arrows: true,
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        arrows: true,
-        autoplay: false,
-        centerMode: true,
-        centerPadding: '5px',
-        slidesToShow: 1
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        centerMode: true,
-        dots: true,
-        centerPadding: '0px',
-        slidesToShow: 1,
-      }
-    }
-  ]
-})
 
 
 
 document.documentElement.setAttribute("data-agent", navigator.userAgent);
+
+$(document).scroll(function () {
+  $(".text-1").css("left", Math.max(1350 - 0.4 * window.scrollY) + "px");
+  console.log("hello")
+})

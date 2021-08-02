@@ -1,10 +1,9 @@
 {
-  "name": "Foxconn-Ingrasys",
+  "name": "ingrasys-ie",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d lib",
     "start": "node app.js",
     "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,10 +26,5 @@
     "express-handlebars": "^5.3.2",
     "jquery-expander": "^2.0.1",
     "nodemon": "^2.0.7"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.14.8",
-    "@babel/core": "^7.14.8",
-    "@babel/preset-env": "^7.14.8"
   }
 }

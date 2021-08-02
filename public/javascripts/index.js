@@ -217,6 +217,8 @@ $(document).on("scroll", function () {
 });
 
 
+// slick
+
 $('.slider').slick({
   centerMode: true,
   centerPadding: '0px',
@@ -246,3 +248,7 @@ $('.slider').slick({
     }
   ]
 })
+
+
+
+document.documentElement.setAttribute("data-agent", navigator.userAgent);

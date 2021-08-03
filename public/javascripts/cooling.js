@@ -82,3 +82,69 @@ $(window).resize(function (e) {
 $(document).ready(function (e) {
   screen_resize();
 });
+
+
+
+// $('.carousel[data-type="multi"] .item').each(function () {
+//   var next = $(this).next();
+//   if (!next.length) {
+//     next = $(this).siblings(':first');
+//   }
+//   next.children(':first-child').clone().appendTo($(this));
+
+//   for (var i = 0; i < 2; i++) {
+//     next = next.next();
+//     if (!next.length) {
+//       next = $(this).siblings(':first');
+//     }
+
+//     next.children(':first-child').clone().appendTo($(this));
+//   }
+// });
+
+
+(function () {
+  $('.carousel-showmanymoveone .item').each(function () {
+    var itemToClone = $(this);
+
+    for (var i = 1; i < 6; i++) {
+      itemToClone = itemToClone.next();
+
+      // wrap around if at end of item collection
+      if (!itemToClone.length) {
+        itemToClone = $(this).siblings(':first');
+      }
+
+      // grab item, clone, add marker class, add to collection
+      itemToClone.children(':first-child').clone()
+        .addClass("cloneditem-" + (i))
+        .appendTo($(this));
+    }
+  });
+}());
+
+
+
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function () {
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function () {
+  modal.style.display = "none";
+}
+
+

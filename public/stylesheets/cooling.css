@@ -1,4 +1,5 @@
 
+
 p {
   font-size:1em;
 }
@@ -221,6 +222,7 @@ overflow-x: hidden;
 }
 
 
+
 .content-img{
   margin-left:5%;
   width:90%;
@@ -239,19 +241,22 @@ overflow-x: hidden;
 
 
 .content-sliders {
- padding:3rem 10%;
- height:auto;
- display:grid;
- grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
- grid-gap:10%;
+  display:flex;
+  flex-direction:column;
+  padding:3rem 10%;
+  height:auto;
   justify-items: center;
-  align-items: stretch;
+  align-items: center;
 
 }
 
-.card {
+.card{
+  width:100%;
   background:transparent;
   border:solid white;
+  margin:3rem;
+  flex: 1 0 auto;
+  min-height: 1px;
 
 }
 
@@ -263,16 +268,22 @@ overflow-x: hidden;
   font-size:1rem;
 }
 
+
+.about-img{
+  width:100%;
+  border:solid red;
+  /* ie purpose */
+  flex: 1 0 auto;
+  min-height: 1px;
+}
+
+
 .standard-container{
+border:solid red;
 padding:0 10% 10%;
-display:grid;
-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-grid-template-rows: auto; 
-grid-gap: 5%;
-justify-items: center;
-align-items: center;
 
 }
+
 
 .standard-img{
   width:100%;
@@ -281,7 +292,10 @@ align-items: center;
 
 
 .standard-img img{
+  display:block;
+  margin:auto;
   width:100%;
+  
 }
 
 .standard-line {
@@ -457,6 +471,38 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 cursor:pointer
 }
 
+/* slider */
+
+.content-sliders {
+  display:flex;
+  flex-direction:row;
+  height:auto;
+  padding:0;
+  justify-items: center;
+  align-items: stretch;
+  width:80%;
+  margin-left:10%;
+}
+
+.card{
+   width:30%;
+  background:transparent;
+  border:solid white;
+  margin:3rem;
+  flex: 1 0 auto;
+  min-height: 1px;
+
+}
+
+.card-title{
+  font-size:1.5rem;
+}
+
+.card-text{
+  font-size:1rem;
+}
+
+
 
 .cooling-text {
   margin-top:15rem;
@@ -468,6 +514,35 @@ cursor:pointer
 
 
 /* overview */
+
+/* solution for data center */
+
+
+.standard-container{
+padding:0 10% 10%;
+display:flex;
+flex-direction:row;
+}
+
+.standard-img{
+  width:100%;
+  padding:2rem;
+}
+
+.standard-content {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+} 
+
+.standard-item{
+  border:solid red;
+  width:50%;
+}
+.standard-img img{
+  width:85%;
+}
+
 .standard-title {
   font-size:1.3rem;
 }
@@ -520,6 +595,14 @@ cursor:pointer
   justify-items: center;
   align-items: center;
 }
+
+
+
+.unit-container .carousel-inner .item  .tt{
+  border:solid red;
+  flex-direction: row;
+}
+
 
 
 
@@ -577,3 +660,7 @@ cursor:pointer
 
 
 }
+
+
+
+

@@ -347,11 +347,22 @@ padding-left:2rem;
   justify-items: center;
   align-items: center;
   margin-bottom: 7rem;
+  border:solid red;
 }
 
 .point-title{
   text-align:right;
   font-size:1.5rem;
+}
+
+.point-img {
+  width: 80%;
+  flex: 1 0 auto;
+  min-height: 1px;
+}
+
+.point-content {
+  width:90%;
 }
 
 .graph-right{
@@ -607,7 +618,23 @@ cursor:pointer
 .point-container{
   width:90%;
   margin-left:5%;
+  border:solid blue;
 }
+
+.point-item{
+  display:flex;
+  flex-direction:row;
+}
+
+.point-item div{
+  width:50%;
+}
+
+.point-img img{
+  width:80%;
+  margin:auto;
+}
+
 
 /* .point-title{
   font-size:2.1rem;
@@ -633,17 +660,7 @@ cursor:pointer
    
 } */
 
-.point-img img {
 
-  width:80%;
-  margin:auto;
-}
-
-.graph-right .point-img img {
-  /* border:solid red; */
-  width:80%;
-  margin:0;
-}
 
 .point-tile {
   font-size:1.3rem;

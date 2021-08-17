@@ -70,27 +70,28 @@ section{
 .leader-wrapper{
   width:80%;
   margin-left:10%;
-  padding:5%;
-  display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  grid-gap: 5rem;
+  display:flex;
+  flex-direction:column;
   justify-items: center;
   align-items: center;
+  border:solid blue;
 }
 
-.card {
+
+.leader {
+  width:100%;
   background: transparent;
   height: 400px;
-  display:grid;
-  grid-template-rows: 75% 20%;
-  border:none;
+  display:flex;
+  flex-direction:column;
+  border:solid red;
 }
 
 .leader-wrapper .card img {
   object-fit:contain;
   object-position:top ;
   height:100%;  
-  /* width:100%; */
+  /* width:100%; /
 }
 
 
@@ -194,20 +195,25 @@ section{
 
 .office-container{
   width:100%;
-  display:grid;
-  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
-  grid-gap:3em;
-  justify-items: center;
-  align-items: center;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+    align-items: center;
+  /* align-content: stretch; */
+  padding:0 10%;;
+  border:solid red;
+
   /* overflow:visible; */
 }
 
-
 .card-location{
   width: 100%;
-  height: 450px;
+  border:solid blue;
    overflow: hidden;
 }
+
+
+
 
 
 .country-section {
@@ -219,8 +225,11 @@ section{
 }
 
 .card-location img{
-  opacity:0.5
-
+  border:solid green;
+  width:100%;
+  height:300px;
+  object-fit:cover;
+  object-position:center ;
 }
 
 .city-text{
@@ -264,11 +273,32 @@ section{
   align-items: center;
 }
 
-
 .story-para p{
   font-size: 0.8em;
   padding-top:1rem;
 }
+
+
+.office-container{
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* align-content: stretch; */
+  padding:0 10%;;
+  border:solid red;
+
+  /* overflow:visible; */
+}
+
+.card-location{
+  width: 45%;
+  /* height: 450px; */
+   overflow: hidden;
+}
+
 
 .container-boxy {
   width:70%;

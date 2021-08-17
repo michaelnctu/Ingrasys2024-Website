@@ -2,23 +2,43 @@
 
   <div class="custom-container upper-banner">
 
+    <div class="video">
+
+      <video preload="auto" loop="" muted="" autoplay=""
+        poster="https://i.vimeocdn.com/video/559856867_1280x720.jpg?r=pad" class="caf" data-func="play_video">
+        <source
+          src="https://player.vimeo.com/external/158202697.m3u8?s=b01f0ac44a83760eb6f04e94b058897f998bf229&amp;oauth2_token_id=424556544"
+          type="application/x-mpegURL">
+        <source
+          src="https://player.vimeo.com/external/158202697.hd.mp4?s=88330ec5f0989af2b7d4701aa951500c7078dab7&amp;profile_id=119&amp;oauth2_token_id=424556544"
+          type="video/mp4"
+          media="(min-device-pixel-ratio:2), (-webkit-min-device-pixel-ratio:2), (min--moz-device-pixel-ratio:2), (-o-min-device-pixel-ratio:2)">
+        <source
+          src="https://player.vimeo.com/external/158202697.sd.mp4?s=4245bffa5b7ba70450c8e3973baa627bafbcf494&amp;profile_id=165&amp;oauth2_token_id=424556544"
+          type="video/mp4"
+          media="(max-device-pixel-ratio:1), (-webkit-max-device-pixel-ratio:1), (max--moz-device-pixel-ratio:1), (-o-max-device-pixel-ratio:1)">
+        <img src="" class="aligncenter">
+      </video>
+
+    </div>
 
     <div class="banner-wrapper">
 
 
       <div class="main-caption background-image">
         <div class="caption-title">
-          <h1>NEXT LEVEL<br> HCI & SERVER
+          <h1>Transforming construction through <br>
+            innovation of process and technology.
           </h1>
 
         </div>
         <!-- </h1> -->
-        <span class="line"></span>
+        {{!-- <span class="line"></span>
         <p class="caption-description">Your <font color="#F58522">f</font>uture <font color="#F58522">i</font>nnovative
           <font color="#F58522">i</font>ntelligent
           <br>
           solutions provider
-        </p>
+        </p> --}}
         <!--        video play 之後有影片可以放出來 -->
         {{!-- <div class="caption-video">
           <a class="video-play-button" id="youtube">
@@ -35,12 +55,16 @@
       </div>
     </div>
 
+    <div class="demo">
+      <a href="#section06"><span></span>Scroll</a>
+    </div>
+
   </div>
 
 
 
 
-  <div class="custom-container">
+  <div class="custom-container" id="section06">
     <div class="particles-reference">
       <div id="particles-js">
       </div>

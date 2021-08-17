@@ -64,7 +64,7 @@ function screen_resize() {
   if (w <= 768) {
     //max-width 500px
     // actions here...
-    $('.nav-tabs').responsiveTabs();
+    $('.nav-pills').responsiveTabs();
   } else {
     console.log(
       "hey"

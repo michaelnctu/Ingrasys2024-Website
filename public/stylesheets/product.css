@@ -347,7 +347,7 @@ padding-left:2rem;
   justify-items: center;
   align-items: center;
   margin-bottom: 7rem;
-  border:solid red;
+
 }
 
 .point-title{
@@ -476,24 +476,23 @@ h1{
         width:100%;
         display: flex;
         flex-direction:row;
-        border:solid green;
+
     } 
 
 .product-imgs{
       width:50%;
-      border:solid red;
+
     }
 
 .product-content {
       width:50%;
-      border:solid blue;
+
 }
 
 
 .app-container{
   width:85%;
   margin-left:7.5%;
-  border:solid blue;
   display:flex;
   flex-direction:row;
   flex-wrap: wrap;
@@ -501,7 +500,6 @@ h1{
 }
 
 .app-item {
-  border:solid blue;
   width:33%;
 }
 
@@ -618,7 +616,6 @@ cursor:pointer
 .point-container{
   width:90%;
   margin-left:5%;
-  border:solid blue;
 }
 
 .point-item{

@@ -524,8 +524,6 @@ display:none;
   box-sizing: border-box;
 }
 
-
-
 .video{
   position:absolute;
   top:0;
@@ -800,7 +798,7 @@ canvas{
 
  .category-img {
     width: 100%;
-  height: 300px;
+  height: 230px;
   object-fit: cover;
   display: block;
   cursor:pointer;
@@ -820,6 +818,21 @@ canvas{
   } */
 
 
+/* upcoming event */
+
+.event-wrapper{
+  margin-top:5rem;
+  width:80%;
+  margin-left:10%;
+}
+
+.event-img {
+  width:100%;
+}
+
+.event-img img{
+  width:100%;
+}
 
 
 
@@ -862,7 +875,6 @@ canvas{
   min-height: 1px;
 }
 
-
 /* slogan */
 
 .company-slogan{
@@ -873,9 +885,8 @@ canvas{
 }
 
 .company-slogan p{
-  font-size:3rem;
+  font-size:2.8rem;
   font-family: 'Abhaya Libre', serif;
-
 }
 
  .company-slogan p:before {
@@ -885,9 +896,8 @@ canvas{
   font-size: 6em;
   font-weight: 700;
   left:-5px;
-  top:-10px;
+  /* top:0; */
 
-    /* left:50%; */
 }
 .company-slogan p:after {
   position:absolute;
@@ -895,18 +905,36 @@ canvas{
    color: rgba(151, 140, 140, 0.5);;
   font-size: 6em;
   font-weight: 700;
-  bottom:-5px;
   display:inline;
   padding:0;
 
 }
 
+/* 
+product */
 
+.product-wrapper{
+  flex-direction:column;
+}
+
+.prdouct-img{
+  width:100%;
+        /* ie purpose */
+  flex: 1 0 auto;
+  min-height: 1px;
+
+}
+
+.prdouct-img img{
+  width:100%;
+  
+}
 
 
 /* news */
 
 .news-wrapper{
+  margin-top:5rem;
   width:80%;
   margin-left:10%;
 }
@@ -948,6 +976,7 @@ canvas{
 
 /* csr */
 .csr-wrapper {
+  margin-top:5rem;
   width:80%;
   margin-left:10%;
   display:flex;
@@ -1069,7 +1098,7 @@ margin:auto;
    }
 
   .office-location {
-    color: #F58522;
+    /* color: #F58522; */
     margin-bottom:1rem;
     font-size:1.4rem;
   }
@@ -1191,8 +1220,6 @@ width: 100%;
     width:30%;
     	overflow: hidden;
 
-
-
 }
     /* height:200px; */
     /* display:flex;
@@ -1226,8 +1253,6 @@ width: 100%;
 
 .category-img{
   width: 100%;
-  background-size: cover;
-  background-position:center center;
   border-radius:3%;
   display:block;
   cursor:pointer;
@@ -1365,7 +1390,11 @@ width: 100%;
   position:relative;
   background-color: #1a1b1b;
   display:block;
-  padding:20rem ;
+  padding:18rem ;
+}
+
+.company-slogan p{
+  font-size:4.5rem;
 }
 
 
@@ -1375,9 +1404,7 @@ width: 100%;
   color: rgba(151, 140, 140, 0.5);;
   font-size: 6em;
   font-weight: 700;
-  left:-5px;
-  top:-10px;
-
+  left:10%;
     /* left:50%; */
 }
 .company-slogan p:after {
@@ -1386,7 +1413,7 @@ width: 100%;
    color: rgba(151, 140, 140, 0.5);;
   font-size: 6em;
   font-weight: 700;
-  bottom:-5px;
+  bottom:10%;;
   display:inline;
   padding:0;
 
@@ -1522,13 +1549,21 @@ max-width:550px;
 
 .prdouct-img{
   width:50%;
-  height:75%;
+
+
+}
+
+.prdouct-img img{
+  width:100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  margin:auto;
 }
 
 .csr-img{
   width:50%;
 }
-
 
 .csr-img img{
   width:70%;
@@ -1538,7 +1573,7 @@ max-width:550px;
 
 
 .csr-para {
-padding:5rem 3rem;
+padding:5rem 0rem;
 width: 50%;
 }
 
@@ -1565,7 +1600,16 @@ width: 50%;
     text-align: center;
     margin-top:5rem;
     padding-top:5rem;
+  }
 
+  /* 類別下的divider */
+
+  .divider {
+    border:0.3px solid white;
+    width:50%;
+    margin-left:25%;
+    margin-top:2rem;
+    margin-bottom:2rem;
   }
 
   .footer-img {
@@ -1743,7 +1787,7 @@ h1, h{
 }
 
 p{
-  font-size:1.6rem;
+  font-size:2rem;
   line-height:140%;
 }
 
@@ -1791,14 +1835,10 @@ width: 100%;
 }
 
 .office-location {
-  font-size:2rem;
+  font-size:2.5rem;
 }
 
 
-.office-address {
-    font-size: 1.6rem;
-    /* padding-left:20%; */
-  }
 
  
   .copyright {

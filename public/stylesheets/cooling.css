@@ -33,22 +33,30 @@ hr{
   font-size:1rem;
 }
 
+/* 影片的容器 */
  .upper-cool{
-  min-height:70vh;
-  background-size: cover;
-  background-position: bottom;
-  background-image: url("/assets/img/cooling/cooldown.jpg");
-  overflow:visible;
-
+   border:solid red;
+  height: 100vh;
+  overflow:hidden;
 } 
 
-
-.cooling-text {
-  margin-top:15rem;
-  width: 100%;
-  padding-left:2.5rem;
-  font-size:1rem;
+.cooling-banner {
+  width:100%;
+  /* ie purpose */
+  flex: 1 0 auto;
+  min-height: 1px;
 }
+
+.cooling-banner video{
+  min-height: 100%;
+  width: auto;
+}
+
+.cooling-text{
+  position:absolute;
+  top:0
+}
+
 
 /* nav-tabs */
 

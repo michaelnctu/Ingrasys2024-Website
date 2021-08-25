@@ -511,11 +511,9 @@ display:none;
 }
 
 .video video{
-
   min-width: 100%;
   min-height: 100%;
-  width: auto;
-  height: auto;
+  
   
 }
 
@@ -1509,8 +1507,6 @@ max-width:550px;
 .quote-content-paragraph{
   display:block;
 }
-
-
 
 
 /* csr share the same layout with product */

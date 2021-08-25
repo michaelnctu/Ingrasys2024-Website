@@ -35,7 +35,6 @@ hr{
 
 /* 影片的容器 */
  .upper-cool{
-   border:solid red;
   height: 100vh;
   overflow:hidden;
 } 
@@ -45,6 +44,68 @@ hr{
   /* ie purpose */
   flex: 1 0 auto;
   min-height: 1px;
+  z-index: -8;;
+}
+
+.cooling-banner:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left:0;
+  opacity:0.4;
+  min-height: 100vh;
+  width:100%;
+  background-color: #000000;
+  box-sizing: border-box;
+  z-index:-5;
+} 
+
+.tab-container{
+  position:absolute;
+  transform: translate(0, -50%);
+  width:50%;
+
+  bottom:0;
+}
+
+.tab-container ul{
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  height:auto;
+  background-color: transparent;
+}
+
+.tab-set h{
+  font-size:1.5rem;
+}
+
+.tab-container ul li{
+  height:150px;
+
+  margin-left:3rem;
+}
+
+.tab-set{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+
+.tab-img {
+  width:100%;
+
+    /* ie purpose */
+  flex: 1 0 auto;
+  min-height: 1px;
+}
+
+.tab-img  img{
+  width:33%;;
+
+
 }
 
 .cooling-banner video{
@@ -52,10 +113,11 @@ hr{
   width: auto;
 }
 
+
 .cooling-text{
   position:absolute;
   top:0
-}
+} 
 
 
 /* nav-tabs */
@@ -139,7 +201,7 @@ overflow-x: hidden;
 }
 
 /* nav-tabs */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
 
 
     .responsive-tabs .dropdown-arrow {
@@ -214,12 +276,8 @@ overflow-x: hidden;
         transform: rotate(-135deg);
         transition: all ease .5s; 
     } 
-}  
+}   */
 
-.intro-content .content-text{
-
-  padding:3% 10% ;
-}
 
 .content-text p{
   font-size:1rem;
@@ -245,6 +303,9 @@ overflow-x: hidden;
 
 .sub-container{
   padding-top:3rem;
+  border:solid blue;
+  width:80%;
+  margin-left:10%;
 }
 
 
@@ -329,7 +390,9 @@ padding:0 10% 10%;
   .content-video {
     padding:10%;
     width:100%;
+
   }
+
 
   video {
     display:block;
@@ -339,9 +402,7 @@ padding:0 10% 10%;
 
 
   .app-container{
-  width:80%;
-  margin-left:10%;
-  padding:3%;
+  width:100%;
   border:solid red;
   display:flex;
   flex-direction:column;
@@ -412,8 +473,7 @@ td, th{
 }
 
 .solution-container {
-  width:80%;
-  margin-left:10%;
+  width:100%;
   padding:2rem 0;
   display:flex;
   flex-direction:column-reverse;
@@ -462,28 +522,39 @@ td, th{
 
 @media (min-width: 768px) {
 
-  .nav {
-  transform: unset;
-}
 
-.nav{
-  all:unset;
-  position:relative;
-  height:4rem;
+/* csr share the same layout with product */
+.energy-wrapper {
+  width:80%;
+  margin-left:10%;
   display:flex;
-  flex-direction:row;
-  align-items:center;
-  justify-content: center;
-  background: linear-gradient(180deg, rgba(14, 14, 14, 0.651) 7.81%, rgba(46, 39, 39, 0.61771) 25.96%, rgba(99, 93, 93, 0) 91.67%), #000000;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  flex-direction:row-reverse;
+  border:solid red;
+
 }
 
-.nav-item {
-  text-align:center;
-  font-size:1.5rem;
-  height:100%;
-  width:auto;
+
+.energy-img{
+  width:50%;
 }
+
+.energy-img img{
+  width:70%;
+  display: block;
+  margin:auto;
+}
+
+.energy-para {
+padding:5rem 0rem;
+width: 50%;
+}
+
+.content-text{
+  display:flex;
+  flex-direction: row;
+}
+
+
 
 .nav-item:hover {
 cursor:pointer
@@ -498,8 +569,7 @@ cursor:pointer
   padding:0;
   justify-items: center;
   align-items: stretch;
-  width:80%;
-  margin-left:10%;
+  width:100%;
 }
 
 .card{
@@ -524,7 +594,8 @@ cursor:pointer
 
 .cooling-text {
   margin-top:15rem;
-  width: 60%;
+  width: 50%;
+  padding-top:10rem;
   padding-left:2.5rem;
   font-size:1.5rem;
   visibility: visible;
@@ -537,7 +608,7 @@ cursor:pointer
 
 
 .standard-container{
-padding:0 10% 10%;
+padding:0 0 10%;
 display:flex;
 flex-direction:row;
 }
@@ -604,9 +675,7 @@ flex-direction:row;
 
   
   .app-container{
-  width:80%;
-  margin-left:10%;
-  padding:0;
+  width:100%;
   border:solid red;
   display:flex;
   flex-direction:row;
@@ -629,9 +698,7 @@ flex-direction:row;
 /* solution */
 
 .solution-container {
-  width:80%;
-  margin-left:10%;
-  padding:0;
+  width:100%;
   display:flex;
   flex-direction:row;
   justify-items: flex-start;
@@ -660,7 +727,7 @@ width:60%;
 
 
   .content-text p{
-  font-size:1.3rem;
+  font-size:2rem;
 }
 
 

@@ -3,13 +3,6 @@
 
   <div class="custom-container upper-cool">
 
-    <nav class="under-header" aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="/">Home</a></li>
-        <li class="breadcrumb-item"><a href="/">Solution</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Advanced Cooling Solution</li>
-      </ol>
-    </nav>
 
     <div class="cooling-banner">
       <video preload="auto" loop="" muted="" autoplay="">
@@ -21,8 +14,15 @@
     </div>
 
     <div class="cooling-text">
+      <h1>
+        Advanced Cooling Solution
+      </h1>
+      <br>
       <p>
-        Fii CESBG will be the first system integrator with vertical integration capabilities on liquid cooling solution
+        To adapt to future thermal design requirements, Ingrasys is committed to the design and production of Advance
+        Cooling
+        Systems
+
       </p>
     </div>
 
@@ -30,51 +30,133 @@
 
   <div class="custom-container">
 
-    {{!-- <ul class="nav  nav-tabs " id="pills-tab" role="tablist">
-      <li class="nav-item" role="presentation">
+    <div class="tab-container">
+      <ul class="nav nav-pills" id="pills-tab" role="tablist">
 
-        <a class="custom-btn active " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" role="tab"
-          aria-controls="pills-home" aria-selected="true">Overview</a>
+        <li class="active">
+          <a data-toggle="pill" href="#home">
+            <div class="tab-set">
+              <div class="tab-img">
+                <img class="item-img" src="./assets/img/icons/private_cloud.png" alt="">
+              </div>
+              <h>
+                Overview
+              </h>
 
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a data-toggle="pill" href="#menu1">
+
+            <div class="tab-set">
+              <div class="tab-img">
+                <img class="item-img" src="./assets/img/icons/private_cloud.png" alt="">
+              </div>
+              <h>
+                Rack-Level Liquid Cooling
+              </h>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a data-toggle="pill" href="#menu2">
+
+            <div class="tab-set">
+              <div class="tab-img">
+                <img class="item-img" src="./assets/img/icons/private_cloud.png" alt="">
+              </div>
+              <h>
+                Immersion Cooling
+              </h>
+            </div>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+
+
+    {{!-- <ul class="nav nav-pills" id="pills-tab" role="tablist">
+      <li class="active">
+        <a data-toggle="pill" href="#home">Overview</a>
       </li>
-
-
-
-      <li class="nav-item" role="presentation ">
-        <a class="custom-btn" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" role="tab"
-          aria-controls="pills-profile" aria-selected="false">Rack-Level Liquid Cooling</a>
-      </li>
-
-      <li class="nav-item" role="presentation ">
-        <a class="custom-btn" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" role="tab"
-          aria-controls="pills-contact" aria-selected="false">Immersion Cooling</a>
-      </li>
-
-    </ul> --}}
-
-    <ul class="nav nav-pills" id="pills-tab" role="tablist">
-      <li class="active"><a data-toggle="pill" href="#home">Overview</a></li>
       <li><a data-toggle="pill" href="#menu1">Rack-Level Liquid Cooling</a></li>
       <li><a data-toggle="pill" href="#menu2">Immersion Cooling</a></li>
-    </ul>
+    </ul> --}}
 
     {{!-- content --}}
+  </div>
 
-
+  <div class="custom-container">
+    <nav class="under-header" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/">Solution</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Advanced Cooling Solution</li>
+      </ol>
+    </nav>
   </div>
 
   <div class="tab-content">
     <div id="home" class="tab-pane fade in active">
+
+      <div class="custom-container">
+        <div class="energy-wrapper">
+
+          <div class="energy-img">
+            <img src="./assets/img/cooling/cooling_future.jpg" alt="">
+          </div>
+          <br>
+
+          <div class="energy-para">
+
+
+            <div class="title-box title-left-align">
+
+              <h1 class="focus-title">Conserve Energy To <br>
+                Preserve Future</h1>
+              <h class="line"> </h>
+            </div>
+
+            <div class="energy-content">
+              <p>
+                Electricty conservation is a serious topic on industrial activities. By enhance the power usage
+                efficiency, we can make
+                our next generation in a peace of mind
+              </p>
+              <a href="/about" class="btn btn-underline active " role="button" style="text-decoration:underline;">Learn
+                More <i class="fas fa-arrow-right"></i></a>
+
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+
+
+
       <div class="custom-container">
 
         <div class="sub-container">
           <div class="title-box title-left">
-            <h1 class="about-title"> Introduction</h1>
+            <h class="focus-title-small">From installation to after-sales support</h>
+            <h1 class="about-title">We Commit To Provide Environment-Friendly Solutions</h1>
             <h class="line"> </h>
           </div>
 
           <div class="intro-content">
             <div class="content-text">
+              <div class="discuss-img">
+                <img src="./assets/img/cooling/discuss.jpg" alt="">
+              </div>
               <p>
                 Advanced cooling technology will become the key technology with the increasing power consumption of
                 chips.
@@ -87,9 +169,6 @@
 
             </div>
 
-            <div class="content-img">
-              <img src="/assets/img/cooling/trend.png" alt="">
-            </div>
 
             <div class="content-sliders">
 
@@ -128,7 +207,8 @@
                 </div>
 
                 <div class="card-body">
-                  <h5 class="card-title">Rack-Level Liquid
+                  <h5 class="card-title">
+                    Rack-Level Liquid
                     Cooling</h5>
                   <hr>
                   <div class="text-box">
@@ -570,8 +650,9 @@
         <div class="sub-container">
           <div class="title-box title-left">
 
-            <h1 class="about-title"> Solution - OrV3 Liquid-to-Air</h1>
+            <h1 class="about-title"> Solution - Immersion Cooling Tank</h1>
             <h class="line"> </h>
+
             <br>
           </div>
 

@@ -107,6 +107,24 @@ a:hover{
   font-size:50px;
 } */
 
+/* 
+breadcrumb */
+
+.breadcrumb{
+  padding-left:2.5rem;
+  margin:0;
+  align-items: center;
+  justify-content:flex-start;
+  background-color: transparent;
+}
+
+.breadcrumb-item a{
+  color:white;
+}
+
+.breadcrumb-item.active{
+  color:#F58522;
+}
 
 
 .text-container {
@@ -1743,9 +1761,6 @@ width: 100%;
  .office-address span{
 margin-left:25%;
  } 
-
-
-
 
 
 

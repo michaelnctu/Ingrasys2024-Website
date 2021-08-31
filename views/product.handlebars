@@ -9,7 +9,6 @@
           <li class="breadcrumb-item active" aria-current="page">SV2080A</li>
         </ol>
       </nav>
-
     </div>
 
     <div class="custom-container">
@@ -69,9 +68,10 @@
             <br>
             <div class="processor">
               <p>Powered by</p>
-              <img src="assets/img/temp/AMD_EPYC.png
-             " alt="intel">
-
+              <div class="processor-img">
+                <img src="assets/img/temp/AMD_EPYC.png
+                             " alt="intel">
+              </div>
             </div>
 
           </div>
@@ -85,41 +85,14 @@
     {{!-- display contenr --}}
     <div class="custom-container">
 
-      {{!-- mobile --}}
-
-
-      {{!-- web --}}
-
-
-      {{!-- <ul class="nav  nav-tabs" id="pills-tab" role="tablist">
-
-        <li class="nav-item " role="presentation">
-          <a class="custom-btn active " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
-            role="tab" aria-controls="pills-home" aria-selected="true">Overview</a>
-        </li>
-
-
-        <li class="nav-item" role="presentation ">
-          <a class="custom-btn" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" role="tab"
-            aria-controls="pills-profile" aria-selected="false">Spec</a>
-        </li>
-
-        <li class="nav-item" role="presentation ">
-          <a class="custom-btn" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" role="tab"
-            aria-controls="pills-contact" aria-selected="false">Download</a>
-        </li>
-
-      </ul> --}}
 
       <ul class="nav nav-pills" id="pills-tab" role="tablist">
-        <li class="active"><a data-toggle="pill" href="#home">Overview</a></li>
-        <li><a data-toggle="pill" href="#menu1">Spec</a></li>
-        <li><a data-toggle="pill" href="#menu3">Download</a></li>
+        <li class="active"><a data-toggle="pill" href="#home" class="custom-btn">Overview</a></li>
+        <li><a data-toggle="pill" href="#menu1" class="custom-btn">Spec</a></li>
+        <li><a data-toggle="pill" href="#menu3" class="custom-btn">Download</a></li>
       </ul>
 
-
       {{!-- content --}}
-
 
       <div class="tab-content">
         <div id="home" class="tab-pane fade in active">
@@ -129,21 +102,17 @@
               <h1 class=" title">Application</h1>
             </div>
 
-
-
             <div class="app-container">
               <div class="app-item">
                 <img class="item-img" src="./assets/img/icons/private_cloud.png" alt="">
                 <br>
                 <p class="item-title ">Private Cloud</p>
               </div>
-
               <div class="app-item">
                 <img class="item-img" src="./assets/img/icons/data-center.png" alt="">
                 <br>
                 <p class="item-title">Hyperscale Data Center</p>
               </div>
-
               <div class="app-item">
                 <img class="item-img" src="./assets/img/icons/database.png" alt="">
                 <br>
@@ -167,7 +136,9 @@
             </div>
 
           </div>
+
           <div class="custom-container">
+
             <div class="point-container">
               <div class="point-item graph-left">
                 <div class="point-img">
@@ -423,18 +394,7 @@
         </div>
         <div id="menu3" class="tab-pane fade">
 
-          <div class="custom-container">
 
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-
-          </div>
           <div class="custom-container">
             <div class="table-responsive ">
               <table class="table table-borderless table-thead-bordered table-nowrap table-align-middle ">

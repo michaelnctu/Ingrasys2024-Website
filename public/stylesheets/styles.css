@@ -110,6 +110,8 @@ a:hover{
 /* 
 breadcrumb */
 
+
+
 .breadcrumb{
   padding-left:2.5rem;
   margin:0;
@@ -120,10 +122,12 @@ breadcrumb */
 
 .breadcrumb-item a{
   color:white;
+  font-size:1.5rem;
 }
 
 .breadcrumb-item.active{
   color:#F58522;
+  font-size:1.5rem;
 }
 
 
@@ -268,6 +272,9 @@ breadcrumb */
   box-sizing: border-box;
 }
 
+  .about-title{
+    width:100%;
+  }
 
 
 /* .background-image {
@@ -302,8 +309,9 @@ display:flex;
 flex-direction:row;
 justify-content:space-between;
 align-items:center;
-z-index:1000;
+z-index:10000;
 overflow:visible;
+position:relative;
 } 
 
 .blur-mask.active{
@@ -360,7 +368,7 @@ i{
  position: fixed;
  right: 0;
  overflow-y: visible;
- z-index:1000;
+ z-index:100000;
 
 }
 
@@ -913,6 +921,7 @@ product */
 
 .product-wrapper{
   flex-direction:column;
+
 }
 
 .prdouct-img{
@@ -1067,6 +1076,16 @@ margin:auto;
   min-height: 1px;
   }
 
+  /* 類別下的divider */
+
+  .divider {
+    border:0.3px solid white;
+    width:50%;
+    margin-left:25%;
+    margin-top:2rem;
+    margin-bottom:2rem;
+  }
+
   .footer-img {
     display:block;
     width: 40%;
@@ -1098,7 +1117,7 @@ margin:auto;
   .office-location {
     /* color: #F58522; */
     margin-bottom:1rem;
-    font-size:1.4rem;
+    font-size:2rem;
   }
 
   .copyright {
@@ -1185,6 +1204,8 @@ width: 100%;
     flex-direction: column;
     /* padding-left: 60%; */
   }
+
+
 
    .focus-wrapper {
   width:80%;
@@ -1594,15 +1615,7 @@ width: 50%;
     padding-top:5rem;
   }
 
-  /* 類別下的divider */
-
-  .divider {
-    border:0.3px solid white;
-    width:50%;
-    margin-left:25%;
-    margin-top:2rem;
-    margin-bottom:2rem;
-  }
+  
 
   .footer-img {
     display:block;

@@ -130,13 +130,14 @@
   
 } */
 
+
+/* 選擇列上方 */
 .bar-top {
   background-size: 100% 100%;
   background-size: cover;
   background-position: center;
    background-image: url("/assets/img/products/silk.jpg");
 }
-
 
 .bar-bottom {
   background-size: 100% 100%;
@@ -145,20 +146,16 @@
    background-image: url("/assets/img/backgrounds/productsMain.jpg");
 }
 
-
-
 i{
     background:transparent;
 }
 
 
-
 p {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color:white;
 }
-
 
 ul,
 li {
@@ -177,9 +174,9 @@ a {
 }
 
 
-span{
+/* span{
   all:unset
-}
+} */
 
 .line{
   display:inline-block;
@@ -237,7 +234,6 @@ img{
         margin: 2rem 0rem;
     display:flex;
     flex-direction: column;
-    justify-content: flex-end;
 
 
 }
@@ -270,20 +266,15 @@ img{
     opacity: 0.9;
 }
 
-.processor{
-          /* ie purpose */
-  flex: 1 0 auto;
-  min-height: 1px;
 
-}
 
 .processor-img{
   margin-top:3rem;
   width:15%;
-        /* ie purpose */
+        /* ie purpose
   flex: 1 0 auto;
-  min-height: 1px;
-}
+  min-height: 1px; */
+}lp
 
 
 
@@ -447,36 +438,6 @@ td, th{
   font-size:1rem;
 }
 
-/* @media screen and (max-width: 1024px) {
-
-.product-detail h1{
-    font-size: 2.5rem;
-}
-  .product-detail p{
-    font-size: 0.9rem;
-}
-.product-detail ul{
-
-    font-size: 1.7rem;
-}
-.product-detail ul li{
-      font-size: 1rem;
-}
-
-.processor p {
-  font-size: 1.3rem;
-}
-
-.point-title {
-  font-size: 1.5rem;
-}
-
-.point-description {
-    margin-top: 1.3rem;
-}
-
-} */
-
 @media screen and (min-width: 768px){
 
 
@@ -490,15 +451,50 @@ td, th{
 
 .product-imgs{
       width:50%;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
       padding-left:5%;
  }
 
 
+ .product-detail p{
+    font-size: 1.5rem;
+    line-height: 150%;
+    padding: 0.3rem;
+    opacity: 0.8;
+}
+/* .product-detail ul{
+    margin: 1rem 0;
+    font-size: 1.2rem;
+} */
+
+.product-detail ul li{
+    margin: 0;
+    list-style: none;
+    background: url(shoes_images/checked.png) left center no-repeat;
+    background-size: 18px;
+    /* padding-left: 1.7rem; */
+    margin: 0.4rem 0;
+    font-weight: 450;
+    opacity: 0.9;
+    font-size:1.5rem;
+}
+
+
 .product-content {
       width:50%;
-      padding-left:3rem;
-
+      margin-left:5%;
+      justify-content:flex-end;
 }
+
+
+.processor {
+  display:flex;
+  flex-direction:column;
+  justify-content: flex-end;
+}
+
 
 
 .app-container{
@@ -578,6 +574,7 @@ cursor:pointer
 
 .nav-pills > li > a{
 color:white;
+font-size:2.1rem;
 }
 
 
@@ -654,6 +651,12 @@ color:white;
   margin:auto;
 }
 
+  .point-title {
+  font-size:2.3rem;
+}
+
+
+
 
 
 /* .point-item{
@@ -682,10 +685,6 @@ color:white;
   font-size:1.3rem;
 }
 
-.point-description{
-  margin-top:2rem;
-  font-size:1rem;
-}
 
 .certif-container{
   display:flex;
@@ -703,11 +702,18 @@ color:white;
 
 @media screen and (min-width:1024px){
 
-
-
-.product-detail ul li{
-    font-size:1.1rem;
+  .point-title {
+  font-size:2.5rem;
 }
+
+.point-description{
+  font-size:1.8rem;
+}
+
+
+
+
+
 
 /* spec */
 .table {
@@ -720,9 +726,7 @@ color:white;
 
 @media screen and (min-width:1280px){
 
-.product-detail ul li{
-    font-size:1.4rem;
-}
+
 
 .processor > img{
   padding:1.5rem;
@@ -730,15 +734,15 @@ color:white;
 
 td, th{
   color:white;
-  font-size:1.3rem;
-}
-
-.point-title {
   font-size:2rem;
 }
 
+.point-title {
+  font-size:3rem;
+}
+
 .point-description{
-  font-size:1.5rem;
+  font-size:2rem;
 }
 
 

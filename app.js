@@ -2,6 +2,7 @@
 const express = require('express')
 const app = express()
 const port = process.env.PORT || 3000
+// const port = process.env.PORT
 const exphbs = require('express-handlebars')
 
 // setting static files
@@ -18,6 +19,7 @@ const officeList = require('./models/office.json')
 
 // routes setting
 app.get('/', (req, res) => {
+  console.log("right now the port number is", port)
   res.render('index')
 })
 
@@ -51,7 +53,7 @@ app.get('/download', (req, res) => {
 
 
 
-// Listen the server when it started
+// // Listen the server when it started
 app.listen(port, () => {
   console.log(`Express is running on http://localhost:${port}`)
 })

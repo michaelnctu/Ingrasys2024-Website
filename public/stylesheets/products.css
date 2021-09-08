@@ -79,12 +79,12 @@ hr {
 
 .slider-caption h{
 color:#F58522;
-font-size: 2.5rem;
+font-size: 4.5rem;
 line-height:150%;
 }
 
 .slider-caption p {
-  font-size: 1.5rem ;
+  font-size: 2.5rem ;
 }
 
 /* .carousel-fade .carousel-item {
@@ -185,8 +185,13 @@ object-position: bottom;
   width:100% !important;
 }
 
+.card-title {
+  font-size:1.8em;
+  line-height:1.5em
+}
+
 .card-text{
-  font-size:0.8em;
+  font-size:1.2em;
   line-height:1.5em
 } 
 
@@ -250,7 +255,7 @@ object-position: bottom;
 @media screen and (max-width: 1280px) {
 
 .slider-caption h {
-  font-size: 2.5rem ;
+  font-size: 5rem;
 
 }
 

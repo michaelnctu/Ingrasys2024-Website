@@ -59,7 +59,7 @@ hr{
 }
 
 .cooling-text p{
-  font-size:1.8rem;
+  font-size:2rem;
 }
 
 .tab-container{
@@ -299,7 +299,7 @@ cursor:pointer
   margin-left:10%;
   display:flex;
   flex-direction:column;
-  padding:5rem 0;
+  padding:10rem 0;
 }
 
 .energy-img{
@@ -358,7 +358,7 @@ cursor:pointer
   height:auto;
   justify-items: center;
   align-items: center;
-  margin-top:5rem;
+  margin-top:15rem;
 
 }
 
@@ -480,7 +480,7 @@ cursor:pointer
 
 .item-title {
   text-align: center;
-  font-size:2rem;
+  font-size:2.5rem;
   line-height:2.6rem;
   color:#F58522;
   width:100%;
@@ -489,7 +489,7 @@ cursor:pointer
 .item-content {
   width:100%;
   text-align:left;
-  font-size:1.5rem;
+  font-size:1.8rem;
   line-height:2rem;
   padding:2rem;
 
@@ -654,7 +654,7 @@ td, th{
 
 .tab-set h{
   text-align: center;
-  font-size:1.5rem;
+  font-size:2rem;
   line-height:2rem;
 }
 
@@ -674,7 +674,7 @@ td, th{
 }
 
 .energy-img img{
-  width:70%;
+  width:100%;
   display: block;
   /* margin-left:10%; */
 }
@@ -686,7 +686,7 @@ width: 50%;
 
 }
 .energy-content p{
-  font-size:2rem;
+  font-size:2.5rem;
 }
 
 
@@ -745,7 +745,7 @@ cursor:pointer
 }
 
 .card-title{
-  font-size:2.5rem;
+  font-size:3rem;
 }
 
 .card-text{
@@ -783,11 +783,11 @@ flex-direction:row;
 }
 
 .standard-title {
-  font-size:2.5rem;
+  font-size:3rem;
 }
 
 .standard-detail{
-    font-size:1.5rem;
+    font-size:2rem;
   }
 
 .standard-img{
@@ -802,7 +802,7 @@ flex-direction:row;
 }
 
 .card-text {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 
@@ -813,7 +813,7 @@ flex-direction:row;
   }
 
  video {
-    width:50%;
+    width:80%;
     
   }
 
@@ -871,7 +871,7 @@ width:60%;
 
 
   .content-text p{
-  font-size:2rem;
+  font-size:2.5rem;
 }
 
 

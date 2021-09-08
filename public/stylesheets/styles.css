@@ -215,7 +215,7 @@ breadcrumb */
     position:fixed;
     left:0;
     top:-10rem;
-    width:100%;
+    width:100vw;
     height:150vh;
     background-color:  rgba(16, 15, 15, 1.0);;
     opacity:0.9;
@@ -316,9 +316,8 @@ position:relative;
 
 .blur-mask.active{
     position:fixed;
-    left:0;
-    top:-10rem;
-    width:100%;
+
+    width:100vw;
     height:150vh;
     /* background-color:  rgba(16, 15, 15, 1.0);;
     opacity:0.9; */
@@ -326,7 +325,7 @@ position:relative;
     -moz-backdrop-filter:blur(15px);
      -ms-backdrop-filter:blur(15px);
      -o-backdrop-filter:blur(15px);
-    backdrop-filter:blur(15px);
+    backdrop-filter:blur(30px);
     z-index: 1000;
  
 }
@@ -530,18 +529,22 @@ display:none;
 .video{
   position:absolute;
   top:0;
-  width:100%;
+  width:100vw;
   height: 100vh;
   overflow:hidden;
   z-index:-5;
 }
 
+
+
 .video video{
   min-width: 100%;
   min-height: 100%;
   
-  
 }
+
+
+
 
  .video:after {
   content: "";

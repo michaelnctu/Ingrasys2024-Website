@@ -45,7 +45,7 @@ app.get('/sv1020i', (req, res) => {
 
 // storage
 app.get('/es2000', (req, res) => {
-  res.render('es2000', { productCSS: true })
+  res.render('./storage/es2000', { productCSS: true })
 })
 
 // GPU AI
@@ -54,12 +54,12 @@ app.get('/gb8011', (req, res) => {
 })
 
 app.get('/eb3000', (req, res) => {
-  res.render('eb3000', { productCSS: true })
+  res.render('./accelerator/eb3000', { productCSS: true })
 })
 
 // workstation
 app.get('/ws5010a', (req, res) => {
-  res.render('ws5010a', { productCSS: true })
+  res.render('./workstation/ws5010a', { productCSS: true })
 })
 
 

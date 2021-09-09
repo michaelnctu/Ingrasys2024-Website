@@ -24,12 +24,44 @@ app.get('/', (req, res) => {
 })
 
 app.get('/products', (req, res) => {
-  res.render('products', { productsCSS: true })
+  res.render('./server/server', { productsCSS: true })
 })
 
-app.get('/product', (req, res) => {
-  res.render('product', { productCSS: true })
+// server
+app.get('/sv2080a', (req, res) => {
+  res.render('./server/sv2080a', { productCSS: true })
 })
+
+app.get('/sv2081a', (req, res) => {
+  res.render('./server/sv2081a', { productCSS: true })
+})
+
+app.get('/sv2020a', (req, res) => {
+  res.render('./server/sv2020a', { productCSS: true })
+})
+app.get('/sv1020i', (req, res) => {
+  res.render('./server/sv1020i', { productCSS: true })
+})
+
+// storage
+app.get('/es2000', (req, res) => {
+  res.render('es2000', { productCSS: true })
+})
+
+// GPU AI
+app.get('/gb8011', (req, res) => {
+  res.render('gb8011', { productCSS: true })
+})
+
+app.get('/eb3000', (req, res) => {
+  res.render('eb3000', { productCSS: true })
+})
+
+// workstation
+app.get('/ws5010a', (req, res) => {
+  res.render('ws5010a', { productCSS: true })
+})
+
 
 app.get('/csr', (req, res) => {
   res.render('CSR', { csrCSS: true })

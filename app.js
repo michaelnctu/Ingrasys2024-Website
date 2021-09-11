@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
   res.render('index')
 })
 
-app.get('/products', (req, res) => {
+app.get('/server', (req, res) => {
   res.render('./server/server', { productsCSS: true })
 })
 
@@ -49,8 +49,14 @@ app.get('/es2000', (req, res) => {
 })
 
 // GPU AI
+
+app.get('/accelerator', (req, res) => {
+  res.render('./accelerator/accelerator', { productsCSS: true })
+})
+
+
 app.get('/gb8011', (req, res) => {
-  res.render('gb8011', { productCSS: true })
+  res.render('./accelerator/gb8011', { productCSS: true })
 })
 
 app.get('/eb3000', (req, res) => {
@@ -75,6 +81,10 @@ app.get('/about', (req, res) => {
 
 app.get('/cooling', (req, res) => {
   res.render('cooling', { coolCSS: true })
+})
+
+app.get('/cdi', (req, res) => {
+  res.render('cdi', { cdiCSS: true })
 })
 
 

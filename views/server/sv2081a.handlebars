@@ -1,197 +1,751 @@
 <section>
 
-  <div class="slider-top">
-
-    <div class="custom-container">
-      <nav class="under-header-products" aria-label="breadcrumb">
-
+  <div class="bar-top">
+    <div class="custom-container under-header">
+      <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="/">Home</a></li>
-          <li class="breadcrumb-item">Products</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Server</li>
+          <li class="breadcrumb-item"><a href="/products">Server</a></li>
+          <li class="breadcrumb-item active" aria-current="page">SV2081A</li>
         </ol>
       </nav>
     </div>
 
     <div class="custom-container">
 
-      <div class="slider-container">
-
-
-
-        <div id="carousel-example-generic" class="carousel slide  carousel-mobile" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-          </ol>
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <img src="./assets/img/products/SV2080A_index.jpg" alt="first slide">
-
-              <div class="carousel-caption slider-caption">
-
-                <h>SV2080A
-                </h>
-
-                <p>Density Optimized 2U 4-node Server to Address Growing Computing Needs
-                </p>
-
+      <div class="product-container">
+        <div class="product">
+          <!-- card left -->
+          <div class="product-imgs">
+            <div class="img-display">
+              <div class="img-showcase">
+                <img src="/assets/img/products/server/SV2080A/Minsky-front.png" alt="front">
+                <img src="/assets/img/products/server/SV2080A/Minsky-back.png" alt="back">
+                <img src="/assets/img/products/server/SV2080A/Minsky-45.png" alt="45">
+                <img src="/assets/img/products/server/SV2080A/Minsky-open.png" alt="open">
               </div>
-
             </div>
-            <div class="item">
-              <img src="./assets/img/products/SV2020A.jpg" alt="Secod slide">
-
-              <div class="carousel-caption slider-caption">
-
-                <h>SV2020A
-                </h>
-
-                <p>Feature-rich 2-Socket Server With Flexible I/O Options
-                </p>
+            <div class="img-select">
+              <div class="img-item">
+                <a href="#" data-id="1">
+                  <img src="/assets/img/products/server/SV2080A/Minsky-front.png" alt="front">
+                </a>
               </div>
-
-            </div>
-
-            <div class="item">
-              <img src="./assets/img/products/SV1020i.jpg" alt="Third slide">
-
-              <div class="carousel-caption slider-caption">
-
-                <h>SV1020i
-                </h>
-
-                <p>Ultimate 1U Server Unlocks Business Agility
-                </p>
-
+              <div class="img-item">
+                <a href="#" data-id="2">
+                  <img src="/assets/img/products/server/SV2080A/Minsky-back.png" alt="back">
+                </a>
               </div>
-
+              <div class="img-item">
+                <a href="#" data-id="3">
+                  <img src="/assets/img/products/server/SV2080A/Minsky-45.png" alt="45">
+                </a>
+              </div>
+              <div class="img-item">
+                <a href="#" data-id="4">
+                  <img src="/assets/img/products/server/SV2080A/Minsky-open.png" alt="open">
+                </a>
+              </div>
             </div>
-
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
           </div>
+          <!-- card right -->
+          <div class="product-content">
+            <div class="product-detail">
+              <h1>SV2081A</h1>
+              <p>Front Access 2U 4-node Server
+                to Address Growing Computing Needs</p>
+              <strong class="line">
+              </strong>
 
+              <ul>
+                <li>- High-reliable Network Connectivity</li>
+                <li>- High-density Computing in a Compact Design</li>
 
+                <li>- Highly Convenient Front Access Design</li>
+                <li>- High-speed PCIe Expansion Capability</li>
+              </ul>
+            </div>
+            <br>
+            <div class="processor">
+              <p>Powered by</p>
+              <div class="processor-img">
+                <img src="assets/img/temp/AMD_EPYC.png
+                             " alt="intel">
+              </div>
+            </div>
 
-
-
-
+          </div>
         </div>
-
-
-
       </div>
 
     </div>
+  </div>
+
+  <div class="bar-bottom">
+    {{!-- display contenr --}}
+    <div class="custom-container">
 
 
+      <ul class="nav nav-pills" id="pills-tab" role="tablist">
+        <li class="active"><a data-toggle="pill" href="#home" class="custom-btn">Overview</a></li>
+        <li><a data-toggle="pill" href="#menu1" class="custom-btn">Spec</a></li>
+        <li><a data-toggle="pill" href="#menu3" class="custom-btn">Download</a></li>
+      </ul>
+
+      {{!-- content --}}
+
+      <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+          <div class="custom-container">
+
+            <div class="app-title">
+              <h1 class=" title">Application</h1>
+            </div>
+
+            <div class="app-container">
 
 
-    <div class="custom-container slider-bottom">
+              <div class="app-item">
+                <img class="item-img" src="./assets/img/icons/data-center.png" alt="">
+                <br>
+                <p class="item-title">Hyperscale Data Center</p>
+              </div>
+              <div class="app-item">
+                <img class="item-img" src="./assets/img/icons/data-center.png" alt="">
+                <br>
+                <p class="item-title">High Performance Computing</p>
+              </div>
+              <div class="app-item">
+                <img class="item-img" src="./assets/img/icons/data-center.png" alt="">
+                <br>
+                <p class="item-title">Composable Disaggregated Infrastructure</p>
+              </div>
 
-      <div class="content-container">
+            </div>
 
-        {{!-- <div class="card">
-          <img src="assets/img/products/card-turing.png" class="card-img-top" alt="Turing">
-          <div class="card-body">
-            <h5 class="card-title">SV1020i</h5>
-            <hr>
-            <div class="text-box">
+          </div>
 
-              <li class="card-text">2 x 3rd Gen Intel® Xeon®</li>
-              <li class="card-text">32 x DIMMs</li>
-              <li class="card-text">12 x 2.5" Drives</li>
-              <li class="card-text">1U </li>
+          <div class="custom-container">
+
+            <div class="point-container">
+              <div class="point-item graph-left">
+                <div class="point-img">
+                  <img src="/assets/img/products/server/SV2080A/4node.png" alt="應用">
+                </div>
+
+                <div class="point-content">
+                  <h class="point-title title">
+                    High-reliable Network Connectivity
+                  </h>
+
+
+                  <p class="point-description">
+                    The standard-compliant OCP 3.0 slot enables installation of a NIC card to provide high bandwidth
+                    and ultra-low latency
+                    for data intensive applications, bringing the server networking to the next level.
+
+                  </p>
+                </div>
+
+              </div>
+              <div class="point-item graph-right">
+
+                <div class="point-content">
+                  <h class="point-title title">
+                    High-density Computing in a Compact Design
+                  </h>
+
+                  <p class="point-description">
+                    Equipped with four independent nodes, the server delivers unprecedented performance to handle
+                    complex workloads in a
+                    small chassis, making it a great choice to increase compute density in limited spaces.
+
+                  </p>
+                </div>
+
+                <div class="point-img">
+                  <img src="/assets/img/products/server/SV2080A/network-card.png" alt="應用">
+                </div>
+              </div>
+              <div class="point-item graph-left">
+                <div class="point-img">
+                  <img src="/assets/img/products/server/SV2080A/config.png" alt="應用">
+                </div>
+
+                <div class="point-content">
+                  <h class="point-title title">
+                    Highly Convenient Front Access Design
+                  </h>
+
+
+                  <p class="point-description">
+
+                    The four nodes are front accessible, which is convenient for users to access the node from the
+                    front, and to eliminate
+                    the need of maintenance behind the rack where space is minimal.
+
+                  </p>
+                </div>
+              </div>
+              <div class="point-item graph-right">
+                <div class="point-content">
+                  <h class="point-title title">
+                    High-speed PCIe Expansion Capability
+                  </h>
+                  <p class="point-description">
+                    Supporting PCIe Gen4 x16, the product offers a superior bandwidth of 32 GB/s, twice that of PCIe
+                    Gen3 x16, to realize
+                    the potential of expansion capability for versatile I/O options.
+
+                  </p>
+                </div>
+
+                <div class="point-img">
+                  <img src="/assets/img/products/server/SV2080A/pcie.png" alt="應用">
+                </div>
+              </div>
               <br>
 
             </div>
-
-            <a href="#" class="btn btn-primary">View More</a>
           </div>
-        </div> --}}
 
-
-
-        <div class="thumbnail card">
-
-          {{!-- if this is new --}}
-          {{!-- <div class="new-tag">
-            <span> New</span>
-          </div> --}}
-
-
-
-          <img src="assets/img/products/card-minsky.png" class="card-img-top" alt="Turing" alt="...">
-
-          <div class="caption">
-            <div class="card-body">
-              <h5 class="card-title">SV2080A</h5>
-              <hr>
-              <div class="text-box">
-                <li class="card-text">4 Nodes </li>
-                <li class="card-text">8 x 3rd Gen AMD EPYC™ </li>
-                <li class="card-text">64 x DIMMs</li>
-                <li class="card-text">12/24 x 2.5"/3.5" Drives</li>
-                <li class="card-text">2U </li>
-
-              </div>
-              <p><a href="/product" class="btn btn-primary" role="button">View More</a> </p>
+          <div class="custom-container">
+            <div class="certif-title ">
+              <h1 class=" title">Certification</h1>
             </div>
+
+
+            <div class="certif-container">
+              <div class="certif-item">
+                <img id="item-img" src="./assets/img/certification/bsmicon.png" alt="no">
+              </div>
+              <div class="certif-item">
+                <img id="item-img" src="./assets/img/certification/ce.png" alt="no">
+              </div>
+              <div class="certif-item">
+                <img id="item-img" src="./assets/img/certification/cb.png" alt="no">
+              </div>
+              <div class="certif-item">
+                <img id="item-img" src="./assets/img/certification/ul-icon.png" alt="no">
+              </div>
+              <div class="certif-item">
+                <img id="item-img" src="./assets/img/certification/fcc.png" alt="no">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div id="menu1" class="tab-pane fade">
+          <div class="custom-container">
+            <table class="table">
+              <tbody>
+                <tr>
+                  <th scope="row">Processor</th>
+                  <td>Two 2nd/3rd Generation AMD EPYCTM
+                    Processors per Node,
+                    up to 24 Cores, 240W (TDP)
+
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Memory
+                  </th>
+                  <td>16 x DDR4 3200MHz RDIMM/LRDIMM
+                    per Node,
+                    1 x NVDIMM per Node
+                  </td>
+
+                </tr>
+
+                <tr>
+                  <th scope="row">Storage</th>
+                  <td>1 x SATA/NVMe M.2 (2280/22110) per Node<br>
+                    1 x SATA M.2 (2280/22110) per Node
+                  </td>
+
+                </tr>
+
+                <tr>
+                  <th scope="row">Front Panel<br>(per Node)</th>
+                  <td>
+                    1 x Power Button with LED<br>
+                    1 x UID LED<br>
+                    1 x System Health LED<br>
+                    1 x RJ45 for BMC Dedicated Management<br>
+                    1 x VGA<br>
+                    2 x USB 3.0<br>
+
+                  </td>
+
+                </tr>
+
+
+                <tr>
+                  <th scope="row">TPM</th>
+                  <td>1 x TPM 2.0 Module per Node
+                  </td>
+
+                </tr>
+
+
+
+                <tr>
+                  <th scope="row">Expansion Slots</th>
+                  <td>
+
+                    2 x PCIe Gen4 x16 LP slots per Node<br>
+                    1 x OCP 3.0 NIC PCIe Gen4 x16 per Node<br>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Management</th>
+                  <td>1 x ASPEED AST2500 BMC per Node<br>
+                    Support Intelligent Platform Management Interface v.2.0<br>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">PSUs</th>
+                  <td>1+1 Redundant 3000W
+                    Platinum Power Supplies
+                    
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Fans</th>
+                  <td>3 x 40*56mm per Node, 12 x per Chassis
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Certification</th>
+                  <td>FCC/CE/UL/CB/BSMI
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Chasis Dimensions<br>(H x W x D)</th>
+                  <td>
+
+                    3.42” x 17.6” x 26.76” / 87.0mm x 447.0mm x 679.8mm
+
+
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Operating Temperature</th>
+                  <td>
+                    5°C to 35°C (41°F to 95°F)
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Non-operating Temperature</th>
+                  <td>
+                    -40°C to 70°C (-40°F to 158°F)
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Operating Relative Humidity</th>
+                  <td>
+                    8% to 90%RH
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Non-operating Relative Humidity</th>
+                  <td>
+                    5% to 90%RH
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
 
-        <div class="thumbnail card">
-          <img src="assets/img/products/card-wilkinson.png" alt="...">
-          <div class="caption">
-            <div class="card-body">
-              <h5 class="card-title">SV2020A</h5>
-              <hr>
-              <div class="text-box">
-                <li class="card-text">2 x 3rd Gen AMD EPYC™ </li>
-                <li class="card-text">32 x DIMMs</li>
-                <li class="card-text">26 x 2.5" Drives</li>
-                <li class="card-text">2U </li>
-                <br>
+        <div id="menu3" class="tab-pane fade">
 
 
-              </div>
-              <p><a href="#" class="btn btn-primary" role="button">View More</a> </p>
+          <div class="custom-container">
+            <div class="table-responsive ">
+              <table class="table table-borderless table-thead-bordered table-nowrap table-align-middle ">
+                <thead class="table-lightgray  border-bottom">
+                  <tr style="vertical-align: middle !important;text-align: center;">
+                    <th style="vertical-align: middle !important;text-align: center;">File</th>
+                    <th style="vertical-align: middle !important;text-align: center;">Update Date</th>
+                    <th style="vertical-align: middle !important;text-align: center;">Download PDF</th>
+
+                  </tr>
+                </thead>
+                <tbody>
+
+                  <tr class="border-bottom">
+                    <td style="vertical-align: middle !important;text-align: center;">SV2081A</td>
+                    <td style="vertical-align: middle !important;text-align: center;">05/2021</td>
+                    <td style="vertical-align: middle !important;text-align: center;"><a
+                        href="/assets/files/Datasheet_SV2081A_20210512" class="btn btn-xs btn-white"><i
+                          style="color: white; font-size:2rem" class="fas fa-download"></i></a></td>
+
+                  </tr>
+
+                </tbody>
+              </table>
             </div>
           </div>
-        </div>
 
-        <div class="thumbnail card">
-          <img src="assets/img/products/card-turing.png" alt="...">
-          <div class="caption">
-            <div class="card-body">
-              <h5 class="card-title">SV1020i</h5>
-              <hr>
-              <div class="text-box">
-
-                <li class="card-text">2 x 3rd Gen Intel® Xeon®</li>
-                <li class="card-text">32 x DIMMs</li>
-                <li class="card-text">12 x 2.5" Drives</li>
-                <li class="card-text">1U </li>
-                <br>
-
-              </div>
-              <p><a href="#" class="btn btn-primary" role="button">View More</a> </p>
-            </div>
-          </div>
         </div>
 
 
       </div>
+
+      {{!-- <div class="tab-content" id="pills-tabContent">
+
+
+        <div class="acc tab-pane fade show answer active" id="pills-home" role="tabpanel"
+          aria-labelledby="pills-home-tab">
+
+
+          <div class="custom-container">
+
+            <div class="app-title">
+              <h1 class=" title">Application</h1>
+            </div>
+
+
+
+            <div class="app-container">
+              <div class="app-item">
+                <img class="item-img" src="./assets/img/icons/private_cloud.png" alt="">
+                <br>
+                <p class="item-title ">Private Cloud</p>
+              </div>
+
+              <div class="app-item">
+                <img class="item-img" src="./assets/img/icons/data-center.png" alt="">
+                <br>
+                <p class="item-title">Hyperscale Data Center</p>
+              </div>
+
+              <div class="app-item">
+                <img class="item-img" src="./assets/img/icons/database.png" alt="">
+                <br>
+                <p class="item-title">Database</p>
+              </div>
+              <div class="app-item">
+                <img class="item-img" src="./assets/img/icons/software_storage.png" alt="">
+                <br>
+                <p class="item-title">Software-Defined Storage</p>
+              </div>
+              <div class="app-item">
+                <img class="item-img" src="./assets/img/icons/cloud-infrustructure_white.svg" alt="">
+                <br>
+                <p class="item-title">Hyper-converged Infrastructure</p>
+              </div>
+              <div class="app-item">
+                <img class="item-img" src="./assets/img/icons/enterprise.png" alt="">
+                <br>
+                <p class="item-title">Enterprise Application Server</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="custom-container">
+            <div class="point-container">
+              <div class="point-item graph-left">
+                <div class="point-img">
+                  <img src="/assets/img/products/server/SV2080A/4node.png" alt="應用">
+                </div>
+
+                <div class="point-content">
+                  <h class="point-title title">
+                    High-density Computing in a Compact Design
+                  </h>
+
+
+                  <p class="point-description">
+                    Equipped with four independent nodes, the server delivers unprecedented performance to handle
+                    complex workloads in a small chassis, making it a great choice to increase compute density in
+                    limited spaces.
+                  </p>
+                </div>
+
+              </div>
+
+              <div class="point-item graph-right">
+
+                <div class="point-content">
+                  <h class="point-title title">
+                    High-reliable Network Connectivity
+                  </h>
+
+                  <p class="point-description">
+                    The standard-compliant OCP 3.0 slot enables installation of a NIC card to provide high bandwidth and
+                    ultra-low latency
+                    for data intensive applications, bringing the server networking to the next level.
+                  </p>
+                </div>
+
+                <div class="point-img">
+                  <img src="/assets/img/products/server/SV2080A/network-card.png" alt="應用">
+                </div>
+              </div>
+              <div class="point-item graph-left">
+                <div class="point-img">
+                  <img src="/assets/img/products/server/SV2080A/config.png" alt="應用">
+                </div>
+
+                <div class="point-content">
+                  <h class="point-title title">
+                    Hybrid Storage Configurations
+                  </h>
+
+
+                  <p class="point-description">
+                    To satisfy different user scenarios, the server supports various storage configurations: <br>
+                    (1) 12 x 3.5" SATA <br>
+                    (2) 24 x 2.5" NVMe <br>
+                    (3) 12 x 2.5" NVMe/3.5" SATA for maximum flexibility<br>
+                    An optional U.2 NVMe SSD
+                    can also be installed on the
+                    rear for greater storage expansion.
+                  </p>
+                </div>
+              </div>
+              <div class="point-item graph-right">
+
+
+                <div class="point-content">
+                  <h class="point-title title">
+                    High-speed PCIe Expansion Capability
+                  </h>
+                  <p class="point-description">
+                    Supporting PCIe Gen4 x16, the product offers a
+                    superior bandwidth of 32 GB/s, twice that of
+                    PCIe Gen3 x16, to realize the potential of expansion
+                    capability for versatile I/O options.
+
+                  </p>
+                </div>
+
+                <div class="point-img">
+                  <img src="/assets/img/products/server/SV2080A/pcie.png" alt="應用">
+                </div>
+              </div>
+              <br>
+
+            </div>
+          </div>
+
+          <div class="custom-container">
+            <div class="certif-title ">
+              <h1 class=" title">Certification</h1>
+            </div>
+
+
+            <div class="certif-container">
+              <div class="certif-item">
+                <img id="item-img" src="./assets/img/certification/bsmicon.png" alt="no">
+              </div>
+              <div class="certif-item">
+                <img id="item-img" src="./assets/img/certification/ce.png" alt="no">
+              </div>
+              <div class="certif-item">
+                <img id="item-img" src="./assets/img/certification/cb.png" alt="no">
+              </div>
+              <div class="certif-item">
+                <img id="item-img" src="./assets/img/certification/ul-icon.png" alt="no">
+              </div>
+              <div class="certif-item">
+                <img id="item-img" src="./assets/img/certification/fcc.png" alt="no">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="tab-pane fade answer" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+          <div class="custom-container">
+            <table class="table">
+              <tbody>
+                <tr>
+                  <th scope="row">Processor</th>
+                  <td>One/Two* 2nd/3rd Generation AMD EPYC™ Processor(s) per Node/
+                    up to 32 Cores, 180W (TDP)<br>SKU 1:
+                    One Processor<br>SKU 2 & 3: Two Processors
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Memory
+                  </th>
+                  <td>16 x DDR4 3200MHz RDIMM/LRDIMM
+                    per Node, 1 x NVDIMM per Node
+                  </td>
+
+                </tr>
+
+                <tr>
+                  <th scope="row">Storage</th>
+                  <td>Front:<br>
+                    SKU 1: 12 x 2.5"/3.5" Hot-swap SATA Drives per Chassis (3 x Drives per Node)<br>
+                    SKU 2: 24 x 2.5" Hot-swap U.2 NVMe Drives per Chassis (6 x Drives per Node)<br>
+                    SKU 3: 12 x 3.5" Hot-swap SATA or 2.5" Hot-swap NVMe Drives per Chassis (3 x Drives per Node)
+
+                    <br>
+                    <br>
+                    Internal:<br>
+                    1x SATA/NVMe M.2 (2280/22110) per Node<br>
+                    1x SATA M.2 (2280/22110) per Node
+                    <br>
+                    <br>
+                    Rear:<br>
+                    1 x 2.5" Hot-swap 7/15mm U.2 NVMe SSD per Node
+                    (Optional for Single Processor Configuration, Occupy One PCIe LP Slot)
+                  </td>
+
+                </tr>
+
+                <tr>
+                  <th scope="row">Front Panel<br>(per Node)</th>
+                  <td>
+                    1 x Power Button with LED<br>
+                    1 x UID Button with LED<br>
+                    1 x System Health LED<br>
+
+                  </td>
+
+                </tr>
+
+                <tr>
+                  <th scope="row">Rear Panel<br>(per Node)</th>
+                  <td>
+                    1 x RJ45 for BMC Dedicated Management<br>
+                    1 x VGA<br>
+                    2 x USB 3.0<br>
+                    1 x UID Button with LED<br>
+                  </td>
+
+                </tr>
+                <tr>
+                  <th scope="row">TPM</th>
+                  <td>1 x TPM 2.0 Module per Node
+                  </td>
+
+                </tr>
+
+
+
+                <tr>
+                  <th scope="row">Expansion Slots</th>
+                  <td>
+                    Up to 2 x PCIe Gen4 x16 LP Slots per Node (by SKU)<br>
+                    1 x OCP 3.0 NIC PCIe Gen4 x16 per Node
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Management</th>
+                  <td>1 x ASPEED AST2500 BMC per Node<br>
+                    Support Intelligent Platform Management Interface v.2.0<br>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">PSUs</th>
+                  <td>1+1 Redundant 3000W Platinum PSU
+                    (2200W for Single Processor Configuration)
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Fans</th>
+                  <td>3 x 40*56mm per Node, 12 x per Chassis
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Certification</th>
+                  <td>FCC/CE/UL/CB/BSMI
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Chasis Dimensions<br>(H x W x D)</th>
+                  <td>
+
+                    3.42" x 17.6" x 33.17"/ 87.0mm x 447.0mm x 842.4mm
+
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Operating Temperature</th>
+                  <td>
+                    5°C to 35°C (41°F to 95°F)
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Non-operating Temperature</th>
+                  <td>
+                    -40°C to 70°C (-40°F to 158°F)
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Operating Relative Humidity</th>
+                  <td>
+                    8% to 90%RH
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Non-operating Relative Humidity</th>
+                  <td>
+                    5% to 90%RH
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="tab-pane fade answer" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+          <div class="custom-container">
+            <div class="table-responsive ">
+              <table class="table table-borderless table-thead-bordered table-nowrap table-align-middle ">
+                <thead class="table-lightgray  border-bottom">
+                  <tr style="vertical-align: middle !important;text-align: center;">
+                    <th style="vertical-align: middle !important;text-align: center;">File</th>
+                    <th style="vertical-align: middle !important;text-align: center;">Update Date</th>
+                    <th style="vertical-align: middle !important;text-align: center;">Download PDF</th>
+
+                  </tr>
+                </thead>
+                <tbody>
+
+                  <tr class="border-bottom">
+                    <td style="vertical-align: middle !important;text-align: center;">SV2080A</td>
+                    <td style="vertical-align: middle !important;text-align: center;">05/2021</td>
+                    <td style="vertical-align: middle !important;text-align: center;"><a
+                        href="files/SV1020i_Data sheet.pdf" class="btn btn-xs btn-white"><i
+                          style="color: white; font-size:2rem" class="fas fa-download"></i></a></td>
+
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+
+        </div>
+      </div> --}}
+
+
+
+    </div>
+
+  </div>
+
+
+
+
 </section>
+
+
+
+<br>

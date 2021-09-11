@@ -1,0 +1,172 @@
+
+
+hr{
+      background-color: #e7eaf3 !important;
+          opacity: 1!important;
+}
+
+
+.under-header{
+  position:absolute;
+  top:10rem;
+}
+
+
+/* 影片的容器 */
+ .upper-cdi{
+  position:relative;
+  height: 100vh;
+  overflow:hidden;
+
+} 
+
+.cdi-banner {
+  width:100%;
+  height:100%;;
+  position:absolute;
+  /* ie purpose */
+  flex: 1 0 auto;
+  min-height: 1px;
+  z-index: -8;;
+
+  padding:0;
+}
+
+.cdi-banner:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left:0;
+  opacity:0.4;
+  min-height: 100vh;
+  width:100%;
+  background-color: #000000;
+  box-sizing: border-box;
+  z-index:-5;
+} 
+
+
+.cdi-text{
+  position:absolute;
+  width:80%;
+  margin-left:10%;
+  bottom:40vh;
+}
+
+.cdi-text p{
+  font-size:2rem;
+}
+
+
+.cdi-banner video{
+   width:auto;
+   min-height: 100vh;
+   z-index:-5;
+}
+
+/* pain point */
+
+.pain-container{
+  width:80%;
+  margin-left:10%;
+}
+
+.pain-item{
+  display:flex;
+  flex-direction:column;
+  margin:3rem 0;
+}
+
+.pain-img {
+        /* ie purpose */
+flex: 1 0 auto;
+min-height: 1px;
+}
+
+.pain-img img{
+  width:100%;
+}
+
+.pain-para{
+  margin-top:3rem;
+  text-align:center;
+}
+
+.pain-para h1{
+  color:#F58522;
+  font-size:2.5rem;
+}
+
+
+.cdi-container{
+  width:80%;
+  margin-left:10%;
+}
+
+
+.advan-wrapper{
+    width:80%;
+  margin-left:10%;
+}
+
+
+
+@media (min-width: 768px) {
+
+
+  .cdi-text{
+
+    width:40%;
+  }
+
+  .cdi-text h1{
+    font-size:5rem;
+  }
+
+  .pain-item{
+  display:flex;
+  flex-direction:row
+}
+
+.pic-right{
+  flex-direction: row-reverse;
+}
+
+
+.pain-img {
+        /* ie purpose */
+width:50%;
+flex: 1 0 auto;
+min-height: 1px;
+
+}
+
+.pain-img img{
+  width:80%;
+  display:block;
+  margin:auto;
+}
+
+
+.pain-para{
+  margin:0;
+  padding:3%;
+  border:solid blue;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+.pain-para h1{
+  color:#F58522;
+  font-size:2.5rem;
+}
+
+
+
+
+
+}
+
+

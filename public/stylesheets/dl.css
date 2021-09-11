@@ -53,7 +53,7 @@ th, td{
 .table-dl{
   background: rgba(151, 140, 140, 0.3);
   width:90%;
-  margin-left:5%;
+
 }
 
 .table-dl thead{
@@ -75,7 +75,7 @@ td i{
 
 
 .dl-bottom{
-  padding:3rem;
+  padding-left:10%;
   background-size: 100% 100%;
   background-size: cover;
   background-position: center;
@@ -94,7 +94,8 @@ td i{
 .table-dl{
   background: rgba(151, 140, 140, 0.3);
   width:80%;
-  margin-left:10%;
+  /* width:80%;
+  margin-left:10%; */
 }
 
 td, th{

@@ -1,10 +1,10 @@
-section{
+/* section{
   background-size:cover;
   background-position:20% -100%;
   background-image: url("/assets/img/temp/trial-90.png");
    background-attachment: fixed;
   
-}
+} */
 
  
 
@@ -30,14 +30,14 @@ section{
   color:#F58522;
 }
 
-.about-banner{
-  width:100%; 
+.about-banner{ 
+  max-width:100%; 
   height:100vh;
   overflow:hidden;
-  background-size: 100% 100%;
+  background-position: bottom;
   background-size: cover;
-  background-position: -10% 50%;
-  background-image: url("/assets/img/about/fii.png");
+
+  background-image: url("/assets/img/about/fii.jpg");
   position:relative;
   z-index:0;
 }
@@ -65,9 +65,11 @@ section{
 /* story */
 
 .story-wrapper{
+
   overflow:hidden;
   width:80%;
   margin-left:10%;
+  margin-top:5rem;
 
 }
 

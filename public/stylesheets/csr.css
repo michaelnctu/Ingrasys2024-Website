@@ -45,6 +45,8 @@ margin-left:5%;
 padding:3rem;
 background: rgba(151, 140, 140, 0.2);
 border-radius: 10px;
+display:flex;
+flex-direction:column;
 }
 
 .csr-bottom{
@@ -57,34 +59,34 @@ border-radius: 10px;
 
 .csr-wrapper h1{
   color: #F58522;
-  font-size: 1.3rem;
+  font-size: 2rem;
   line-height:100%;;
   font-weight:bold;
 }
 
 .csr-wrapper p{
-  font-size:0.8rem;
+  font-size:1.2rem;
   line-height:130%;
 }
 
 .csr-wrapper li{
-  font-size:0.8rem;
+  font-size:1rem;
   line-height:150%;
 }
 
 
 @media screen and (min-width:768px) {
   .csr-wrapper h1{
-  font-size: 1.8rem;
+  font-size: 2.3rem;
 
 }
 
 .csr-wrapper p{
-  font-size:1.2rem;
+  font-size:1.5rem;
 }
 
  .csr-wrapper li{
-  font-size:1rem;
+  font-size:1.4rem;
 }
 
 }
@@ -93,16 +95,16 @@ border-radius: 10px;
 
 @media screen and (min-width:1024px) {
   .csr-wrapper h1{
-  font-size: 2rem;
+  font-size: 2.5rem;
  
 }
 
 .csr-wrapper p{
-  font-size:1.5rem;
+  font-size:1.8rem;
 }
 
  .csr-wrapper li{
-  font-size:1.2rem;
+  font-size:1.3rem;
 }
 
 }

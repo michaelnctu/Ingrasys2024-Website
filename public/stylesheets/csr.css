@@ -2,7 +2,7 @@ ul,li {
   color:white;
 }
 
-.under-header{
+/* .under-header{
   position:absolute;
   top:10rem;
 }
@@ -20,7 +20,7 @@ ul,li {
 
 .breadcrumb-item.active{
   color:#F58522;
-}
+} */
 
 .csr-banner{
 
@@ -53,7 +53,7 @@ flex-direction:column;
   background-size: 100% 100%;
   background-size: cover;
   background-position: center;
-   background-image: url("/assets/img/backgrounds/productsMain.jpg");
+   /* background-image: url("/assets/img/backgrounds/productsMain.jpg"); */
 }
 
 
@@ -95,16 +95,16 @@ flex-direction:column;
 
 @media screen and (min-width:1024px) {
   .csr-wrapper h1{
-  font-size: 2.5rem;
+  font-size: 3rem;
  
 }
 
 .csr-wrapper p{
-  font-size:1.8rem;
+  font-size:2.5rem;
 }
 
  .csr-wrapper li{
-  font-size:1.3rem;
+  font-size:2rem;
 }
 
 }

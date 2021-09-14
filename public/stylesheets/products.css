@@ -43,6 +43,7 @@ hr {
 
 
 .breadcrumb{
+  left:5rem;
   padding-left:2.5rem;
   margin:0;
   align-items: center;
@@ -50,7 +51,7 @@ hr {
   background-color:transparent;
 }
 
-.breadcrumb-item a{
+.breadcrumb-item >a{
   color:white;
 }
 

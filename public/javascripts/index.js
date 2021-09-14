@@ -1,7 +1,6 @@
 //burger
 
 
-console.log("hello")
 
 $(document).ready(function () {
 
@@ -134,95 +133,10 @@ particlesJS("particles-js", {
 
 
 
-//banner video popup function
-
-// $(document).ready(function () {
-//   $('#youtube').magnificPopup({
-//     items: {
-//       src: './assets/video/index-intro.mp4'
-//     },
-//     type: 'iframe'
-//   });
-
-// });
-
-//text scroller
-$(document).on("scroll", function () {
-  console.log("hello")
-
-  console.log("succsess")
-
-  // scroll位置可以在max後面數字改變
-  $(".text-1").css("left", Math.max(1350 - 0.4 * window.scrollY) + "px");
-
-  $(".text-2").css("right", Math.max(1200 - 0.35 * window.scrollY) + "px");
-
-
-  $(".text-3").css("left", Math.max(1400 - 0.3 * window.scrollY) + "px");
-
-  if (screen.width <= 1024) {
-    // scroll位置可以在max後面數字改變
-    $(".text-1").css("left", Math.max(1500 - 0.5 * window.scrollY) + "px");
-
-    $(".text-2").css("right", Math.max(1600 - 0.5 * window.scrollY) + "px");
-
-
-    $(".text-3").css("left", Math.max(1500 - 0.5 * window.scrollY) + "px");
-  }
-
-  if (screen.width < 768) {
-    //scroll位置可以在max後面數字改變
-    $(".text-1").css("left", Math.max(1700 - 0.35 * window.scrollY) + "px");
-
-    $(".text-2").css("right", Math.max(1400 - 0.32 * window.scrollY) + "px");
-
-
-    $(".text-3").css("left", Math.max(1600 - 0.3 * window.scrollY) + "px");
-  }
-
-  if (screen.width < 690) {
-    //scroll位置可以在max後面數字改變
-    $(".text-1").css("left", Math.max(1600 - 0.35 * window.scrollY) + "px");
-
-    $(".text-2").css("right", Math.max(1400 - 0.32 * window.scrollY) + "px");
-
-
-    $(".text-3").css("left", Math.max(1600 - 0.3 * window.scrollY) + "px");
-  }
-
-  // for iphone 11
-  if (screen.width <= 420) {
-    //scroll位置可以在max後面數字改變
-    $(".text-1").css("left", Math.max(1100 - 0.35 * window.scrollY) + "px");
-
-    $(".text-2").css("right", Math.max(1250 - 0.35 * window.scrollY) + "px");
-
-    $(".text-3").css("left", Math.max(1100 - 0.3 * window.scrollY) + "px");
-  }
-
-  if (screen.width <= 400) {
-    //scroll位置可以在max後面數字改變
-    $(".text-1").css("left", Math.max(1000 - 0.35 * window.scrollY) + "px");
-
-    $(".text-2").css("right", Math.max(1300 - 0.4 * window.scrollY) + "px");
-
-
-    $(".text-3").css("left", Math.max(1100 - 0.3 * window.scrollY) + "px");
-  }
-
-
-});
-
-
-
-
 
 document.documentElement.setAttribute("data-agent", navigator.userAgent);
 
-$(document).scroll(function () {
-  $(".text-1").css("left", Math.max(1350 - 0.4 * window.scrollY) + "px");
-  console.log("hello")
-})
+
 
 //scroll down
 
@@ -231,5 +145,6 @@ $(document).ready(function () {
     event.preventDefault();
     var hash = this.hash;
     $('html, body').animate({ scrollTop: $(hash).offset().top }, 900);
+    console.log("hello")
   });
 })

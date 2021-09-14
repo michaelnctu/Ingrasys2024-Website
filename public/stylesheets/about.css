@@ -74,7 +74,8 @@
 }
 
 .story-img {
-  width:90%;
+  
+  width:100%;
 }
 
 
@@ -167,6 +168,9 @@
   text-decoration: none;
 }
 
+.collapse-header h{
+  font-size:2.5rem;
+}
 
 .collapse-header::before {
   content: "";
@@ -279,6 +283,8 @@
 
 .card-address {
   text-align:left;
+  font-size:1.5rem;
+  line-height:3rem;
 }
 
 .card:hover .city-text {
@@ -338,6 +344,7 @@
 
 
 @media screen and (min-width: 768px) {
+
 
 
 .story-wrapper {
@@ -416,6 +423,10 @@
 
 /* office */
 
+.collapse-header h{
+  font-size:3rem;
+}
+
 .office-wrapper{
   width:80%;
   margin-left:10%;
@@ -450,9 +461,23 @@
   font-size:2.5rem;
 }
 
+.card-address {
+  font-size:2.2rem;
+  line-height:3rem;
+}
+
 
 
 }
 
 
+@media screen and (min-width: 1600px) {
+
+
+.story-para {
+ 
+  font-size: 2.5rem;
+ 
+}
+}
 /* 

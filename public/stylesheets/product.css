@@ -192,8 +192,12 @@ a {
 
 /* 此處有margin collapse的問題 請參考overflow:visible */
 
-.under-header {
+/* .under-header {
   padding-top:10rem;
+} */
+
+.product{
+  padding-top:15rem;
 }
 
 /* product-wrapper  */
@@ -447,6 +451,8 @@ td, th{
         display: flex;
         flex-direction:row;
         padding-bottom: 5rem;
+        padding-top:10rem;
+      
       } 
 
 .product-imgs{

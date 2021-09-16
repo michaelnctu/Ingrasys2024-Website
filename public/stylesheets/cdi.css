@@ -57,6 +57,16 @@ hr{
   font-size:2rem;
 }
 
+.cdi-img {
+  width:100%;
+
+
+}
+
+.cdi-img img {
+  width:80%;
+  margin-left:10%;
+}
 
 .cdi-banner video{
    width:auto;

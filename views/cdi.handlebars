@@ -100,16 +100,35 @@
 
     <div class="cdi-container">
       <div class="title-box title-left-align">
-        <h class="focus-title-small">What Ingrasys can provide</h>
-        <h1 class="focus-title">Composable Disaggregated Infrastructure (CDI)</h1>
+        <h class="focus-title-small">Ingrasys can provide</h>
+        <h1 class="focus-title">HCDS Software Architecture for CDI</h1>
         <h class="line"> </h>
       </div>
       <div class="cdi-para">
         <P>
-          Ingrasys’ CDI seeks to disaggregate resources like compute, storage, and networking into shared pools,
-          creating a
-          software-defined infrastructure which is capable of satifying different demands of workloads and applications.
+          Ingrasys provides an automation software architecture, HCDS , to assemble components from shared pools into
+          solutions
+          for
+          different workloads.
+          <br>
+          <br>
+          - HCDS Director can manage all EBOF drives and JBOG devices. Users can attach EBOF drive or JBOG device to
+          specific server
+          via API.<br>
+          - HCDS API is a CDI interface for EBOF, JBOG/JBOF, Web GUI, Cinder driver, and CSI driver. It provides an
+          interface for
+          users, openstack, and kubernetes to allocate and deallocate the resources.<br>
+          - HCDS Agent is an agent running in server nodes. The agent gets volume information from HCDS Director and
+          then
+          import
+          related ESSDs. It builds RAID on ESSDs to provide volume to server nodes. It builds share FS on volume if
+          necessary.
+
         </P>
+      </div>
+
+      <div class="cdi-img">
+        <img src="assets/img/cdi/cdi-software.png" alt="">
       </div>
       {{!-- 放slide show --}}
       <div class="cdi-img">

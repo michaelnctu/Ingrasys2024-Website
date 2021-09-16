@@ -752,6 +752,7 @@ canvas{
 
 .focus-title-small {
   font-size:2rem;
+  line-height:3rem;
 }
 
 
@@ -850,7 +851,7 @@ canvas{
 }
 
 .event-img {
-  width:100%;
+  width:90%;
 }
 
 .event-img img{

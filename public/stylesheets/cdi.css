@@ -58,14 +58,15 @@ hr{
 }
 
 .cdi-img {
+  margin-top:3rem;
   width:100%;
 
 
 }
 
 .cdi-img img {
-  width:80%;
-  margin-left:10%;
+  width:100%;
+ 
 }
 
 .cdi-banner video{
@@ -299,6 +300,19 @@ min-height: 1px;
   color:#F58522;
   font-size:2.5rem;
 }
+
+/* 軟體層次 */
+
+.cdi-img{
+  margin-top:5rem;
+}
+
+.cdi-img img {
+  width:80%;
+  margin-left:10%;
+ 
+}
+
 
 .advan-container {
   width:100%;

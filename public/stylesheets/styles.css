@@ -100,6 +100,7 @@ h1 {
 p {
   margin: 0;
   font-size: 1.8rem;
+  line-height:2.7rem;
   color:white;
 }
 
@@ -329,8 +330,7 @@ position:relative;
 
 .blur-mask.active{
     position:fixed;
-
-    width:100vw;
+    width:150vw;
     height:150vh;
     /* background-color:  rgba(16, 15, 15, 1.0);;
     opacity:0.9; */
@@ -338,7 +338,7 @@ position:relative;
     -moz-backdrop-filter:blur(15px);
      -ms-backdrop-filter:blur(15px);
      -o-backdrop-filter:blur(15px);
-    backdrop-filter:blur(30px);
+    backdrop-filter:blur(15px);
     z-index: 1000;
  
 }
@@ -417,12 +417,13 @@ display:none;
  position:relative;
  top:5px;
 }
+
 .side-bar .menu .item i{
  margin-right: 15px;
 } 
 .side-bar .menu .item a .dropdown{
  position: absolute;
- right: 0;
+ right: 15px;
  margin: 20px;
  transition: 0.3s ease;
 }
@@ -1870,8 +1871,8 @@ width: 100%;
 }
 
 .company-slogan p:after {
-  left:30%;
-  bottom:13%;
+  right:0;
+  bottom: 5%;
 
 }
 

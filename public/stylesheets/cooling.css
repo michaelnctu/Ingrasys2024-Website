@@ -924,7 +924,11 @@ flex-direction:row-reverse;
 
 
 .solution-item {
-  width:50% !important;
+  width:40% !important;
+}
+
+.table {
+  width: 100% !important;
 }
 
 /* .solution-container .rack{

@@ -227,9 +227,10 @@ object-position: bottom;
 
 /* 下方產品的container */
 .content-container{
-  width:90%;
-  margin-left:5%; 
-  padding:10rem 5rem 10rem; 
+  width:80%;
+  margin-left:10%;
+  /* padding:10rem 5rem 10rem; 
+  border:solid red; */
 
 }
 

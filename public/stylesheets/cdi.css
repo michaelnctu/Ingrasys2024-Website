@@ -77,6 +77,10 @@ hr{
 
 /* pain point */
 
+ .magin{
+   margin-top:5rem;
+ }
+
 .pain-container{
   width:80%;
   margin-left:10%;
@@ -85,7 +89,7 @@ hr{
 .pain-item{
   display:flex;
   flex-direction:column;
-  margin:3rem 0;
+  margin:5rem 0;
 }
 
 .pain-img {
@@ -216,6 +220,7 @@ min-height: 1px;
 .card{
   width:330px;
   margin:3.5rem;
+  margin-left:0rem;
 }
 
 
@@ -248,9 +253,7 @@ min-height: 1px;
 
 @media (min-width: 768px) {
 
- .magin{
-   margin-top:10rem;
- }
+
 
 
   .cdi-text{
@@ -281,7 +284,7 @@ min-height: 1px;
 }
 
 .pain-img img{
-  width:80%;
+  width:100%;
   display:block;
   margin:auto;
 }

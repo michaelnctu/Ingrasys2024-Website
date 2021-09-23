@@ -274,7 +274,7 @@ img{
 
 .processor-img{
   margin-top:3rem;
-  width:15%;
+  width:18%;
         /* ie purpose
   flex: 1 0 auto;
   min-height: 1px; */
@@ -491,7 +491,7 @@ td, th{
 .product-content {
       width:50%;
       margin-left:5%;
-      justify-content:flex-end;
+      justify-content:center;
 }
 
 

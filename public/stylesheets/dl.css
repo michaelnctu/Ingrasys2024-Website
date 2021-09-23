@@ -93,7 +93,7 @@ td i{
 
 .table-dl{
   background: rgba(151, 140, 140, 0.3);
-  width:80%;
+  /* width:100%; */
   /* width:80%;
   margin-left:10%; */
 }

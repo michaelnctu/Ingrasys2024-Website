@@ -48,12 +48,11 @@
 
     .responsive-tabs li.active {
         display:block;
-        border:solid red;
     }
 
     .responsive-tabs.open li, .responsive-tabs li .active {
         display:block;
-        border:solid red;
+       
     }
 
     .responsive-tabs.open {
@@ -198,6 +197,7 @@ a {
 
 .product{
   padding-top:15rem;
+
 }
 
 /* product-wrapper  */
@@ -212,6 +212,7 @@ img{
 }
 .img-showcase{
     display: flex;
+    padding-top:3rem;
     width: 100%;
     transition: all 0.5s ease;
 }

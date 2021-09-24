@@ -114,7 +114,7 @@ td i{
 @media screen and (min-width:1024px) {
 
   
-td, th,{
+td, th{
   font-size:2rem;
 }
 

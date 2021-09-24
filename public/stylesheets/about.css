@@ -357,6 +357,7 @@
 .story-content{
   display:flex;
   flex-direction:row;
+  align-items:center;
 }
 
 .story-para {
@@ -367,6 +368,10 @@
   flex-direction:column;
   align-items: center;
   justify-content: center;
+}
+
+.story-para p {
+  font-size:1.3rem;
 }
 
 
@@ -458,7 +463,7 @@
 }
 
 .city-text {
-  font-size:2.5rem;
+  font-size:1.5rem;
 }
 
 .card-address {
@@ -471,13 +476,33 @@
 }
 
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1280px) {
 
 
-.story-para {
+.story-para p{
  
-  font-size: 2.5rem;
+  font-size: 1.5rem;
  
 }
+
+.city-text {
+  font-size:1.8rem;
+}
+
+}
+
+@media screen and (min-width: 1440px) {
+
+
+.story-para p{
+ 
+  font-size: 2rem;
+ 
+}
+
+.city-text {
+  font-size:2rem;
+}
+
 }
 /* 

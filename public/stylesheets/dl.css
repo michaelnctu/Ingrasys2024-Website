@@ -29,7 +29,7 @@ ul,li {
 
 .dl-banner{
   width:100%;
-  height:75vh;
+  height:60vh;
   background-size:cover ;
   background-position:bottom;
   background-image: url("/assets/img/download/pcb.jpg");
@@ -63,7 +63,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 td, th{
-  font-size:0.8rem;
+  font-size:1rem;
 }
 
 td i{
@@ -112,17 +112,16 @@ td i{
 
 
 @media screen and (min-width:1024px) {
-  .csr-wrapper h1{
-  font-size: 2rem;
- 
+
+  
+td, th,{
+  font-size:2rem;
 }
 
-.csr-wrapper p{
-  font-size:1.5rem;
-}
 
- .csr-wrapper li{
-  font-size:1.2rem;
+td i{
+
+  font-size:2rem;
 }
 
 }

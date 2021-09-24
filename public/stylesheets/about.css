@@ -244,6 +244,8 @@
 .card-location{
   width: 100%;
   margin-bottom:3rem;
+  position:relative;
+
 }
 
 
@@ -269,13 +271,14 @@
 	transition: .3s ease-in-out;
 }
 
-.card-body{
+/* .card-body{
   position:relative;
-}
+  border:solid red;
+} */
 
 .city-text{
   position: absolute; 
-  bottom:200px;;
+  top:20%;
   left: 50%;  
   transform: translate(-50%, -50%);
     opacity: 1;

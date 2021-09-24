@@ -257,12 +257,12 @@ object-position: bottom;
 @media screen and (max-width: 1280px) {
 
 .slider-caption h {
-  font-size: 5rem;
+  font-size: 4.5rem;
 
 }
 
 .slider-caption p {
-  font-size: 1.125rem ;
+  font-size: 2rem ;
 }
 
 .card-text{
@@ -280,7 +280,7 @@ object-position: bottom;
 }
 
 .slider-caption p {
-  font-size: 0.9rem ;
+  font-size: 1.5rem ;
 }
 
 /* .content-container{

@@ -339,7 +339,6 @@ cursor:pointer
 
 .carousel-item img {
   width:100%;
-  border:solid red;
 }
 
 
@@ -357,7 +356,7 @@ cursor:pointer
   height:auto;
   justify-items: center;
   align-items: center;
-  margin-top:15rem;
+  margin-top:8rem;
 
 }
 
@@ -479,7 +478,7 @@ cursor:pointer
 
 .item-title {
   text-align: center;
-  font-size:2.5rem;
+  font-size:2rem;
   line-height:2.6rem;
   color:#F58522;
   width:100%;
@@ -628,7 +627,7 @@ td, th{
   }
 
   .cooling-text h1{
-    font-size:5rem;
+    font-size:3rem;
   }
 
 
@@ -698,6 +697,7 @@ td, th{
   width:80%;
   margin-left:10%;
   display:flex;
+  align-items:center;
   flex-direction:row-reverse;
 
 }
@@ -720,14 +720,18 @@ width: 50%;
 
 }
 .energy-content p{
-  font-size:2.5rem;
+  font-size:1.8rem;
 }
 
+.content-text p{
+    font-size:1.8rem;
+}
 
 
 .content-text{
   display:flex;
   flex-direction: row;
+  align-items:center;
 }
 
 .content-text p{
@@ -735,7 +739,6 @@ width: 50%;
   align-items:center;
   width:100%;
   padding-left:5%;
-  font-size:2rem;
 }
 
 .content-text .discuss-img{
@@ -779,12 +782,10 @@ cursor:pointer
   margin-right:5%;
 }
 
-.card-title{
-  font-size:3rem;
-}
+
 
 .card-text{
-  font-size:2rem;
+  font-size:1.8rem;
 }
 
 
@@ -817,12 +818,11 @@ flex-direction:row;
   width:85%;
 }
 
-.standard-title {
-  font-size:3rem;
-}
+
+
 
 .standard-detail{
-    font-size:2rem;
+    font-size:1.8rem;
   }
 
 .standard-img{
@@ -836,9 +836,7 @@ flex-direction:row;
 
 }
 
-.card-text {
-  font-size: 2rem;
-}
+
 
 
 .content-video {
@@ -901,13 +899,13 @@ flex-direction:row-reverse;
 .use-para h1{
   text-align: center;
   color:#F58522;
-  font-size:3rem;
+  font-size:2rem;
   line-height: 3rem;
 }
 
-.user-para p{
+.use-para p{
   text-align:center;
-  font-size:2.5rem;
+  font-size:1.8rem;
   line-height: 2.5rem;
 }
 
@@ -944,12 +942,6 @@ width:60%;
 
 
 
-  .content-text p{
-  font-size:2.5rem;
-}
-
-
-
 
 
 
@@ -967,7 +959,7 @@ width:60%;
 
 td, th{
   color:white;
-  font-size:2rem;
+  font-size:1.5rem;
   line-height:2.5rem;
 }
 
@@ -976,13 +968,62 @@ td, th{
 
 @media (min-width: 992px) {
 
-/*
+
+
+
+.content-text p{
+    font-size:2rem;
+}
+
+.energy-content p{
+  font-size:2rem;
+}
+
+
+.card-text{
+  font-size:2rem;
+}
+
+.card-title{
+  font-size:2.5rem;
+}
+
+
+.standard-title {
+  font-size:2.5rem;
+}
+
+.standard-detail {
+  font-size:2rem;
+}
+
+.item-title {
+  font-size:2.5rem;
+
+}
+
+.use-para h1{
+
+  font-size:2.5rem;
+
+}
+
+.use-para p{
+  font-size:2rem;
+
+}
+
+
 
 
 }
 
 
 @media (min-width: 1280px) {
+
+      .cooling-text h1{
+    font-size:5rem;
+  }
 
 
 

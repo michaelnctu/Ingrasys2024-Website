@@ -4,10 +4,21 @@
 
 $(document).ready(function () {
 
+  // $('.sub-btn').click(function () {
+  //   // $('.sub-menu').slideUp();
+  //   // $(this).next('.sub-menu').slideToggle();
+
+  //   $(this).find('.dropdown').toggleClass('rotate');
+  // });
   $('.sub-btn').click(function () {
-    $(this).next('.sub-menu').slideToggle();
+    $(this).toggleClass('submenu-open').parent('div').siblings('div').children('a.submenu-open').removeClass('submenu-open');
+    $(this).parent().toggleClass('submenu-open').children('div').slideToggle(500).end().siblings('.submenu-open').removeClass('submenu-open').children('div').slideUp(500);
     $(this).find('.dropdown').toggleClass('rotate');
+    $('html, body').animate({
+      scrollTop: (0),
+    }, "fast"); /*this will scroll upto the top, not sure if I want to use this yet */
   });
+
 
 });
 
@@ -16,6 +27,8 @@ $(document).ready(function () {
     $(this).toggleClass("is-active");
     $('.menu').toggleClass('active');
     $('.blur-mask').toggleClass('active');
+
+
   });
 
 

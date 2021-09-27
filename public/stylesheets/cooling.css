@@ -462,8 +462,8 @@ li{
 .use-para h1{
   text-align: center;
   color:#F58522;
-  font-size:3rem;
-  line-height: 3rem;
+  font-size:2rem;
+  line-height:3rem;
 }
 
 .user-para p{
@@ -560,15 +560,23 @@ td, th{
 
 /* iphone 5 */
 
-@media (max-width:400px){
+@media (max-width:350px){
 
 
-  .tab-container {
-    bottom:2rem;
-  }
+ .tab-container{
+
+  position:relative;
+  top:0;
+  width:80%;
+}
+
+.energy-wrapper {
+  padding-top:2rem;
+
+}
 
   .cooling-text {
-    bottom:35vh;
+    bottom:25vh;
   
   }
 
@@ -592,10 +600,9 @@ td, th{
 
 
 
-
   .cooling-text{
+    width:80%;
 
-    width:40%;
   }
 
   .cooling-text h1{
@@ -608,9 +615,10 @@ td, th{
 .tab-container{
   position:absolute;
   /* transform: translate(0, -50%); */
-  width:40%;
+  width:80%;
   margin-left:10%;
-  bottom:5rem;;
+  padding:2rem;
+  bottom:3rem;
 }
 
 .vl {
@@ -620,7 +628,7 @@ td, th{
 }
 
 .tab-container ul{
-  width:100%;
+  width:80%;
   height:auto;
   display:flex;
   flex-direction:row;
@@ -630,10 +638,7 @@ td, th{
 }
 
 
-.tab-container ul li{
- width:100%;
 
-}
 
 .tab-set{
 
@@ -646,21 +651,21 @@ td, th{
 
 
 .tab-img {
-  width:80%;
+  width:50%;
     /* ie purpose */
   flex: 1 0 auto;
   min-height: 1px;
 }
 
 .tab-img  img{
-  width:80%;
+  width:100%;
 
 }
 
 .tab-set h{
   text-align: center;
-  font-size:2rem;
-  line-height:2rem;
+  font-size:1.8rem;
+  line-height:1.8rem;
 }
 
 
@@ -925,7 +930,7 @@ width:60%;
 /* introduction video */
 
 .intro-text p{
-  font-size:2.5rem;
+  font-size:1.8rem;
 }
 
 
@@ -986,6 +991,32 @@ td, th{
 }
 
 
+/* tab-content */
+
+
+.vl {
+  border-left: 2px solid white;
+  opacity:0.5;
+  height: 150px;
+}
+
+.tab-container ul{
+  width:70%;
+
+}
+
+
+.tab-set h{
+  text-align: center;
+  font-size:2rem;
+  line-height:2rem;
+}
+
+.intro-text p{
+  font-size:2rem;
+}
+
+
 
 
 }
@@ -993,25 +1024,23 @@ td, th{
 
 @media (min-width: 1280px) {
 
+  .intro-text p{
+  font-size:2.3rem;
+}
+
+
       .cooling-text h1{
     font-size:5rem;
   }
 
-
-
-
-/* overview */
-/* .standard-title {
-  font-size:1.5rem;
-}
-
-.standard-detail{
-    font-size:1.2rem;
+        .cooling-text p{
+    font-size:2rem;
   }
 
-.standard-img{
-  padding:4rem
-} */
+.tab-container ul{
+  width:50%;
+
+}
 
 
 

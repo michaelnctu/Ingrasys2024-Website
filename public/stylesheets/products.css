@@ -68,13 +68,15 @@ hr {
 }
 
 .slider-caption {
+  display:block;
   position: absolute;
   bottom:8%;
   left:2.5rem;
-  padding:1rem; 
+  padding:1.5rem; 
   background:rgba(30, 32, 34, 0.3);
   text-align:left;
   width:45%;
+  height:100px;
 
 }
 
@@ -88,31 +90,6 @@ line-height:150%;
   font-size: 2.5rem ;
 }
 
-/* .carousel-fade .carousel-item {
-	opacity: 0;
-	transition-duration: .6s;
-	transition-property: opacity;
-}
-
-.carousel-fade .carousel-item.active,
-.carousel-fade .carousel-item-next.carousel-item-left,
-.carousel-fade .carousel-item-prev.carousel-item-right {
-	opacity: 1;
-}
-
-.carousel-fade .active.carousel-item-left,
-.carousel-fade .active.carousel-item-right {
-	opacity: 0;
-}
-
-.carousel-fade .carousel-item-next,
-.carousel-fade .carousel-item-prev,
-.carousel-fade .carousel-item.active,
-.carousel-fade .active.carousel-item-left,
-.carousel-fade .active.carousel-item-prev {
-	transform: translateX(0);
-	transform: translate3d(0, 0, 0);
-} */
 
 
 .carousel .carousel-indicators li {

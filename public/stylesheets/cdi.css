@@ -50,11 +50,15 @@ hr{
   position:absolute;
   width:80%;
   margin-left:10%;
-  bottom:40vh;
+  bottom:35vh;
+}
+
+.cdi-text h1{
+  font-size: 2.5rem;;
 }
 
 .cdi-text p{
-  font-size:2rem;
+  font-size:1.8rem;
 }
 
 .cdi-img {
@@ -221,9 +225,7 @@ min-height: 1px;
 }
 
 .card{
-  width:330px;
-  margin:3.5rem;
-  margin-left:0rem;
+  width:100%;
 }
 
 
@@ -257,11 +259,9 @@ min-height: 1px;
 @media (min-width: 768px) {
 
 
-
-
   .cdi-text{
 
-    width:40%;
+    width:100%;
   }
 
   .cdi-text h1{
@@ -296,7 +296,7 @@ min-height: 1px;
 .pain-para{
   margin:0;
   padding:3%;
-  text-align:left;
+  text-align:center;
   display:flex;
   flex-direction:column;
   justify-content: center;
@@ -304,7 +304,7 @@ min-height: 1px;
 
 .pain-para h1{
   color:#F58522;
-  font-size:2.5rem;
+  font-size:2.3rem;
 }
 
 /* 軟體層次 */
@@ -377,6 +377,12 @@ min-height: 1px;
 
 }
 
+.card {
+  width:300px;
+    margin:3.5rem;
+  margin-left:0rem;
+
+}
 
 
 

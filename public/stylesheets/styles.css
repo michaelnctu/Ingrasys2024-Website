@@ -57,7 +57,8 @@ h5 {
   margin: 0;
   line-height: 0.9;
   /* font-size: 2rem; */
-  color: #FFFFFF;
+  /* 有safari issue */
+ color:white;
   font-family: 'Abhaya Libre', serif;
 }
 
@@ -750,6 +751,7 @@ canvas{
 
 .focus-title{
   width:100%;
+  color:white!important; ;
 }
 
 .focus-title-small {
@@ -921,13 +923,14 @@ canvas{
   color: rgba(151, 140, 140, 0.5);;
   font-size: 6em; 
   font-weight: 700;
-  left:-5px;
+  /* left:-5px; */
   /* top:0; */
 
 }
 .company-slogan p:after {
   position:absolute;
   content: " ”　";
+  bottom:0;
    color: rgba(151, 140, 140, 0.5);;
    font-size: 6em; 
   font-weight: 700;

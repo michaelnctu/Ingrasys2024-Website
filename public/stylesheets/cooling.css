@@ -56,8 +56,12 @@ hr{
   bottom:40vh;
 }
 
+.cooling-text h1{
+  font-size:2.5rem;
+}
+
 .cooling-text p{
-  font-size:2rem;
+  font-size:1.8rem;
 }
 
 .tab-container{
@@ -148,65 +152,6 @@ li{
   transform: unset;
 }
 
-
-
-/* nav ul {
-  height:100%;
-  width:60%;
-  display:grid;
-  grid-template-columns: repeat(3, 33%);
-  grid-gap:0;
-  justify-items: center;
-  align-items: center;
-  
-} */
-
-/* 
-.nav{
-  all:unset;
-  position:relative;
-  height:4rem;
-  display:flex;
-  flex-direction:row;
-  align-items:center;
-  justify-content: center;
-  background: linear-gradient(180deg, rgba(14, 14, 14, 0.651) 7.81%, rgba(46, 39, 39, 0.61771) 25.96%, rgba(99, 93, 93, 0) 91.67%), #000000;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.nav-item {
-  text-align:center;
-  font-size:1.2rem;
-  height:100%;
-  width:20%;
-}
-.nav-item:hover {
-cursor:pointer
-} */
-
-/* 
-.custom-btn {
-  display:block;
-  color:white;
-  width:100%;
-  height:100%;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  margin-right:5rem;
-  
-} */
-
-/* .custom-btn.active {
-    background-color:#00285E!important;
-  color:white!important;
-  border:none;
-} */
-
-/* .custom-btn:hover{
-  border:none;
-  color: #F58522;
-} */
 
 
 
@@ -609,7 +554,34 @@ td, th{
 
 .side-controls a[data-slide=next] {
   right: -4rem;
+  
 } 
+
+
+/* iphone 5 */
+
+@media (max-width:400px){
+
+
+  .tab-container {
+    bottom:2rem;
+  }
+
+  .cooling-text {
+    bottom:35vh;
+  
+  }
+
+  .cooling-text p{
+    font-size:1.5rem;
+  }
+
+    .cooling-text h1{
+    font-size:2rem;
+  }
+
+
+}
 
 
 @media (min-width: 768px) {

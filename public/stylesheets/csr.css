@@ -56,6 +56,10 @@ flex-direction:column;
    /* background-image: url("/assets/img/backgrounds/productsMain.jpg"); */
 }
 
+.csr-p1, .csr-p2, .csr-p3{
+
+  width:100%;
+}
 
 .csr-wrapper h1{
   color: #F58522;
@@ -65,6 +69,7 @@ flex-direction:column;
 }
 
 .csr-wrapper p{
+  width:100%;
   font-size:1.2rem;
   line-height:130%;
 }

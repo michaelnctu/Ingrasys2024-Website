@@ -9,11 +9,11 @@
  
 
 
-.under-header{
+/* .under-header{
   position:absolute;
   top:10rem;
   z-index:99;
-}
+} */
 
 /* .breadcrumb{
   padding-left:2.5rem;
@@ -76,6 +76,7 @@
 
 
 .story-para p{
+  width:100%;
   font-size: 1em;
   padding-top:1rem;
 }

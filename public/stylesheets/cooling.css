@@ -127,6 +127,7 @@ background-color: transparent;
 
 .tab-set h{
   text-align: center;
+  width:100%;
   font-size:1.5rem;
   line-height:2rem;
 }
@@ -449,11 +450,21 @@ li{
   display:flex;
   flex-direction:column;
   align-items: center;
+  margin-bottom:3rem;
 }
 
 .use-img{
   width:100%;
+     /* ie purpose */
+  flex: 1 0 auto;
+  min-height: 1px;
 }
+
+.use-para {
+  width:100%;
+
+}
+
 
 .use-img img{
   width:100%;
@@ -466,8 +477,9 @@ li{
   line-height:3rem;
 }
 
-.user-para p{
+.use-para p{
   text-align:center;
+  width:100%;
   font-size:1.8rem;
   line-height: 2.5rem;
 }
@@ -666,6 +678,13 @@ td, th{
   text-align: center;
   font-size:1.8rem;
   line-height:1.8rem;
+}
+
+.use-img{
+  width:50%;
+     /* ie purpose */
+  flex: 1 0 auto;
+  min-height: 1px;
 }
 
 
@@ -899,11 +918,11 @@ flex-direction:row-reverse;
 
 
 .solution-item {
-  width:40% !important;
+  width:50% !important;
 }
 
 .table {
-  width: 100% !important;
+  width: 60%!important;
 }
 
 /* .solution-container .rack{

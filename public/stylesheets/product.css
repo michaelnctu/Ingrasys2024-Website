@@ -85,6 +85,33 @@
 
 
 
+.img-item a{
+  display:block;
+  flex: 1 1 auto;
+  min-height: 1px; /* 1 */
+
+}
+
+
+.img-item img{
+display: block;
+  width: 100%;
+
+}
+
+.processor {
+
+
+  
+
+        /* ie purpose */
+  min-height: 1px;
+
+
+}
+
+
+
 .custom-container {
   
   overflow: visible;
@@ -209,21 +236,34 @@ img{
 }
 .img-display{
     overflow: hidden;
+
 }
 .img-showcase{
     display: flex;
     padding-top:3rem;
     width: 100%;
     transition: all 0.5s ease;
+      /* ie purpose */
+  flex:1 0 auto;
+  min-height: 1px;
+    
+
 }
 .img-showcase img{
     min-width: 100%;
+    display: block;
 }
 .img-select{
     display: flex;
+    /* ie purps */
+     flex: 1 1 auto;
+  min-height: 1px; /* 1 */
 }
 .img-item{
     margin: 0.3rem;
+   
+   
+
 }
 .img-item:nth-child(1),
 .img-item:nth-child(2),
@@ -236,9 +276,15 @@ img{
 
 .product-content{
     padding: 3rem 1rem;
-        margin: 2rem 0rem;
+    margin: 2rem 0rem;
     display:flex;
     flex-direction: column;
+
+
+    
+  /* ie purpose */
+  flex: 1 0 auto;
+  min-height: 1px;
 
 
 }
@@ -276,10 +322,13 @@ img{
 .processor-img{
   margin-top:3rem;
   width:18%;
-        /* ie purpose
+  /* ie purpose */
   flex: 1 0 auto;
-  min-height: 1px; */
-}lp
+  min-height: 1px;
+
+}
+
+
 
 
 
@@ -449,8 +498,10 @@ td, th{
 
 .product{
         width:100%;
+        height:auto;
         display: flex;
         flex-direction:row;
+        align-items:flex-start;
         padding-bottom: 5rem;
         padding-top:21rem;
       
@@ -462,6 +513,8 @@ td, th{
       flex-direction:column;
       justify-content:center;
       padding-left:5%;
+  
+
  }
 
 
@@ -500,6 +553,8 @@ td, th{
   display:flex;
   flex-direction:column;
   justify-content: flex-end;
+  
+
 }
 
 

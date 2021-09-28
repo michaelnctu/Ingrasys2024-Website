@@ -26,6 +26,13 @@ hr {
   border-color: #00285E  !important;
 }
 
+.under-header-products{
+    position: absolute;
+     z-index: 500;
+   top:10rem;
+    left:3rem;
+
+}
 
 
 .slider-top {
@@ -33,31 +40,7 @@ hr {
   top:0;
 }
 
-/* 分頁 */
-.under-header-products{
-  position:absolute;
-  margin-top:10rem; 
-  z-index:500
-}
 
-
-
-.breadcrumb{
-  left:5rem;
-  padding-left:2.5rem;
-  margin:0;
-  align-items: center;
-  justify-content:flex-start;
-  background-color:transparent;
-}
-
-.breadcrumb-item >a{
-  color:white;
-}
-
-.breadcrumb-item.active{
-  color:#F58522;
-}
 
 /* slider-container */
 
@@ -70,7 +53,7 @@ hr {
 .slider-caption {
   display:block;
   position: absolute;
-  bottom:8%;
+  bottom:15%;
   left:2.5rem;
   padding:1.5rem; 
   background:rgba(30, 32, 34, 0.3);
@@ -208,6 +191,7 @@ object-position: bottom;
   margin-left:10%;
   /* padding:10rem 5rem 10rem; 
   border:solid red; */
+  
 
 }
 
@@ -302,6 +286,15 @@ object-position: bottom;
 .carousel-indicators{
   display:none
 }
+
+.under-header-products{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 500;
+
+}
+
 
 /* 
 .content-container {

@@ -15,7 +15,7 @@
   z-index:99;
 }
 
-.breadcrumb{
+/* .breadcrumb{
   padding-left:2.5rem;
   margin:0;
   align-items: center;
@@ -28,16 +28,12 @@
 
 .breadcrumb-item.active{
   color:#F58522;
-}
+} */
 
 .about-banner{ 
   max-width:100%; 
-  height:100vh;
+  height:70vh;
   overflow:hidden;
-  background-position: bottom;
-  background-size: cover;
-
-  background-image: url("/assets/img/about/fii.jpg");
   position:relative;
   z-index:0;
 }

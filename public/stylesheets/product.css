@@ -94,7 +94,7 @@
   color:#F58522
 }
 
-.breadcrumb{
+/* .breadcrumb{
   padding-left:2.5rem;
   margin:0;
   align-items: center;
@@ -108,7 +108,7 @@
 
 .breadcrumb-item.active{
   color:#F58522;
-}
+} */
 
 .nav-wrapper{
   width:100%;

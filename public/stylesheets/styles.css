@@ -12,9 +12,7 @@
           box-sizing: border-box;
 }
 
-img{
-  
-}
+
 
 
 html, body {
@@ -95,6 +93,11 @@ h5 {
   font-size:2rem;
 }
 
+
+/* edge purpose */
+.blur-mask.active {
+  backdrop-filter: blur(15px)!important;
+}
 
 
 
@@ -919,11 +922,15 @@ canvas{
   position:relative;
   background-color: #1a1b1b;
   display:block;
-  padding:5rem 2rem;
+  padding:5rem 0rem;
+  width:100%;
 }
 
 .company-slogan p{
+  width:80%;
+  margin-left:10%;
   font-size:2.8rem;
+  line-height:3.5rem;
   font-family: 'Abhaya Libre', serif;
 }
 
@@ -1447,11 +1454,12 @@ width: 100%;
   position:relative;
   background-color: #1a1b1b;
   display:block;
-  padding:10rem ;
+  padding:10rem 0rem;
 }
 
 .company-slogan p{
   font-size:3.5rem;
+  line-height:4rem;
 }
 
 
@@ -1798,19 +1806,27 @@ width: 100%;
   background-color: #1a1b1b;
   display:block;
   margin:0;
-  padding:15rem ;
+  padding:15rem 0rem;
 
 }
 
 .company-slogan p{
   font-size:4.5rem;
+  line-height:5rem;
 }
 
 .company-slogan p:after {
   right:0;
   bottom: 5%;
+     font-size: 6em; 
 
 }
+
+ .company-slogan p:before {
+  font-size: 6em; 
+
+}
+
 
 
 

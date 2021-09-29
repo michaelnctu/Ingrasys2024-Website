@@ -71,7 +71,7 @@ h5 {
   position:absolute;
   top:10rem;
   left:0rem;
-  z-index:99999;
+  z-index:99;
 }
 
 .breadcrumb{
@@ -576,12 +576,13 @@ display:none;
   height: 100vh;
   overflow:hidden;
   z-index:-5;
+
 }
 
 
 
 .video video{
-  min-width: 100%;
+  width: 100%;
   min-height: 100%;
   
 }
@@ -594,7 +595,7 @@ display:none;
   position: absolute;
   top: 0;
   left:0;
-  opacity:0.4;
+  opacity:0.3;
   min-height: 100vh;
   width:100%;
   background-color: #000000;
@@ -1818,12 +1819,12 @@ width: 100%;
 .company-slogan p:after {
   right:0;
   bottom: 5%;
-     font-size: 6em; 
+font-size: 20rem;; 
 
 }
 
  .company-slogan p:before {
-  font-size: 6em; 
+  font-size: 20rem; 
 
 }
 

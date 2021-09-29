@@ -105,7 +105,8 @@ flex-direction:column;
 }
 
 .csr-wrapper p{
-  font-size:2.5rem;
+  font-size:2.3rem;
+  line-height:3.5rem;
 }
 
  .csr-wrapper li{

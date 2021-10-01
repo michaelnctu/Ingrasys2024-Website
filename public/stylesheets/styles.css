@@ -1380,7 +1380,7 @@ width: 100%;
   margin-top: 3rem;
 }
 
-.about-img video{
+.about-img img{
   width:100%;
 }
 
@@ -1493,6 +1493,10 @@ width: 100%;
 }
 
 
+
+.event-img img{
+  width:100%;
+}
 
 
 

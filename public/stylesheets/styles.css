@@ -683,7 +683,16 @@ display:none;
 
 }
 
-
+.static-background {
+  background-size: 100% auto;
+  background-position: bottom 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("/assets/img/index/index.jpg");
+}
+  
+  /* background-image: url("/assets/img/index/trial-5.jpg"); */
+/* } 
 
 /* option5 */
 /* .static-background {

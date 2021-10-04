@@ -1,10 +1,10 @@
-/* section{
+section{
   background-size:cover;
   background-position:20% -100%;
-  background-image: url("/assets/img/temp/trial-90.png");
+  background-image: url("/assets/img/background/bg3.jpg");
    background-attachment: fixed;
   
-} */
+}
 
  
 
@@ -38,15 +38,19 @@
   overflow:hidden;
   position:relative;
   z-index:0;
+  padding:0;
+
 
 }
 
-.about-banner video{
+/* .about-banner video{
   width:100%;
-}
+} */
 
 .about-banner img{
   width:100%;
+  height:auto;
+  display:block;
 }
 
 /* .about-banner:after {
@@ -286,10 +290,11 @@
 
 .city-text{
   position: absolute; 
-  top:20%;
-  left: 50%;  
+  text-align: center;
   transform: translate(-50%, -50%);
-    opacity: 1;
+  left:50%;
+  top:30%;
+  opacity: 1;
 }
 
 .card-address {
@@ -351,6 +356,60 @@
 }
 
 
+/* dms */
+
+.content-wrapper{
+  width:80%;
+  margin-left:10%;
+  margin-top:5rem;
+
+}
+
+.content-video{
+  width:100%;
+}
+
+.content-video video {
+  width:100%;
+  display:block;
+  margin:auto;
+}
+
+
+.content-img {
+  width:100%;
+}
+
+.content-img img {
+  width:100%;
+}
+
+.content-para{
+  text-align:center;
+  line-height:2.7rem;
+}
+
+.dms-item, .dms-intro {
+  margin-bottom:5rem;
+}
+
+.nav-pills>li.active>a{
+  background-color:#00285E!important;
+  color:white!important;
+  border:none;
+}
+
+
+.nav{
+  position:relative;
+  height:5rem;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content: center;
+  background: linear-gradient(180deg, rgba(14, 14, 14, 0.651) 7.81%, rgba(46, 39, 39, 0.61771) 25.96%, rgba(99, 93, 93, 0) 91.67%), #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
 
 
@@ -474,7 +533,11 @@
 }
 
 .city-text {
-  font-size:1.5rem;
+  font-size:2rem;
+}
+
+.country h4{
+    font-size:2rem;
 }
 
 .card-address {
@@ -497,8 +560,58 @@
 }
 
 .city-text {
-  font-size:1.8rem;
+  font-size:2rem;
 }
+
+
+.nav{
+  height:8rem;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content: center;
+  background: linear-gradient(180deg, rgba(14, 14, 14, 0.651) 7.81%, rgba(46, 39, 39, 0.61771) 25.96%, rgba(99, 93, 93, 0) 91.67%), #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-pills>li>a{
+  font-size:2rem;
+}
+
+.content-wrapper {
+  width:60%;
+  margin-left:20%;
+}
+
+/* .content-video{
+  width:80%;
+  margin-left:10%;
+  margin-bottom:3rem;
+} */
+
+.content-video video {
+  width:100%;
+  display:block;
+  margin:auto;
+}
+
+
+.content-img {
+  width:100%;
+
+  margin-bottom:3rem;
+}
+
+.content-para{
+  text-align:left;
+  line-height:2.7rem;
+}
+
+.country h4{
+    font-size:2.5rem;
+}
+
+
 
 }
 
@@ -512,7 +625,7 @@
 }
 
 .city-text {
-  font-size:2rem;
+  font-size:2.5rem;
 }
 
 }

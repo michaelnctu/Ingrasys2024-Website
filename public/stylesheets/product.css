@@ -33,6 +33,9 @@
         border-radius: 0;
     }
 
+    .table-responsive {
+    border: none !important;
+    }
 
     .responsive-tabs li {
         width: 100%; 
@@ -168,8 +171,8 @@ display: block;
 .bar-bottom {
   background-size: 100% 100%;
   background-size: cover;
-  background-position: center;
-   background-image: url("/assets/img/backgrounds/productsMain.jpg");
+  background-position: bottom;
+   background-image: url("/assets/img/products/product-back3.jpg");
 }
 
 i{

@@ -367,7 +367,7 @@ padding-left:2rem;
 .app-item {
   margin-bottom:2rem;
 /* ie purpose */
-  flex: 1 0 auto;
+  flex: 1 0 1 0;
   min-height: 1px;
 }
 
@@ -569,12 +569,16 @@ td, th{
   display:flex;
   flex-direction:row;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items:flex-start;
+
 }
 
 .app-item {
-  width:33%;
+  width:30%;
   margin-bottom:5rem;
+
+
 }
 
 .app-item img{

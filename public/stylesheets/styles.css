@@ -902,7 +902,13 @@ canvas{
   margin-top: 3rem
 }
 
-.about-img video{
+.about-img {
+  margin-bottom:3rem;
+  margin-right:3rem;
+}
+
+.about-img img{
+
   width:100%;
 }
 

@@ -19,7 +19,6 @@ const officeList = require('./models/office.json')
 
 // routes setting
 app.get('/', (req, res) => {
-  console.log("right now the port number is", port)
   res.render('index')
 })
 

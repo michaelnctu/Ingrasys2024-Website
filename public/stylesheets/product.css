@@ -104,13 +104,17 @@ display: block;
 
 .processor {
 
-
-  
-
         /* ie purpose */
   min-height: 1px;
 
 
+}
+
+.processor-container{
+  width:50%;
+  display:flex;
+  flex-direction:row;
+  align-items: center;
 }
 
 
@@ -324,6 +328,7 @@ img{
 
 .processor-img{
   margin-top:3rem;
+  margin-right:3rem;
   width:18%;
   /* ie purpose */
   flex: 1 0 auto;
@@ -823,6 +828,12 @@ td, th{
   .app-container{
 
   grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+
+}
+
+
+.processor-container{
+  width:40%;
 
 }
 }

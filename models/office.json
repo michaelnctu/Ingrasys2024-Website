@@ -93,6 +93,14 @@
       "map": "https://goo.gl/maps/Wgoh5c4JgdZML2jv5",
       "image": "/assets/img/about/nan.jpg",
       "function": "R & D, Operation"
+    },
+    {
+      "id": 4,
+      "city": "Hsinchu",
+      "address": "No. 16, Guangfu N. Rd., Hukou Township, Hsinchu County 303036, Taiwan (R.O.C.",
+      "map": "https://goo.gl/maps/sZpkoXSAoi7eRrRx5",
+      "image": "/assets/img/about/hsinchu.jpg",
+      "function": "Operation"
     }
   ],
   "singapore": [

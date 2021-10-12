@@ -66,7 +66,6 @@ hr{
 .cooling-text h1{
   font-size:2.5rem;
 }
-
 .cooling-text p{
   font-size:1.8rem;
 }
@@ -77,6 +76,7 @@ hr{
   width:80%;
   margin-left:10%;
   bottom:5rem;;
+  
 }
 
 .vl {
@@ -1067,6 +1067,26 @@ td, th{
   width:50%;
 
 }
+
+
+
+}
+
+
+@media(max-height:400px){
+  .cooling-text{
+    top:50%;
+  }
+
+  .tab-container{
+  position:relative;
+  top:3rem;;
+}
+
+.energy-wrapper{
+  padding:5rem 0;
+}
+
 
 
 

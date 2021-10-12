@@ -387,7 +387,7 @@ section{
 }
 
 .content-para{
-  text-align:center;
+  text-align:left;
   line-height:2.7rem;
 }
 
@@ -401,6 +401,10 @@ section{
   border:none;
 }
 
+.nav-pills>li a{
+  text-align: center;
+}
+
 
 .nav{
   position:relative;
@@ -410,7 +414,7 @@ section{
   align-items:center;
   justify-content: center;
   background: linear-gradient(180deg, rgba(14, 14, 14, 0.651) 7.81%, rgba(46, 39, 39, 0.61771) 25.96%, rgba(99, 93, 93, 0) 91.67%), #000000;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 
@@ -451,29 +455,30 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 .advan-icon {
 
-  width:100%;
+  width:80%;
        /* ie purpose */
-  /* flex: 1 0 ;
-  min-height: 1px; */
+  flex: 1  0 ;
+  min-height: 80px;
+
 }
 
 .advan-icon img{
-  width:30%;
+  width:20%;
   opacity:0.7;
   display:block;
   margin:auto;
 }
 
 .advan-item h {
-  font-size:3rem;
-  line-height:3.5rem;
+  font-size:4rem;
+  line-height:4rem;
   color: #F58522;
 }
 
 .advan-item p {
   width:100%;
   text-align:center;
-  font-size:2rem;
+  font-size:3rem;
   line-height:3.5rem;
 }
 
@@ -720,4 +725,25 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 }
-/* 
+
+
+/* for iphone */
+@media screen and (max-width:450px) {
+
+
+.story-para p{
+ 
+  font-size: 2rem;
+ 
+}
+
+.city-text {
+  font-size:2.5rem;
+}
+
+.nav-pills>li a{
+  text-align: center;
+  padding:8px;
+}
+
+}

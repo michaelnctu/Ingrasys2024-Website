@@ -49,10 +49,20 @@ hr{
 
 
 .cdi-text{
-  position:absolute;
-  width:80%;
-  margin-left:10%;
-  bottom:35vh;
+  position:relative;
+  padding-left:5%;
+  width:100%;
+   /* width:80%;
+  /* width:80%;
+  padding-left:10%; 
+  /* margin-top:15rem; */
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%);
+  top:30%; */
+  /* bottom:35vh; */
 }
 
 .cdi-text h1{
@@ -223,6 +233,7 @@ min-height: 1px;
 .product-container{
   display: flex;
   flex-direction: column;
+
 }
 
 .card {
@@ -241,8 +252,14 @@ min-height: 1px;
 
 .card{
   width:100%;
-  flex: 1 0 auto;
+  /* flex: 1 0 auto; */
   min-height: 1px; 
+}
+
+.card-img-top{
+  /* ie purpose */
+  flex: 1 0 auto;
+  min-height: 1px;
 }
 
 
@@ -393,8 +410,8 @@ min-height: 1px;
 }
 
 .card {
-  width:300px;
-    margin:3.5rem;
+  width:30%;;
+  margin:3%;
   margin-left:0rem;
 
 }
@@ -431,4 +448,12 @@ min-height: 1px;
   font-size:3rem;
 }
 
+}
+
+/* for iphone mini height */
+
+@media(max-height:400px){
+  .cdi-text{
+    top:70%;
+  }
 }

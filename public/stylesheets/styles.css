@@ -398,6 +398,7 @@ i{
 
  top:0;
  width: 100%;
+ /* position:absolute; */
  position: fixed;
  right: 0;
  overflow-y: visible;
@@ -412,6 +413,7 @@ height:100vh;
 transition: 0.6s ease;
 transition-property: right;
 display:none;
+
 
 }
 
@@ -564,28 +566,40 @@ display:none;
 
 .upper-banner {
   min-height: 100vh;
-  /* background-size: cover;
-  background-position: center;
-  background-image: url("/assets/img/index/Globe_2.jpg");
-  border:solid blue; */
   box-sizing: border-box;
+  position:relative;
 }
 
 .video{
-  position:absolute;
+height: 100vh;
+position:relative;
+width:200px;
+
+  /* /* position:absolute; */
   top:0;
-  width:100vw;
-  height: 100vh;
+  /* left:50%;; */
+  width:auto;
+  /* height: 100vh; */ 
   overflow:hidden;
-  z-index:-5;
+  /* z-index:1000000000000000; */
+  background-size: 100% auto;
+  background-position: bottom 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("/assets/img/index/cover-portrait.jpg");
 
 }
 
 
 
 .video video{
-  width: 100%;
-  min-height: 100%;
+  /* width: auto; */
+  min-height: 99%;
+  position:relative;
+  visibility: hidden;
+
+ z-index:-5;
+
   
 }
 
@@ -651,10 +665,16 @@ display:none;
 
 
   .main-caption {
+    position:absolute;
+    top:0;
     text-align:center;
-    margin-top:10rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    /* margin-top:10rem; */
     width: 100%;
-    padding-top:30vh;
+    /* padding-top:30vh; */
+
     /* display:flex;
     align-items: center; */
   }
@@ -738,12 +758,13 @@ canvas{
 }
 
  .focus-wrapper {
+
   width:100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding:5rem;
-  padding-top:0rem;
+
 
 } 
 
@@ -1196,6 +1217,16 @@ margin:auto;
 
 }
 
+.video video{
+  /* width: auto; */
+  min-height: 100%;
+  position:relative;
+  visibility: visible;
+ z-index:0;
+  
+}
+
+
   .demo {
   display: block;
 
@@ -1212,7 +1243,7 @@ margin:auto;
   -webkit-transform: translate(0, -50%);
   transform: translate(-50%, -50%);
   color: #fff;
-   font-size:2.5rem;
+   font-size:1.8rem;
   letter-spacing: .1em;
   text-decoration: none;
   transition: opacity .3s;
@@ -1267,8 +1298,9 @@ width: 100%;
 
     .main-caption {
     text-align:left;
-    margin-top:10rem;
+ 
     margin-left:10%;
+    
     width:100%;
   
   }
@@ -1308,6 +1340,7 @@ width: 100%;
   flex-direction: column;
   align-items: center;
   padding:0rem;
+  padding-top:5rem;
 
 } 
 
@@ -1969,5 +2002,16 @@ margin-left:30%;
 }
 
 
+@media screen and (max-height: 500px){
+
+  /* avoid 無法下滑 */
+  .side-bar{
+
+ 
+  position:absolute; 
+
+
+}
+}
 
 

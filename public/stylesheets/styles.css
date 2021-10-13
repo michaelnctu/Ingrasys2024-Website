@@ -399,7 +399,7 @@ i{
  top:0;
  width: 100%;
  /* position:absolute; */
- position: fixed;
+ position: absolute;
  right: 0;
  overflow-y: visible;
  z-index:100000;

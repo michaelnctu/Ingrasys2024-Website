@@ -73,7 +73,7 @@
     {
       "id": 1,
       "city": "New Taipei",
-      "address": "No.2,Ziyou St., Tucheng Dist., New Taipei City ,Taiwan R.O.C.",
+      "address": "No.2,Ziyou St., Tucheng Dist., New Taipei City 23678,Taiwan R.O.C.",
       "map": "https://goo.gl/maps/1TBujQkkPRC1RbmW9",
       "image": "/assets/img/about/taipei.jpg",
       "function": "R & D, Operation, Business"
@@ -81,7 +81,7 @@
     {
       "id": 2,
       "city": "Kaoshiung",
-      "address": "No. 25, Chenggong 2nd Road, Qianzhen District, Kaohsiung City, Taiwan R.O.C.",
+      "address": "No. 25, Chenggong 2nd Road, Qianzhen District, Kaohsiung City 80661, Taiwan R.O.C.",
       "map": "https://goo.gl/maps/WbcJFyCmtzkNmxeD7",
       "image": "/assets/img/about/kaosh.jpeg",
       "function": "R & D, Operation, Business"
@@ -97,7 +97,7 @@
     {
       "id": 4,
       "city": "Hsinchu",
-      "address": "No. 16, Guangfu N. Rd., Hukou Township, Hsinchu County 303036, Taiwan (R.O.C.",
+      "address": "No. 16, Guangfu N. Rd., Hukou Township, Hsinchu County 303036, Taiwan R.O.C.",
       "map": "https://goo.gl/maps/sZpkoXSAoi7eRrRx5",
       "image": "/assets/img/about/hsinchu.jpg",
       "function": "Operation"

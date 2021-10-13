@@ -416,13 +416,14 @@ padding-left:2rem;
 
 .point-title{
   text-align:right;
-  font-size:1.5rem;
+  font-size:2rem;
 }
 
 .point-img {
   width: 80%;
   flex: 1 0 auto;
   min-height: 1px;
+  margin-bottom:3rem;
 }
 
 .point-content {
@@ -720,9 +721,14 @@ font-size:2.1rem;
   width:50%;
 }
 
+.point-img{
+    margin-bottom:0rem;
+}
+
 .point-img img{
   width:80%;
   margin:auto;
+  
 }
 
   .point-title {

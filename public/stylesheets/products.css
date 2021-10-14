@@ -119,6 +119,8 @@ object-position: bottom;
 
 /* 產品格子 */
 
+
+
 .card {
   background-color:transparent;
   /* height:700px; */
@@ -135,7 +137,7 @@ object-position: bottom;
 }
 
 .card{
-  width:330px;
+  width:320px;
   margin:3.5rem;
 }
 

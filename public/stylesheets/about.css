@@ -285,10 +285,7 @@ section{
 	transition: .3s ease-in-out;
 }
 
-/* .card-body{
-  position:relative;
-  border:solid red;
-} */
+
 
 .city-text{
   position: absolute; 

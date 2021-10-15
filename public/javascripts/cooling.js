@@ -20,8 +20,6 @@ $('.carousel-inner').magnificPopup({
 
 
 
-
-
 // tab 
 $(".dropdown-menu li a").click(function () {
 
@@ -36,9 +34,6 @@ $('#faq-questions').change(function () {
   $('.answer').css({ display: 'none' });
   $('.answer-' + question).css({ display: 'block' });
 });
-
-
-
 (function ($) {
   $.fn.responsiveTabs = function () {
     this.addClass('responsive-tabs'),

@@ -67,6 +67,14 @@
       "map": "https://goo.gl/maps/sc9StezDncQcgQ4LA",
       "image": "/assets/img/about/tienjin.jpg",
       "function": "Operation"
+    },
+    {
+      "id": 2,
+      "city": "Shenzhen",
+      "address": "Longhua Science and Technology Park, Guangdong Province, Shenzhen, China",
+      "map": "https://goo.gl/maps/ktaUkqPJgTFKC8DKA",
+      "image": "/assets/img/about/lunghwa.jpg",
+      "function": "R & D, Operation"
     }
   ],
   "taiwan": [

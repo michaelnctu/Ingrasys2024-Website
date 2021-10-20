@@ -86,6 +86,11 @@ h5 {
   font-size:2rem;
 }
 
+.breadcrumb-item > li > a:hover{
+  color:white;
+}
+
+
 
 
 .breadcrumb-item.active{
@@ -135,33 +140,6 @@ a:hover{
   overflow:hidden;
   padding:2rem;
 
-}
-.text-deco{
-  display:block;
-  font-family: Helvetica;
-  font-weight:bold;
-  letter-spacing: -0.3rem;
-  color: #333;
-  position: relative;
-  color: transparent;
-  -webkit-text-stroke-width: 4px;
-  font-size:6rem; 
-}
-
-.text-deco::after{
-  content: attr(data-spotlight);
-  color: transparent;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  -webkit-clip-path: ellipse(400px 400px at 100% 50%);
-  clip-path: ellipse(400px 400px at 100% 50%);
-  animation: spotlight 5s infinite;
-  background-image: url(https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80);
-  background-size: 150%;
-  background-position: center center;
-  -webkit-background-clip: text;
-  background-clip: text;
 }
 
 
@@ -273,14 +251,14 @@ overflow:visible;
 
 
 .navbar-brand{
-  padding: 0 15px!important;
+  padding: 5px 15px!important;
   position:relative;
   z-index:1000000;
 
 }
 
 .header-img {
-  width:20rem;
+  width:15rem;
   height:auto;
   margin:auto;
   padding:0;
@@ -301,12 +279,11 @@ i{
  right: 0;
  overflow-y: visible;
  z-index:100000;
-
 }
 
 .side-bar > .menu{
 position:relative;
-width: 100%;
+width: 85%;
 height:100vh;
 transition: 0.6s ease;
 transition-property: right;
@@ -372,11 +349,10 @@ display:none;
   position:relative;
   bottom:0;
   height:10rem;
-
-
 }
+
 .hamburger .line{
-  width: 45px;
+  width: 30px;
   height: 5px;
   background-color: #ecf0f1;
   display: block;
@@ -420,54 +396,36 @@ display:none;
 /* banner */
 
 .upper-banner {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   box-sizing: border-box;
   position:relative;
 }
 
-.video{
-height: 100vh;
-position:relative;
-width:200px;
-
-  /* /* position:absolute; */
-  top:0;
-  /* left:50%;; */
-  width:auto;
-  /* height: 100vh; */ 
-  overflow:hidden;
-
-  background-size: 100% auto;
-  background-position: bottom 10px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url("/assets/img/index/cover-portrait.jpg");
-
+#web-video{
+  display:none;
 }
 
-
+.video{
+position:relative;
+max-height:100vh;
+overflow:hidden;
+}
 
 .video video{
-  /* width: auto; */
-  min-height: 99%;
+  width:100%;
+  top:-20px;
   position:relative;
-  visibility: hidden;
-
  z-index:-5;
 
-  
 }
 
-
-
-
- .video:after {
+.video:after {
   content: "";
   position: absolute;
   top: 0;
   left:0;
-  opacity:0.3;
-  min-height: 100vh;
+  opacity:0.4;
+  height:100%;
   width:100%;
   background-color: #000000;
   box-sizing: border-box;
@@ -1001,22 +959,53 @@ product */
 /* 電腦版 */
 @media screen and (min-width: 768px) {
 
-  .under-header{
+
+#mobile-video{
+  display:none;
+}
+
+#web-video{
+  display:block;
+}
+
+/* 漢堡 */
+.hamburger .line{
+  width: 45px;
+}
+
+.header-img {
+  width:20rem;
+ 
+} 
+
+.under-header{
   left:3rem;
 
 }
 
-.video video{
-  /* width: auto; */
-  min-height: 100%;
-  position:relative;
-  visibility: visible;
- z-index:0;
-  
+.video{
+height: auto;
+position:relative;
+top:0;
+width:100%;
+background-image: none;
 }
 
 
-  .demo {
+
+
+.video video{
+  width: 100%;
+    top:0;
+  position:relative;
+  visibility: visible;
+ z-index:0;
+}
+
+
+
+
+.demo {
   display: block;
 
 }
@@ -1025,12 +1014,12 @@ product */
 
 .demo a {
   position: absolute;
-  bottom: 20px;
+  bottom:20px;
   left: 50%;
   z-index: 20;
   display: inline-block;
-  -webkit-transform: translate(0, -50%);
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
   color: #fff;
    font-size:1.8rem;
   letter-spacing: .1em;
@@ -1103,11 +1092,11 @@ width: 100%;
     text-align: left;   
   }
 
-  .caption-video {
+  /* .caption-video {
     border: 4px dashed blue;
     background-color: #00285E;
     border-radius: 50%;
-  }
+  } */
 
 
 
@@ -1512,6 +1501,18 @@ width: 100%;
 @media screen and (min-width: 1280px) {
 /* 大標題 */
 
+.video{
+max-height: 100vh;
+width:100%;
+}
+
+
+ /* .video video{
+  min-height: 100%;
+  position:relative;
+  visibility: visible;
+ z-index:0;
+}  */
 
 h1, h{
   font-size: 3.2rem;;

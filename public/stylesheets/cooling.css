@@ -55,6 +55,12 @@ hr{
 
 } 
 
+.cooling-banner video{
+   width:auto;
+   min-height: 100vh;
+   z-index:-5;
+}
+
 
 .cooling-text{
   position:absolute;
@@ -75,8 +81,8 @@ hr{
   /* transform: translate(0, -50%); */
   width:80%;
   margin-left:10%;
-  bottom:5rem;;
-  
+  bottom:2rem;;
+
 }
 
 .vl {
@@ -128,8 +134,9 @@ background-color: transparent;
 }
 
 .tab-img img{
-  width:60%;
-
+  width:50%;
+  display:block;
+  margin:auto;
 }
 
 .tab-set h{
@@ -140,11 +147,7 @@ background-color: transparent;
 }
 
 
-.cooling-banner video{
-   width:auto;
-   min-height: 100vh;
-   z-index:-5;
-}
+
 
 
 
@@ -420,7 +423,7 @@ li{
 .item-img {
   display:block;
   opacity:0.8;
-  width:30%;
+  width:20%;
   margin:auto;
     flex: 1 0 auto;
   min-height: 1px;
@@ -431,7 +434,7 @@ li{
 
 .item-title {
   text-align:center;
-  font-size:2rem;
+  font-size:2.3rem;
   line-height:2.6rem;
   color:#F58522;
   width:100%;
@@ -462,6 +465,7 @@ li{
 
 .use-img{
   width:100%;
+  margin-bottom:2rem;
      /* ie purpose */
   flex: 1 0 auto;
   min-height: 1px;
@@ -469,7 +473,6 @@ li{
 
 .use-para {
   width:100%;
-
 }
 
 
@@ -480,7 +483,7 @@ li{
 .use-para h1{
   text-align: center;
   color:#F58522;
-  font-size:2.1rem;
+  font-size:2.3rem;
   line-height:3rem;
 }
 
@@ -636,7 +639,6 @@ td, th{
   /* transform: translate(0, -50%); */
   width:80%;
   margin-left:10%;
-  padding:2rem;
   bottom:3rem;
 }
 
@@ -677,13 +679,14 @@ td, th{
 }
 
 .tab-img  img{
-  width:100%;
+
+  width:80%;
 
 }
 
 .tab-set h{
   text-align: center;
-  font-size:1.8rem;
+  font-size:1.5rem;
   line-height:1.8rem;
 }
 
@@ -973,7 +976,6 @@ td, th{
 
 
 
-
 .content-text p{
     font-size:2rem;
 }
@@ -1007,8 +1009,8 @@ td, th{
 
 .use-para h1{
 
-  font-size:2.5rem;
-  line-height:3rem;
+  font-size:2.8rem;
+  line-height:4rem;
 
 }
 
@@ -1055,8 +1057,13 @@ td, th{
   font-size:2.3rem;
 }
 
+.cooling-text{
+    width:45%;
 
-      .cooling-text h1{
+  }
+
+
+ .cooling-text h1{
     font-size:5rem;
   }
 
@@ -1087,6 +1094,9 @@ td, th{
 .energy-wrapper{
   padding:5rem 0;
 }
+
+
+
 
 
 

@@ -139,6 +139,8 @@ object-position: bottom;
 .card{
   width:320px;
   margin:3.5rem;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 
@@ -146,6 +148,11 @@ object-position: bottom;
   flex: 1 0 auto;
   min-height: 1px;
   width:100% !important;
+
+}
+
+.card:hover{
+width:350px;
 }
 
 .card-title {
@@ -183,7 +190,8 @@ object-position: bottom;
   background-size: 100% 100%;
   background-size: cover;
   background-position: bottom;
-  background-image: url("/assets/img/products/product-back.jpg");
+  background-image: url("/assets/img/background/product-back.jpg");
+  background-attachment: fixed;
 }
 
 

@@ -1,7 +1,7 @@
 section{
   background-size:cover;
   background-position:20% -100%;
-  background-image: url("/assets/img/background/bg3.jpg");
+  background-image: url("/assets/img/background/bg5.jpeg");
    background-attachment: fixed;
   
 }
@@ -9,26 +9,6 @@ section{
  
 
 
-/* .under-header{
-  position:absolute;
-  top:10rem;
-  z-index:99;
-} */
-
-/* .breadcrumb{
-  padding-left:2.5rem;
-  margin:0;
-  align-items: center;
-  justify-content:flex-start;
-}
-
-.breadcrumb-item a{
-  color:white;
-}
-
-.breadcrumb-item.active{
-  color:#F58522;
-} */
 
 .about-banner{ 
   margin-top:15rem;
@@ -55,19 +35,6 @@ section{
   display:block;
 }
 
-/* .about-banner:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left:0;
-  opacity:0.2;
-  width:100%;
-  height:100vh;
-  background-color: #000000;
-  box-sizing: border-box;
-  z-index:5;
-
-} */
 
 .margin-box {
   padding-bottom: 7rem;

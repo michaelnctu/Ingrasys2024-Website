@@ -17,11 +17,14 @@ $(document).ready(function () {
     // $(this).toggleClass('submenu-open').parent('div').siblings('div').children('a.submenu-open').removeClass('submenu-open');
 
     $(this).find('.dropdown').toggleClass('rotate');
+
     $('html, body').animate({
       scrollTop: (0),
-    }, "fast"); /*this will scroll upto the top, not sure if I want to use this yet */
+    }, "fast");
 
-    $(this).parent().toggleClass('submenu-open').children('div').slideToggle(300).end().siblings('.submenu-open').removeClass('submenu-open').children('div').slideUp(300);
+    $(this).parent().toggleClass('submenu-open').children('div').slideToggle(300).end().siblings('.submenu-open').removeClass('submenu-open').children('div').slideUp(300).parent().children('.sub-btn').children('.dropdown').toggleClass('rotate');
+
+
 
     // $(this).find('.dropdown').toggleClass('rotate');
     // $('html, body').animate({

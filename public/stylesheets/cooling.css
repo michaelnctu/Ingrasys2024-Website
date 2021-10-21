@@ -1080,7 +1080,7 @@ td, th{
 
 }
 
-
+/* 小尺寸長度短 */
 @media(max-height:400px){
   .cooling-text{
     top:50%;
@@ -1100,6 +1100,27 @@ td, th{
 
 
 
+
+}
+
+/* 大尺寸寬度超過1920px */
+@media(min-width: 1920px){
+
+  /* 影片的容器 */
+ .upper-cool{
+  position:relative;
+  height: 100vh;
+  overflow:hidden;
+
+} 
+
+
+
+.cooling-banner video{
+   width:100%;
+   /* min-height: 100vh; */
+   z-index:-5;
+}
 
 }
 

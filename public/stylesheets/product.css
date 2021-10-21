@@ -285,7 +285,7 @@ ul{
 
 
 .product-detail p{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     line-height: 150%;
     padding: 0.3rem;
     opacity: 0.8;
@@ -293,7 +293,7 @@ ul{
 .product-detail ul{
     margin: 1rem 0;
     padding: 0;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .product-detail ul li{
@@ -498,10 +498,6 @@ td, th{
     padding: 0.3rem;
     opacity: 0.8;
 }
-/* .product-detail ul{
-    margin: 1rem 0;
-    font-size: 1.2rem;
-} */
 
 .product-detail ul li{
     margin: 0;
@@ -743,6 +739,15 @@ font-size:2.1rem;
 
 @media screen and (min-width:1280px){
 
+ .product-detail p{
+    font-size: 1.8rem;
+}
+
+.product-detail ul li{
+
+    font-size:1.8rem;
+    
+}
 
 
 .processor > img{

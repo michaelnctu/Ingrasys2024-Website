@@ -92,6 +92,7 @@ hr{
 }
 
 .tab-container ul{
+
   width:100%;
   height:auto;
   display:flex;
@@ -477,7 +478,7 @@ li{
 
 
 .use-img img{
-  width:100%;
+  width:90%;
 }
 
 .use-para h1{
@@ -645,12 +646,11 @@ td, th{
 .vl {
   border-left: 2px solid white;
   opacity:0.5;
-  height: 150px;
 }
 
 .tab-container ul{
   width:80%;
-  height:auto;
+  max-height:140px;
   display:flex;
   flex-direction:row;
   align-items:stretch;
@@ -1026,7 +1026,7 @@ td, th{
 .vl {
   border-left: 2px solid white;
   opacity:0.5;
-  height: 150px;
+  height: auto;
 }
 
 .tab-container ul{

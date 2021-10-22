@@ -395,7 +395,7 @@ min-height: 1px;
 
 .app-item p{
   position:absolute;
-  top:150px;
+  /* top:150px; */
   font-size:2.5rem;
 }
 

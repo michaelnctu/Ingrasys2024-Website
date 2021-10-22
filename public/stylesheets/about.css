@@ -244,6 +244,7 @@ section{
 .card-location img{
   width:100%;
   height:300px;
+  margin-bottom:1rem;
   object-fit:cover;
   object-position:center ;
   -webkit-filter: grayscale(100%) blur(3px);
@@ -602,8 +603,8 @@ section{
 }
 
 .card-address {
-  font-size:2.2rem;
-  line-height:3rem;
+  font-size:2rem;
+  line-height:3.5rem;
 }
 
 

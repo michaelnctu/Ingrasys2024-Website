@@ -90,9 +90,9 @@ h5 {
   color:white;
 }
 
-
-
-
+a:focus, a:hover {
+    color:white!important;
+}
 .breadcrumb-item.active{
   color:#F58522;
   font-size:2rem;

@@ -159,7 +159,6 @@ particlesJS("particles-js", {
 
 
 
-
 document.documentElement.setAttribute("data-agent", navigator.userAgent);
 
 
@@ -190,3 +189,4 @@ function playVid() {
 function pauseVid() {
   myVideo.pause();
 }
+

@@ -67,6 +67,11 @@ app.get('/ws5010a', (req, res) => {
   res.render('./workstation/ws5010a', { productCSS: true })
 })
 
+//edge
+
+app.get('/ea5165n', (req, res) => {
+  res.render('./edge-server/ea5165n', { productCSS: true })
+})
 
 app.get('/csr', (req, res) => {
   res.render('CSR', { csrCSS: true })

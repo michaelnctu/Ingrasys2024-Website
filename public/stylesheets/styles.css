@@ -5,9 +5,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&display=swap');
 
 
+
+
+
 .modal-title {
   color:black;
 }
+
+
 
 select {
   width:100%;
@@ -35,13 +40,24 @@ select {
           box-sizing: border-box;
 }
 
-#preloader{
-  background: #000 url("/assets/img/icons/spin.svg");
-  background-size:10%; 
+/* preloader */
+
+#preloader1{
+  background: linear-gradient(180deg, rgba(35, 28, 28, 0.651) 8.33%, rgba(46, 39, 39, 0.61771) 17.19%, rgba(255, 255, 255, 0) 100%), #000000 url("/assets/img/icons/spin2.svg") no-repeat center center;
+  background-size:3%; 
   height:100vh;
   width:100%;
   position:fixed;
-  z-index:100;
+  z-index:10000000;
+
+}
+
+.loading{
+  position:fixed;
+  text-align:center;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
@@ -922,6 +938,7 @@ product */
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  
 
       /* ie purpose */
   flex: 1 0 auto;
@@ -932,8 +949,8 @@ product */
 
   .divider {
     border:0.3px solid white;
-    width:50%;
-    margin-left:25%;
+    width:80%;
+    margin-left:10%;
     margin-top:2rem;
     margin-bottom:2rem;
   }
@@ -949,7 +966,7 @@ product */
   .office-address {
     color:white;
     margin-top:2rem;
-    padding-left:25%;
+    padding-left:13%;
     padding-bottom:10%;
    
     white-space: nowrap;
@@ -986,6 +1003,13 @@ product */
 }
 
 
+@media screen and (min-width: 399px) {
+  .office-address {
+ 
+    padding-left:23%;
+
+  }
+}
 
 
 
@@ -1391,6 +1415,7 @@ width: 50%;
 
 
   .footer-item {
+   
     width:33.3%;
     height:100%;
     text-align: center;
@@ -1641,7 +1666,13 @@ font-size: 20rem;;
   color:white
 }
 
-
+  .divider {
+    border:0.3px solid white;
+    width:60%;
+    margin-left:20%;
+    margin-top:2rem;
+    margin-bottom:2rem;
+  }
 
 
 

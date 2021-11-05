@@ -940,6 +940,9 @@ flex-direction:row-reverse;
   width:100%;
 } */
 
+th {
+  width:40%;
+}
 
 
 .solution-item img{

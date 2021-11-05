@@ -156,9 +156,6 @@ particlesJS("particles-js", {
   "retina_detect": true
 });
 
-
-
-
 document.documentElement.setAttribute("data-agent", navigator.userAgent);
 
 
@@ -178,15 +175,4 @@ $(document).ready(function () {
 
 
 
-
-
-var myVideo = document.getElementById("bgvid");
-
-function playVid() {
-  myVideo.play();
-}
-
-function pauseVid() {
-  myVideo.pause();
-}
 

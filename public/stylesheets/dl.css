@@ -3,33 +3,13 @@ ul,li {
   opacity:0.8
 }
 
-/* .under-header{
-  position:absolute;
-  top:10rem;
-} */
-
-/* .breadcrumb{
-  padding-left:2.5rem;
-  margin:0;
-  align-items: center;
-  justify-content:flex-start;
-}
-
-.breadcrumb-item a{
-  color:white;
-}
-
-.breadcrumb-item.active{
-  color:#F58522;
-} */
-
 .dl-container{
   padding:4rem 0;
 }
 
 .dl-banner{
   width:100%;
-  height:60vh;
+  height:50vh;
   background-size:cover ;
   background-position:bottom;
   background-image: url("/assets/img/download/pcb.jpg");

@@ -90,6 +90,8 @@
 
 .img-item a{
   display:block;
+  height:100%;
+  width:100%;
   flex: 1 1 auto;
   min-height: 1px; /* 1 */
 
@@ -241,15 +243,15 @@ img{
 }
 .img-select{
     display: flex;
+    flex-direction: row;
     /* ie purps */
      flex: 1 1 auto;
-  min-height: 1px; /* 1 */
+    min-height: 1px; /* 1 */
 }
 .img-item{
+  flex-basis: 100%;
     margin: 0.3rem;
    
-   
-
 }
 .img-item:nth-child(1),
 .img-item:nth-child(2),

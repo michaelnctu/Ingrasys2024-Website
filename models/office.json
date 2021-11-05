@@ -5,7 +5,7 @@
       "city": "Bellevue, WA",
       "address": "14450 NE 29th Pl #120 Bellevue, WA 98007",
       "map": "https://goo.gl/maps/u55ya3n2YSLiTVQM7",
-      "image": "/assets/img/about/bellevue.png",
+      "image": "/assets/img/about/bellevue.jpg",
       "function": " Business"
     },
     {
@@ -13,7 +13,7 @@
       "city": "Seattle, WA",
       "address": "2401 4th Ave, Suite 810 Seattle, WA 98121",
       "map": "https://goo.gl/maps/yZrVpmjxmh2dKxzK9",
-      "image": "/assets/img/about/seattle.jpeg",
+      "image": "/assets/img/about/seattle.jpg",
       "function": " Business"
     },
     {
@@ -37,7 +37,7 @@
       "city": "Austin, TX",
       "address": "12345 N. Lamar, Suites 250 Austin, TX 78753",
       "map": "https://goo.gl/maps/39Bna7n5hphouZs8A",
-      "image": "/assets/img/about/austin.jpeg",
+      "image": "/assets/img/about/austin.jpg",
       "function": "Business"
     }
   ],
@@ -135,7 +135,7 @@
       "city": "Czech",
       "address": "Karlov 245, 284 01 Kutná Hora,Czech Republic",
       "map": "https://goo.gl/maps/cpM3jQnGSSKm3krG8",
-      "image": "/assets/img/about/cz.png",
+      "image": "/assets/img/about/cz.jpg",
       "function": "Operation"
     }
   ]

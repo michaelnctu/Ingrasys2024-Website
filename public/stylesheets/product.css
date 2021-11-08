@@ -117,6 +117,9 @@ display: block;
   display:flex;
   flex-direction:row;
   align-items: center;
+        /* ie purpose */
+  flex:1 0 auto;
+  min-height: 1px;
 }
 
 
@@ -322,6 +325,15 @@ ul{
 
 }
 
+/* video */
+.intro-video {
+  width:80%;
+  margin-left:10%;
+}
+
+.intro-video video{
+  width:100%;
+}
 
 
 
@@ -477,7 +489,7 @@ td, th{
         height:auto;
         display: flex;
         flex-direction:row;
-        align-items:flex-start;
+        align-items:stretch;
         padding-bottom: 5rem;
         padding-top:21rem;
       
@@ -520,7 +532,7 @@ td, th{
 .product-content {
       width:50%;
       margin-left:5%;
-      justify-content:center;
+      justify-content:space-between;
 }
 
 
@@ -532,6 +544,11 @@ td, th{
 
 }
 
+.intro-video video{
+  width:70%;
+  display: block;
+  margin:auto;
+}
 
 
 .app-container{

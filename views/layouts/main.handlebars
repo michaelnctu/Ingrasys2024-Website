@@ -100,7 +100,8 @@
             <a href="/server" class="sub-item">Server</a>
             <a href="/es2000" class="sub-item">Storage</a>
             <a href="/accelerator" class="sub-item">HPC Accelerator</a>
-            <a href="ws5010a" class="sub-item">Workstation</a>
+            <a href="/ws5010a" class="sub-item">Workstation</a>
+            <a href="/ea5165n" class="sub-item">Edge</a>
             {{!-- <a href="/ea5165n" class="sub-item">Edge Server</a> --}}
           </div>
 
@@ -485,11 +486,16 @@
               <i class="fas fa-map-marker"></i>&emsp; San Jose, CA 95110
             </li>
             </span>
-            <li><i class="fas fa-envelope"></i>&emsp;Sales@ingrasys.com &emsp;
-
-              <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal"
-                data-whatever="@mdo">Click <i class="fas fa-arrow-right"></i>
+            <li><i class="fas fa-envelope"></i>&emsp;<button type="button" class="btn-contact " data-toggle="modal"
+                data-target="#exampleModal" data-whatever="@mdo">Sales@ingrasys.com
               </button>
+
+              {{!-- <a href="https://sc21.supercomputing.org/" class="btn  active " role="button" data-toggle="modal"
+                data-target="#exampleModal" data-whatever="@mdo">Sales@ingrasys.com</a> --}}
+
+              &emsp;
+
+
 
             </li>
 
@@ -603,7 +609,7 @@
 
 
   {{!-- loader --}}
-  <script defer>
+  <script>
     var loader = document.getElementById("preloader1");
 
     window.addEventListener("load", function () {

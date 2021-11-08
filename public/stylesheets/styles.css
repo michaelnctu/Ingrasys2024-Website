@@ -50,7 +50,6 @@ select {
 #preloader1{
   background: #050505 url("/assets/img/logos/Ingrasys logo_white2.svg") no-repeat center center;
   background-size: 150px 50px;
-  opacity:0.95;
   height:100vh;
   width:100%;
   position:fixed;
@@ -989,7 +988,7 @@ product */
    .office-address > li {
      list-style: none;
      text-align:left;
-    
+    line-height:170%;
    }
 
    .fa-map-marker{
@@ -1006,6 +1005,17 @@ product */
   margin-top:0.8rem;;
   font-size:0.8rem;
   color:white
+}
+
+.btn-contact {
+  background-color: transparent;
+  border:transparent;
+  padding-left:0;
+}
+
+.btn-contact:hover{
+  opacity: 0.8;
+  text-decoration: underline;
 }
 
 
@@ -1693,6 +1703,12 @@ font-size: 20rem;;
     margin-bottom:2rem;
   }
 
+  .office-address {
+
+    padding-left:32%;
+   
+  }
+
 
 
 }
@@ -1785,7 +1801,7 @@ height:auto;
 
     font-size: 2rem;
     line-height: 2.5rem;
-    padding-left:30%;;
+    padding-left:32%;
    
   }
 }

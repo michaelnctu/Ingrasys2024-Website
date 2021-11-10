@@ -174,5 +174,67 @@ $(document).ready(function () {
 
 
 
+/* Function to create a Multi-Carousel */
+function MultiCarousel($thisSlide, $maxSize) {
+
+  var _nextSlide = $($thisSlide).next();
+  if (!_nextSlide.length) {
+    // If at the last slide, clone the first slide
+    // This makes an infinite carousel
+    _nextSlide = $($thisSlide).siblings(":first");
+  }
+  // Append the first child of the next slide to the current one
+  _nextSlide.children(":first-child").clone().appendTo($($thisSlide));
+
+  // Private function to append other slide children
+  function _appendChildren($nextSlide, $thisSlide) {
+    if (!$nextSlide.length) {
+      // If there isn't a next slide, append the first child of the first slide to this one
+      $($thisSlide).siblings(":first").children(":first-child").clone().appendTo($($thisSlide));
+    }
+    else {
+      // If there is a next slide, append the first child of that slide to the current one
+      $nextSlide.children(":first-child").clone().appendTo($($thisSlide));
+    }
+  }
+
+  for (var _i = 2; _i < ($maxSize); _i++) {
+    // Find the slide after nextSlide
+    _nextSlide = _nextSlide.next();
+    // Call function to find the next-next slide's children
+    _appendChildren(_nextSlide, $thisSlide);
+  }
+
+}
+
+/* Initializing Multi-Carousel */
+
+// Initialize one instance
+// $( "#JeansCarousel .carousel-item" ).each( function() {
+//   MultiCarousel( $( this ), 4 );
+// });
+
+// Initialize many instances
+// $(".jeans-carousel .carousel-item").each(function () {
+//   MultiCarousel($(this), 4);
+// });
 
 
+
+
+$('.owl-carousel').owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: true,
+  responsive: {
+    0: {
+      items: 1
+    },
+    600: {
+      items: 3
+    },
+    1000: {
+      items: 5
+    }
+  }
+})

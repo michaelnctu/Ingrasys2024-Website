@@ -271,6 +271,13 @@ min-height: 1px;
 }
 
 
+.card img {
+    flex: 1 0 auto;
+    min-height: 1px;
+    width: 100% !important;
+
+}
+
 
 .card-title {
   font-size:1.8em;

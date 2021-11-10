@@ -1819,4 +1819,176 @@ height:auto;
 }
 }
 
+.news-wrapper {
+  border:solid red;
+  overflow:auto;
+}
+
+.MultiCarousel { 
+  float: left; 
+  overflow: hidden; 
+  /* padding: 15px;  */
+  width: 100%; 
+  position:relative;
+}
+
+
+.MultiCarousel .MultiCarousel-inner { 
+  width:100%;
+  transition: 1s ease all; 
+  float: left; 
+}
+
+.MultiCarousel .MultiCarousel-inner .item { 
+  float: left;
+border:solid green;
+}
+
+.MultiCarousel .MultiCarousel-inner .item > div { 
+  text-align: center; 
+  padding:10px; 
+  margin:10px; 
+
+}
+
+
+.leftLst, .rightLst{ 
+  position: absolute;
+  background-color:transparent;
+  border:none;
+  top:calc(50% - 20px); 
+}
+
+.MultiCarousel .leftLst { 
+  position: absolute;
+  z-index:99999999999999999 !important;
+  left:-100px; }
+
+.MultiCarousel .rightLst { right:-10px; }
+
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { 
+          pointer-events: none; 
+ }
+
+/* 分隔 */
+
+/* Shim for extending Bootstrap classes, should not be needed in RL adaptations */
+.col-12, .jeans-carousel .carousel-item > .carousel-item_inner {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .col-md-6, .jeans-carousel .carousel-item > .carousel-item_inner {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .col-lg-3, .jeans-carousel .carousel-item > .carousel-item_inner {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+/* Mixins */
+/** 
+ ** Initialize a Multi-Carousel
+**/
+.jeans-carousel .carousel-item.active, .jeans-carousel .carousel-item.carousel-item-next, .jeans-carousel .carousel-item.carousel-item-prev {
+  display: flex;
+}
+.jeans-carousel .carousel-item.carousel-item-right.active, .jeans-carousel .carousel-item.carousel-item-next {
+  transform: translateX(100%);
+}
+.jeans-carousel .carousel-item.carousel-item-left.active, .jeans-carousel .carousel-item.carousel-item-prev {
+  transform: translateX(-100%);
+}
+.jeans-carousel .carousel-item.carousel-item-right, .jeans-carousel .carousel-item.carousel-item-left {
+  transform: translateX(0);
+}
+@media (min-width: 768px) {
+  .jeans-carousel .carousel-item.carousel-item-right.active, .jeans-carousel .carousel-item.carousel-item-next {
+    transform: translateX(50%);
+  }
+  .jeans-carousel .carousel-item.carousel-item-left.active, .jeans-carousel .carousel-item.carousel-item-prev {
+    transform: translateX(-50%);
+  }
+  .jeans-carousel .carousel-item.carousel-item-right, .jeans-carousel .carousel-item.carousel-item-left {
+    transform: translateX(0);
+  }
+}
+@media (min-width: 992px) {
+  .jeans-carousel .carousel-item.carousel-item-right.active, .jeans-carousel .carousel-item.carousel-item-next {
+    transform: translateX(25%);
+  }
+  .jeans-carousel .carousel-item.carousel-item-left.active, .jeans-carousel .carousel-item.carousel-item-prev {
+    transform: translateX(-25%);
+  }
+  .jeans-carousel .carousel-item.carousel-item-right, .jeans-carousel .carousel-item.carousel-item-left {
+    transform: translateX(0);
+  }
+}
+.jeans-carousel .carousel-item > .carousel-item_inner {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Extra aesthetic styling */
+.jeans-carousel {
+  height: 30vw;
+  margin: 0 auto;
+  width: 60vw;
+}
+.jeans-carousel .carousel-inner {
+  border: 1px dashed #CCC;
+  height: inherit;
+}
+.jeans-carousel .carousel-item.active, .jeans-carousel .carousel-item.carousel-item-next, .jeans-carousel .carousel-item.carousel-item-prev {
+  height: inherit;
+}
+.jeans-carousel .carousel-item_inner {
+  height: inherit;
+}
+.jeans-carousel .carousel-item_content {
+  color: #CCC;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.jeans-carousel .carousel-item_content > * {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.jeans-carousel .carousel-control-prev, .jeans-carousel .carousel-control-next {
+  /* Carousel Controls */
+  opacity: 1 !important;
+}
+.jeans-carousel .carousel-control-prev:hover .carousel-item_icon, .jeans-carousel .carousel-control-next:hover .carousel-item_icon {
+  color: #666;
+}
+.jeans-carousel .carousel-control-prev {
+  left: -15%;
+}
+.jeans-carousel .carousel-control-next {
+  right: -15%;
+}
+.jeans-carousel .carousel-item_icon {
+  color: #BBB;
+  cursor: pointer;
+  font-size: 40px;
+  transition: color 0.3s ease;
+}
+
+.title {
+  color: #808080;
+  text-align: center;
+  margin: 0.5em 0 1em;
+}
 

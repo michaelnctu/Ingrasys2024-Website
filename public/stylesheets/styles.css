@@ -697,7 +697,6 @@ canvas{
   width: 100%;
   object-fit: cover;
   display: block;
-  cursor:pointer;
   overflow:hidden;
     /* ie purpose */
   flex: 1 0 auto;
@@ -852,9 +851,12 @@ product */
 }
 
 
-.news-img{
 
+.news-img{
   width:100%;
+      /* ie purpose */
+  flex: 1 0 auto;
+  min-height: 1px;
   margin:auto;
   -webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
@@ -1034,6 +1036,16 @@ product */
 @media screen and (min-width: 768px) {
 
 
+  /* 暫時 等kioxia 進來後刪掉 */
+  .owl-theme .owl-dots .owl-dot{
+
+    zoom: 1;
+    *display: inline;
+    border-radius: 100%;;
+
+}
+
+
 #preloader1{
 
   background-size: 200px 60px;
@@ -1208,12 +1220,11 @@ width: 100%;
    
   .focus-content {
     width: 100%;
-    padding:5rem 0;
+    padding:4rem 0;
     display:flex;
     flex-direction:row;
     justify-content:space-between;
     align-items: flex-start;
- 
 }
 
 .focus-item {
@@ -1229,7 +1240,6 @@ width: 100%;
 .category-img{
   width: 100%;
   display:block;
-  cursor:pointer;
 }
 
 .category-img img{
@@ -1344,6 +1354,11 @@ width: 100%;
 
 
  /* slider */
+
+ .news-wrapper {
+  margin-top:10rem;
+  margin-bottom:10rem;;
+}
 
  .news-img{
   width:100%;
@@ -1819,9 +1834,9 @@ height:auto;
 }
 }
 
-.news-wrapper {
+/* .news-wrapper {
   overflow:auto;
-}
+} */
 
 
 
@@ -1831,21 +1846,16 @@ height:auto;
 }
 
 .news-item{
-      display: flex;
+    display: flex;
     width:100%;
     align-items: flex-start;
     justify-content: space-between;
     flex-direction:column;
-
-  margin-bottom:5rem; 
+    overflow: hidden;
 
 }
 
 
-.owl-theme .owl-dots .owl-dot span{
-    display: inline-block;
-    zoom: 1;
-    *display: inline;
-    border-radius: 100%;;
-
+.owl-nav{
+display:none;
 }

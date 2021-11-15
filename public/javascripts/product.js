@@ -65,9 +65,9 @@ function screen_resize() {
 } // if window resize call responsive function
 
 
-$(window).resize(function (e) {
-  screen_resize();
-}); // call responsive function on default :)
+// $(window).resize(function (e) {
+//   screen_resize();
+// }); // call responsive function on default :)
 
 $(document).ready(function (e) {
   screen_resize();

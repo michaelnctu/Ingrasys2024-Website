@@ -1855,7 +1855,14 @@ height:auto;
 
 }
 
+.owl-dot:hover span{
+    background:#F58522!important;
+}
+
+.owl-dot.active span{
+    background:#F58522!important;
+}
 
 .owl-nav{
-display:none;
+font-size:3rem;
 }

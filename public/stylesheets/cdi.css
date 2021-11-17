@@ -79,13 +79,10 @@ hr{
   width:100%;
 }
 
-.cdi-img img {
+.cdi-img video{
   width:100%;
-       /* ie purpose */
-  flex: 1 0 auto;
-  min-height: 1px;
- 
 }
+
 
 .cdi-banner video{
    width:auto;
@@ -360,7 +357,7 @@ min-height: 1px;
   margin-top:5rem;
 }
 
-.cdi-img img {
+.cdi-img video {
   width:80%;
   margin-left:10%;
  

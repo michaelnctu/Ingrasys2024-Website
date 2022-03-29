@@ -816,6 +816,49 @@ canvas{
 
 }
 
+/* event */
+
+.event-container {
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  border:solid red;
+  background-color:#F0F0F0;
+}
+
+.event-banner{
+border:solid red;
+background-color:#BF5E87;
+width:100%;
+}
+
+.evnet-line h1{
+  font-family: Roboto;
+}
+.event-banner img{
+  width:100%;
+}
+
+.event-content {
+  border:solid green;
+  width:85%;
+  padding:5% 5%;
+  background-color:#BF5E87;
+  position:relative;
+  top:-12px;
+;
+}
+
+.btn-default {
+  border-radius:50px ;
+  border:none;
+  color:#BF5E87;
+  font-size:1.5rem;
+  position:relative;
+  margin-left: 50%;
+
+}
 /* 
 product */
 

@@ -1041,7 +1041,7 @@ product */
   margin-left: 20%;
 }
 
-.item-title {
+.item-title-footer {
   color: white !important;
   width: 80%;
   display: flex;
@@ -1652,7 +1652,7 @@ product */
     margin-left: 0;
   }
 
-  .item-title {
+  .item-title-footer {
     display: none;
     width: 100%;
 

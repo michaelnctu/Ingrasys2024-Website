@@ -915,6 +915,10 @@ product */
 
 }
 
+.product-vid {
+  width: 100%;
+}
+
 
 /* news */
 
@@ -1034,7 +1038,7 @@ product */
 
 .footer-content {
   width: 80%;
-
+  margin-left: 20%;
 }
 
 .item-title {
@@ -1591,8 +1595,8 @@ product */
   .prdouct-img {
     width: 50%;
 
-
   }
+
 
   .prdouct-img img {
     width: 100%;
@@ -1662,7 +1666,7 @@ product */
   }
 
   .collapse-open a {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     opacity: 0.8;
     overflow: hidden;
     white-space: nowrap;
@@ -1670,7 +1674,7 @@ product */
 
   .title-web {
     display: block;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: left;
     /* border: solid red; */
   }

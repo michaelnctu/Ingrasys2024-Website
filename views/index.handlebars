@@ -41,7 +41,7 @@
 
   </div>
 
-  <div class="custom-container">
+  {{!-- <div class="custom-container">
     <div class="event-container">
       <div class="event-banner">
         <img id="computex-small" src="./assets/img/index/computex-small.png" alt="computex">
@@ -63,7 +63,7 @@
 
 
 
-  </div>
+  </div> --}}
 
 
 
@@ -166,11 +166,7 @@
       <div class="about-content">
 
         <div class="about-img">
-          {{!-- <video preload="auto" loop="" muted="" autoplay="">
-            <source src="./assets/img/index/globe_cut2.mp4" type="video/mp4">
-            <source src="movie.ogg" type="video/ogg">
 
-          </video> --}}
           <img src="./assets/img/index/6ele.png" alt="">
 
         </div>
@@ -239,7 +235,11 @@
     <div class="csr-wrapper product-wrapper">
 
       <div class="prdouct-img">
-        <img src="./assets/img/products/storage/es2000/card-irene.png" alt="none">
+
+        <video class="product-vid" controls="true" poster="/assets/img/index/mod-cover.jpg">
+          <source src="/assets/img/index/hpm20220506.mp4" type="video/mp4" />
+        </video>
+
       </div>
       <br>
 
@@ -249,18 +249,19 @@
         <div class="title-box title-left-align">
           {{!-- <h class="focus-title-small">ES2000</h> --}}
           <h1 class="focus-title">Ingrasys<br>
-            Latest Products</h1>
+            Next Generation Servers</h1>
           <h class="line"> </h>
         </div>
 
         <div class="csr-content">
           <p>
-            Our latest ES2000, a revolutionary NVMe-oF system to redefine next generation storage
-
+            Our modular design concept
+            re-defines the next generation IT solution offerings.
           </p>
           <br>
-          <a href="/es2000" class="btn btn-underline active " role="button" style="text-decoration:underline;">Learn
-            More <i class="fas fa-arrow-right"></i></a>
+          {{!-- <a href="/es2000" class="btn btn-underline active " role="button"
+            style="text-decoration:underline;">Learn
+            More <i class="fas fa-arrow-right"></i></a> --}}
 
         </div>
 
@@ -278,7 +279,7 @@
 
   {{!-- upcoming event --}}
 
-  {{!-- <div class="custom-container">
+  <div class="custom-container">
     <div class="event-wrapper">
       <div class="title-box title-left">
         <h1 class="focus-title">Upcoming Events</h1>
@@ -286,7 +287,7 @@
       </div>
 
       <div class="event-img">
-        <img src="./assets/img/index/sc21-banner.png" alt="">
+        <img src="./assets/img/index/computex.jpeg" alt="">
       </div>
 
       <a href="https://sc21.supercomputing.org/" class="btn btn-underline active " role="button"
@@ -297,7 +298,7 @@
 
 
 
-  </div> --}}
+  </div>
 
 
 

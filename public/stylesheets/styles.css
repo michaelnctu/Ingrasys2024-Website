@@ -1032,9 +1032,8 @@ product */
   display: none;
 }
 
-.item-content {
+.footer-content {
   width: 80%;
-  margin-left: 20%;
 
 }
 
@@ -1052,7 +1051,7 @@ product */
 .collapse-open {
   width: 80%;
   text-align: left;
-  margin-left: 20px;
+  margin-left: 1rem;
   margin-bottom: 1rem;
 
 }
@@ -1248,7 +1247,7 @@ product */
   }
 
   .header-img {
-    width: 20rem;
+    width: 15rem;
 
   }
 
@@ -1642,7 +1641,7 @@ product */
     min-height: 1px;
   }
 
-  .item-content {
+  .footer-content {
     all: unset;
     display: inline-block;
     width: auto;

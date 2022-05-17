@@ -95,6 +95,12 @@ app.get('/download', (req, res) => {
   res.render('download', { dlCSS: true })
 })
 
+app.get('/privacy-and-policy', (req, res) => {
+  res.render('privacy-and-policy', { csrCSS: true })
+})
+
+
+
 
 
 

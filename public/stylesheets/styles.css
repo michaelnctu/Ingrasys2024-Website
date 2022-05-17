@@ -1019,6 +1019,7 @@ product */
 }
 
 .footer-item {
+
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 3rem;
@@ -1037,19 +1038,21 @@ product */
 }
 
 .footer-content {
-  width: 80%;
-  margin-left: 20%;
+  width: 90%;
+  margin-left: 10%;
+
 }
 
 .item-title-footer {
   color: white !important;
-  width: 80%;
+  width: 90%;
   display: flex;
   cursor: pointer;
   justify-content: space-between;
   border-bottom: solid rgb(223, 219, 219);
   padding-bottom: 8px;
   margin-bottom: 10px;
+
 }
 
 .collapse-open {

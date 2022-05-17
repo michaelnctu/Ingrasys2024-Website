@@ -1,5 +1,6 @@
-ul,li {
-  color:white;
+ul,
+li {
+  color: white;
 }
 
 /* .under-header{
@@ -22,95 +23,104 @@ ul,li {
   color:#F58522;
 } */
 
-.csr-banner{
-  width:100%;
-  height:60vh;
-  background-size:cover ;
+.csr-banner {
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
   background-position: center;
   background-image: url("/assets/img/csr/csr1.png");
 }
- 
+
+.pp-banner {
+  width: 100%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+
+}
 
 
 .csr-banner img {
   object-position: center;
-  max-width:100%;
-  min-height:80%;
+  max-width: 100%;
+  min-height: 80%;
 }
 
-.csr-wrapper{
-width:90%;
-margin-left:5%;
-padding:3rem;
-background: rgba(151, 140, 140, 0.2);
-border-radius: 10px;
-display:flex;
-flex-direction:column;
+.csr-wrapper {
+  width: 90%;
+  margin-left: 5%;
+  padding: 3rem;
+  background: rgba(151, 140, 140, 0.2);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
-.csr-bottom{
+.csr-bottom {
   background-size: 100% 100%;
   background-size: cover;
   background-position: center;
-   /* background-image: url("/assets/img/backgrounds/productsMain.jpg"); */
+  /* background-image: url("/assets/img/backgrounds/productsMain.jpg"); */
 }
 
-.csr-p1, .csr-p2, .csr-p3{
+.csr-p1,
+.csr-p2,
+.csr-p3 {
 
-  width:100%;
+  width: 100%;
 }
 
-.csr-wrapper h1{
+.csr-wrapper h1 {
   color: #F58522;
   font-size: 2rem;
-  line-height:100%;;
-  font-weight:bold;
+  line-height: 100%;
+  ;
+  font-weight: bold;
 }
 
-.csr-wrapper p{
-  width:100%;
-  font-size:1.2rem;
-  line-height:130%;
+.csr-wrapper p {
+  width: 100%;
+  font-size: 1.2rem;
+  line-height: 130%;
 }
 
-.csr-wrapper li{
-  font-size:1rem;
-  line-height:150%;
+.csr-wrapper li {
+  font-size: 1rem;
+  line-height: 150%;
 }
 
 
 @media screen and (min-width:768px) {
-  .csr-wrapper h1{
-  font-size: 2.3rem;
+  .csr-wrapper h1 {
+    font-size: 2.3rem;
 
-}
+  }
 
-.csr-wrapper p{
-  font-size:1.5rem;
-}
+  .csr-wrapper p {
+    font-size: 1.5rem;
+  }
 
- .csr-wrapper li{
-  font-size:1.4rem;
-}
+  .csr-wrapper li {
+    font-size: 1.4rem;
+  }
 
 }
 
 
 
 @media screen and (min-width:1024px) {
-  .csr-wrapper h1{
-  font-size: 3rem;
- 
-}
+  .csr-wrapper h1 {
+    font-size: 3rem;
 
-.csr-wrapper p{
-  font-size:2.3rem;
-  line-height:3.5rem;
-}
+  }
 
- .csr-wrapper li{
-  font-size:2rem;
-}
+  .csr-wrapper p {
+    font-size: 2.3rem;
+    line-height: 3.5rem;
+  }
+
+  .csr-wrapper li {
+    font-size: 2rem;
+  }
 
 }
-

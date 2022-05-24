@@ -99,6 +99,10 @@ app.get('/privacy-and-policy', (req, res) => {
   res.render('privacy-and-policy', { csrCSS: true })
 })
 
+app.get('/amd', (req, res) => {
+  res.render('amd', { amdCSS: true })
+})
+
 
 
 

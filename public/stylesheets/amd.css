@@ -1,0 +1,299 @@
+hr {
+  background-color: #e7eaf3 !important;
+  opacity: 1 !important;
+}
+
+
+.hpm {
+  color: #F58522
+}
+
+.bar-bottom {
+  padding-top: 5rem;
+  padding-bottom: 25rem;
+
+  background-color: #121212;
+
+}
+
+
+
+/* 影片的容器 */
+.upper-cdi {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #121212;
+  z-index: -5;
+
+
+}
+
+.cdi-banner {
+  width: 100%;
+
+  height: 100%;
+  ;
+  position: relative;
+  /* ie purpose */
+  flex: 1 0 auto;
+  min-height: 1px;
+  z-index: -8;
+  ;
+
+  padding: 0;
+}
+
+.cdi-banner:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #000000;
+  box-sizing: border-box;
+  z-index: -5;
+}
+
+.cdi-banner img {
+  width: auto;
+  min-height: 100vh;
+  z-index: -500;
+  position: absolute;
+  bottom: -300px;
+  left: -300px;
+  ;
+}
+
+
+.cdi-text {
+  position: relative;
+  padding-left: 5%;
+  width: 100%;
+
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cdi-text p {
+  font-size: 1.5rem;
+
+}
+
+
+
+.cdi-img {
+  position: relative;
+  width: 100%;
+
+  /* The height of the item will now be 56.25% of the width. if the width is 70%, 則為了成比例要把56.25%乘上70%*/
+}
+
+
+
+.cdi-img video {
+  width: 100%;
+
+}
+
+
+
+.cdi-container {
+  width: 80%;
+  margin-left: 10%;
+
+}
+
+.cdi-container h {
+  font-size: 2.2rem;
+}
+
+.cdi-container p {
+  font-size: 1.4rem;
+  margin-left: 1rem;
+
+}
+
+/* 產品格子 */
+
+.product-wrapper {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.card {
+  background-color: transparent;
+  /* height:700px; */
+  position: relative;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 1px solid #e7eaf3;
+  border-radius: 0.3125rem;
+}
+
+.card {
+  width: 100%;
+  /* flex: 1 0 auto; */
+  min-height: 1px;
+
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.card-img-top {
+  /* ie purpose */
+  flex: 1 0 auto;
+  min-height: 1px;
+}
+
+.card img {
+  flex: 1 0 auto;
+  min-height: 1px;
+  width: 100% !important;
+
+}
+
+.card-title {
+  font-size: 1.8em;
+  line-height: 1.5em
+}
+
+.text-box li {
+  width: 100%;
+}
+
+.card-text {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #00285E !important;
+  border-color: #00285E !important;
+}
+
+
+
+
+@media (min-width: 768px) {
+
+
+  /* 軟體層次 */
+
+  .cdi-img {
+    position: relative;
+    margin-left: 25%;
+    width: 50%;
+
+  }
+
+  .cdi-text {
+    /* all: unset; */
+    position: relative;
+    padding-left: 0;
+    width: 70%;
+    bottom: 50%;
+    left: 40%;
+    transform: translate(-50%, 0%);
+  }
+
+  .cdi-text p {
+    font-size: 2rem;
+
+  }
+
+
+  /* product */
+
+  .product-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+
+  }
+
+  .card {
+    width: 30%;
+    ;
+    margin: 3%;
+    margin-left: 0rem;
+
+  }
+
+
+  .cdi-container h {
+    font-size: 2.5rem;
+  }
+
+  .cdi-container p {
+    font-size: 1.8rem;
+  }
+
+
+
+
+
+}
+
+@media (min-width: 1280px) {
+
+  .cdi-text {
+    /* all: unset; */
+    position: relative;
+    padding-left: 0;
+    width: 50%;
+    bottom: 50%;
+    left: 30%;
+    transform: translate(-50%, 0%);
+  }
+
+  .cdi-text p {
+    font-size: 2.5rem;
+
+  }
+
+  .cdi-container h {
+    font-size: 2.5rem;
+  }
+
+  .cdi-container p {
+    font-size: 1.8rem;
+  }
+}
+
+/* for iphone mini height */
+
+@media(max-height:400px) {
+  .cdi-text {
+    top: 70%;
+  }
+}
+
+/* 大尺寸寬度超過1920px */
+@media(min-width: 1920px) {
+
+
+
+  .cdi-banner img {
+    width: 100%;
+    /* min-height: 100vh; */
+    z-index: -5;
+  }
+
+}

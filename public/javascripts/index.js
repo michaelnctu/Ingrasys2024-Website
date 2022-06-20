@@ -4,50 +4,50 @@
 
 
 
-$(document).ready(function () {
+// $(document).ready(function () {
 
-  // $('.sub-btn').click(function () {
-  //   // $('.sub-menu').slideUp();
-  //   // $(this).next('.sub-menu').slideToggle();
+//   // $('.sub-btn').click(function () {
+//   //   // $('.sub-menu').slideUp();
+//   //   // $(this).next('.sub-menu').slideToggle();
 
-  //   $(this).find('.dropdown').toggleClass('rotate');
-  // });
-  $('.sub-btn').click(function () {
+//   //   $(this).find('.dropdown').toggleClass('rotate');
+//   // });
+//   $('.sub-btn').click(function () {
 
-    // $(this).toggleClass('submenu-open').parent('div').siblings('div').children('a.submenu-open').removeClass('submenu-open');
+//     // $(this).toggleClass('submenu-open').parent('div').siblings('div').children('a.submenu-open').removeClass('submenu-open');
 
-    $(this).find('.dropdown').toggleClass('rotate');
+//     $(this).find('.dropdown').toggleClass('rotate');
 
-    $('html, body').animate({
-      scrollTop: (0),
-    }, "fast");
+//     $('html, body').animate({
+//       scrollTop: (0),
+//     }, "fast");
 
-    $(this).parent().toggleClass('submenu-open').children('div').slideToggle(300).end().siblings('.submenu-open').removeClass('submenu-open').children('div').slideUp(300).parent().children('.sub-btn').children('.dropdown').toggleClass('rotate');
-
-
-
-    // $(this).find('.dropdown').toggleClass('rotate');
-    // $('html, body').animate({
-    //   scrollTop: (0),
-    // }, "fast"); /*this will scroll upto the top, not sure if I want to use this yet */
-  });
-
-
-});
-
-$(document).ready(function () {
-  $(".hamburger").click(function () {
-    $(this).toggleClass("is-active");
-    $('.menu').toggleClass('active');
-    $('.blur-mask').toggleClass('active');
-
-
-  });
+//     $(this).parent().toggleClass('submenu-open').children('div').slideToggle(300).end().siblings('.submenu-open').removeClass('submenu-open').children('div').slideUp(300).parent().children('.sub-btn').children('.dropdown').toggleClass('rotate');
 
 
 
+//     // $(this).find('.dropdown').toggleClass('rotate');
+//     // $('html, body').animate({
+//     //   scrollTop: (0),
+//     // }, "fast"); /*this will scroll upto the top, not sure if I want to use this yet */
+//   });
 
-});
+
+// });
+
+// $(document).ready(function () {
+//   $(".hamburger").click(function () {
+//     $(this).toggleClass("is-active");
+//     $('.menu').toggleClass('active');
+//     $('.blur-mask').toggleClass('active');
+
+
+//   });
+
+
+
+
+// });
 
 // ParticlesJS Config.
 particlesJS("particles-js", {
@@ -207,17 +207,7 @@ function MultiCarousel($thisSlide, $maxSize) {
 
 }
 
-/* Initializing Multi-Carousel */
 
-// Initialize one instance
-// $( "#JeansCarousel .carousel-item" ).each( function() {
-//   MultiCarousel( $( this ), 4 );
-// });
-
-// Initialize many instances
-// $(".jeans-carousel .carousel-item").each(function () {
-//   MultiCarousel($(this), 4);
-// });
 
 
 $(document).ready(function () {
@@ -240,4 +230,29 @@ $(document).ready(function () {
 
 });
 
+$('.dropdown-toggle').dropdown();
 
+
+// (function ($) { // Begin jQuery
+//   $(function () { // DOM ready
+//     // If a link has a dropdown, add sub menu toggle.
+//     $('nav ul li a:not(:only-child)').click(function (e) {
+//       $(this).siblings('.nav-dropdown').toggle();
+//       // Close one dropdown when selecting another
+//       $('.nav-dropdown').not($(this).siblings()).hide();
+//       e.stopPropagation();
+//     });
+//     // Clicking away from dropdown will remove the dropdown class
+//     $('html').click(function () {
+//       $('.nav-dropdown').hide();
+//     });
+//     // Toggle open and close nav styles on click
+//     $('#nav-toggle').click(function () {
+//       $('nav ul').slideToggle();
+//     });
+//     // Hamburger to X toggle
+//     $('#nav-toggle').on('click', function () {
+//       this.classList.toggle('active');
+//     });
+//   }); // end DOM ready
+// })(jQuery); // end jQuery

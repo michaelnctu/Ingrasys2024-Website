@@ -27,16 +27,18 @@ hr {
 
 .cooling-banner {
   width: 100%;
-  height: 100%;
+  height: 99vh;
   ;
-  position: absolute;
+  /* position: absolute; */
+  top: 0px;
   /* ie purpose */
   flex: 1 0 auto;
   min-height: 1px;
-  z-index: -8;
+
   ;
 
   padding: 0;
+  border: solid red;
 }
 
 .cooling-banner:after {
@@ -62,9 +64,11 @@ hr {
 
 .cooling-text {
   position: absolute;
+
   width: 80%;
   margin-left: 10%;
   bottom: 40vh;
+  z-index: 990
 }
 
 .cooling-text h1 {
@@ -145,7 +149,7 @@ hr {
 .tab-set h {
   text-align: center;
   width: 100%;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 2rem;
 }
 
@@ -690,7 +694,7 @@ th {
 
   .tab-set h {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 1.8rem;
   }
 
@@ -1047,7 +1051,7 @@ usage */
 
   .tab-set h {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 2rem;
   }
 
@@ -1074,11 +1078,11 @@ usage */
 
 
   .cooling-text h1 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .cooling-text p {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 
   .tab-container ul {

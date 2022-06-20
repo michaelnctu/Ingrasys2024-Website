@@ -17,7 +17,7 @@
   <meta http-equiv="X-UA-Compatible" content="chrome=1"> --}}
   <title>Ingrasys Official Website</title>
   <meta name="description"
-    content="Ingrasys delivers exceptional datacenter solutions with our wide range of HPC products, Coposable Infrastructue and advanced cooling solutions.">
+    content="Ingrasys delivers exceptional datacenter solutions with our wide range of HPC products, Composable HCI and Advanced cooling solutions.">
   <meta name="keywords"
     content="HPC, Cooling, Compute, Server, Ingrasys, Foxconn, foxconn Industrial Internet, data center server, hyperscale hardware, general purpose servers, multi-node servers, high density servers, 1U servers, 2U servers, 3U servers, 4U servers, business critical servers, high density storage, storage servers, JBOD, bare metal switch, ethernet switch, network virtualization, data center switch, rack system, rack architecture, open rack solution, compute blades, storage blades, Open CloudServer, Open Compute Project, enterprise datacenters, mezzanine cards, OCP network mezzanine,  Network mezzanine,SAS mezzanine, cluster server, GPGPU servers, Xeon Phi servers, microserver, storage appliance, Spine Switch, Leaf Switch, Management Switch, QuantaPlex, QuantaGrid, STRATOS, QuantaMicro, QuantaVault, QuantaMesh, QuantaMesh BMS, Rackgo X, Rackgo-M, Rackgo X-RSD,  Desktop Virtualization, Compute Virtualization, Storage Virtualization, Big Data, data center solution,data center switch architecture, data center server, hyperscale hardware, general purpose servers, multi-node servers, high density servers, 1U servers, 2U servers, 3U servers, 4U servers, business critical servers, high density storage, storage servers, JBOD, bare metal switch, ethernet switch, network virtualization, data center switch, rack system, rack architecture, open rack solution, compute blades, storage blades, Open CloudServer, Open Compute Project, enterprise datacenters, mezzanine cards, Cooling, Composable Infrastructure ">
 
@@ -37,7 +37,10 @@
   <link rel="stylesheet" href="/stylesheets/styles.css">
 
   {{!-- font-awesome --}}
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous" />
+  {{!-- font-awesome --}}
+  {{!--
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous" /> --}}
+
   <link rel="stylesheet" href="/stylesheets/styles.css">
 
   {{#if dlCSS}}
@@ -55,6 +58,11 @@
   {{#if amdCSS}}
   <link rel="stylesheet" href="/stylesheets/amd.css">
   {{/if}}
+  {{#if eventsCSS}}
+  <link rel="stylesheet" href="/stylesheets/events.css">
+  {{/if}}
+
+
 
   {{#if aboutCSS}}
   <link rel="stylesheet" href="/stylesheets/about.css">
@@ -85,6 +93,8 @@
   <header>
     <div class="navbar navbar-inverse">
       <div class="container-fluid">
+
+
         <div class="navbar-header">
 
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -144,7 +154,18 @@
 
         </div>
 
+        <button type="button" class="btn btn-primary nav-cont-btn" data-toggle="modal" data-target="#exampleModal"
+          data-whatever="@mdo">Contact us</button>
+
+
+
+
       </div>
+
+
+
+
+
     </div>
 
 
@@ -769,8 +790,7 @@
         </div>
         <div href="#" class="footer-item footer-logo">
           <div class="footer-logo">
-            <img src="/assets/img/logos/Ingrasys logo_white2.svg
-                                              " alt="Ingrasy logo" class="footer-img">
+            <img src="/assets/img/logos/Ingrasys logo_white2.svg" alt="Ingrasy logo" class="footer-img">
             <p class="copyright">© 2022 Ingrasys Technology Inc. All rights reserved.
 
             </p>
@@ -798,6 +818,8 @@
   email.js --}}
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="https://kit.fontawesome.com/d66b7d84e9.js" crossorigin="anonymous"></script>
+
   <script type="text/javascript">
     (function () {
       emailjs.init("user_F3WIhuvxwbFpVZSoElbgR");

@@ -105,6 +105,9 @@ app.get('/amd', (req, res) => {
 
 
 
+app.get('/events', (req, res) => {
+  res.render('events', { eventsCSS: true })
+})
 
 
 

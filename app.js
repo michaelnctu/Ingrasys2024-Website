@@ -103,10 +103,15 @@ app.get('/amd', (req, res) => {
   res.render('amd', { amdCSS: true })
 })
 
-
+//活動頁
 
 app.get('/events', (req, res) => {
   res.render('events', { eventsCSS: true })
+})
+
+//單頁活動頁
+app.get('/event', (req, res) => {
+  res.render('./event', { eventCSS: true })
 })
 
 

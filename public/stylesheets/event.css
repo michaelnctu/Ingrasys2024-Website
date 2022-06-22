@@ -78,10 +78,6 @@ hr {
 
 
 
-
-
-
-
 /* upcoming tag */
 .author {
   position: absolute;
@@ -140,31 +136,17 @@ hr {
 
 
 
-.row {
-  margin: 15px;
+/* gallery */
+
+/* .gallery {
+  border: solid red;
 }
+ */
 
-
-/* 
-gallery */
-
-
-
-/* .gallery-container p.page-description {
-  text-align: center;
-  margin: 25px auto;
-  font-size: 18px;
-  color: #999;
-}
-
-.tz-gallery {
-  padding: 40px;
-} */
-
-/* Override bootstrap column paddings */
+/* Override bootstrap column paddings
 .tz-gallery .row>div {
   padding: 2px;
-}
+} */
 
 .tz-gallery .lightbox img {
   width: 100%;
@@ -188,7 +170,6 @@ gallery */
   transition: 0.4s;
 }
 
-
 .tz-gallery .lightbox:after {
   position: absolute;
   top: 0;
@@ -196,7 +177,7 @@ gallery */
   width: 100%;
   height: 100%;
   opacity: 0;
-  background-color: rgba(46, 132, 206, 0.7);
+  background-color: rgba(46, 131, 206, 0.185);
   content: '';
   transition: 0.4s;
 }
@@ -210,19 +191,30 @@ gallery */
   background-color: transparent !important;
 }
 
-.mobile-scroll-box {
-  border: solid red;
-  overflow: hidden;
-  width: 100%;
-  /* Hide scrollbars */
 
+.scrollmenu {
+  /* mobile 看起來有連續感 */
+  width: 110%;
+  overflow: auto;
+  white-space: nowrap !important;
 }
 
-.mobile-scroll-box div {
-  width: 50px;
-  /* Hide scrollbars */
-
+div.scrollmenu .a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 5px;
 }
+
+.mobile-pic {
+  width: 50%;
+}
+
+
+div.scrollmenu .a:hover {
+  background-color: #777;
+}
+
 
 
 
@@ -247,8 +239,6 @@ gallery */
 
   }
 
-
-
   .media-list {
     width: unset;
     display: flex;
@@ -266,16 +256,24 @@ gallery */
 
 
 
+  .scrollmenu {
+    /* mobile 看起來有連續感 */
+    width: 100%;
+    overflow: auto;
+    white-space: nowrap;
+  }
 
 
 
 
+  .mobile-pic {
+    width: 20%;
+  }
 
 }
 
 .card {
   width: 30%;
-  ;
   margin: 3%;
   margin-left: 0rem;
 

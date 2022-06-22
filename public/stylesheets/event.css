@@ -107,13 +107,13 @@ hr {
   border-radius: 0.3125rem;
 }
 
-.card {
-  width: 100%;
-  /* flex: 1 0 auto; */
-  min-height: 1px;
 
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+
+.card {
+  width: 30%;
+  margin: 3%;
+  margin-left: 0rem;
+
 }
 
 .card-img-top {
@@ -138,10 +138,7 @@ hr {
 
 /* gallery */
 
-/* .gallery {
-  border: solid red;
-}
- */
+
 
 /* Override bootstrap column paddings
 .tz-gallery .row>div {
@@ -207,14 +204,13 @@ div.scrollmenu .a {
 }
 
 .mobile-pic {
-  width: 50%;
+  width: 70%;
 }
 
 
 div.scrollmenu .a:hover {
   background-color: #777;
 }
-
 
 
 
@@ -254,27 +250,14 @@ div.scrollmenu .a:hover {
   }
 
 
-
-
   .scrollmenu {
     /* mobile 看起來有連續感 */
     width: 100%;
-    overflow: auto;
-    white-space: nowrap;
+
   }
-
-
-
 
   .mobile-pic {
     width: 20%;
   }
-
-}
-
-.card {
-  width: 30%;
-  margin: 3%;
-  margin-left: 0rem;
 
 }

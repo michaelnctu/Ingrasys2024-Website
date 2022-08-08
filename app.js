@@ -114,6 +114,11 @@ app.get('/event', (req, res) => {
   res.render('./event', { eventCSS: true })
 })
 
+//modular design
+app.get('/modular', (req, res) => {
+  res.render('./modular', { modCSS: true })
+})
+
 
 
 // // Listen the server when it started

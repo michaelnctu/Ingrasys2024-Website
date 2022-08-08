@@ -339,13 +339,25 @@ section {
 
 .content-video {
   width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  /* proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
+  height: 0;
+  overflow: hidden;
 }
 
-.content-video video {
+
+.content-video iframe {
   width: 100%;
-  display: block;
-  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
 }
+
+
+
+
 
 
 .content-img {

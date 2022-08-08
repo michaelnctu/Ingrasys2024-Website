@@ -28,25 +28,48 @@ $(window).scroll(function () {
 });
 
 
+// // Javascript to enable link to tab
+// var url = document.location.toString();
+
+// if (url.match('#')) {
+//   $('.nav-pills a[href="#' + url.split('#')[1] + '"]').tab('show');
+//   console.log('done')
+// }
+// 
+
 // Javascript to enable link to tab
-var url = document.location.toString();
+// var hash = document.location.hash;
+// var prefix = "tab_";
+// if (hash) {
+//   $('.nav-pills a[href=' + hash.replace(prefix, "") + ']').tab('show');
+// }
 
-if (url.match('#')) {
-  $('.nav-pills a[href="#' + url.split('#')[1] + '"]').tab('show');
-  console.log('done')
-}
-
-// With HTML5 history API, we can easily prevent scrolling!
-$('.nav-pills a').on('shown.bs.tab', function (e) {
-  console.log('done')
-  if (history.pushState) {
-    history.pushState(null, null, e.target.hash);
-  } else {
-    window.location.hash = e.target.hash; //Polyfill for old browsers
-  }
-})
+// // Change hash for page-reload
+// $('.nav-pills a').on('shown.bs.tab', function (e) {
+//   window.location.hash = e.target.hash.replace("#", "#" + prefix);
+// });
 
 
+
+// // With HTML5 history API, we can easily prevent scrolling!
+// $('.nav-pills a').on('shown.bs.tab', function (e) {
+//   console.log('done')
+//   if (history.pushState) {
+//     history.pushState(null, null, e.target.hash);
+//   } else {
+//     window.location.hash = e.target.hash; //Polyfill for old browsers
+//   }
+// })
+
+$(function () {
+  var hash = window.location.hash;
+  hash && $('ul.nav.nav-pills a[href="' + hash + '"]').tab('show');
+  $('ul.nav.nav-pills a').click(function (e) {
+    $(this).tab('show');
+    $('body').scrollTop();
+    window.location.hash = this.hash;
+  });
+});
 
 var initSubject = '', initBody = '';
 

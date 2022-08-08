@@ -53,8 +53,8 @@
     {
       "id": 2,
       "city": "Guadalajara",
-      "address": "Del Bosque 1170, Vista Hermosa, 45590 San Pedro Tlaquepaque, Jal., Mexico",
-      "map": "https://goo.gl/maps/sc9StezDncQcgQ4LA",
+      "address": "Avenida del Bosque No. 1170, Parque Industrial el Bosque II,Col. Las Pintas, San Pedro Tlaquepaque, Jalisco, México C.P. 45619 ",
+      "map": "https://goo.gl/maps/smRyEtw66VEbPRrD9",
       "image": "/assets/img/about/gdl.jpg",
       "function": "Operation"
     }
@@ -64,7 +64,7 @@
       "id": 1,
       "city": "Tianjin",
       "address": "No 36, North Street, West zone, Economic & Technological Development Area, TianJin, China",
-      "map": "https://goo.gl/maps/sc9StezDncQcgQ4LA",
+      "map": "https://goo.gl/maps/7Wo9J9LZFZzU31ua9",
       "image": "/assets/img/about/tienjin.jpg",
       "function": "Operation"
     },

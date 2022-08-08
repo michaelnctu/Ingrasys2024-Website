@@ -29,6 +29,7 @@
 
 
   {{!-- event區域的gallery --}}
+
   <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
 
   {{!-- carousel --}}
@@ -70,7 +71,9 @@
   <link rel="stylesheet" href="/stylesheets/event.css">
   {{/if}}
 
-
+  {{#if modCSS}}
+  <link rel="stylesheet" href="/stylesheets/mod.css">
+  {{/if}}
 
   {{#if aboutCSS}}
   <link rel="stylesheet" href="/stylesheets/about.css">
@@ -163,8 +166,8 @@
 
         </div>
 
-        <button type="button" class="btn btn-primary nav-cont-btn" data-toggle="modal" data-target="#exampleModal"
-          data-whatever="@mdo">Contact us</button>
+        {{!-- <button type="button" class="btn btn-primary nav-cont-btn" data-toggle="modal" data-target="#exampleModal"
+          data-whatever="@mdo">Contact us</button> --}}
 
 
 
@@ -825,7 +828,8 @@
   <!-- jquery -->
   {{!--
   email.js --}}
-  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" defer="defer"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
   <script src="https://kit.fontawesome.com/d66b7d84e9.js" crossorigin="anonymous"></script>
 

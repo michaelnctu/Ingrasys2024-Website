@@ -357,12 +357,19 @@ ul {
 
 /* video */
 .intro-video {
+  position: relative;
   width: 80%;
+  padding-bottom: 45%;
   margin-left: 10%;
+  overflow: hidden;
 }
 
-.intro-video video {
+.intro-video iframe {
   width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
 }
 
 
@@ -599,11 +606,14 @@ th {
 
   }
 
-  .intro-video video {
+  .intro-video {
+    position: relative;
     width: 70%;
-    display: block;
-    margin: auto;
+    padding-bottom: 39.375%;
+    margin-left: 15%;
+    overflow: hidden;
   }
+
 
 
   .app-container {

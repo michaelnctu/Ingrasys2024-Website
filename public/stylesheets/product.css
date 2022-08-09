@@ -14,6 +14,10 @@
   }
 }
 
+.trial{
+  color:white
+}
+
 @media screen and (max-width: 767px) {
   .responsive-tabs {
     position: relative;

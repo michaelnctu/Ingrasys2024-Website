@@ -18,6 +18,11 @@
 /* position: fixed; */
 /* } */
 
+.test2 {
+color: #00285E;
+text-overflow: clip;
+}
+
 */ .navbar {
   position: absolute;
   top: 0px;

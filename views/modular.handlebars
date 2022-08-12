@@ -3,125 +3,111 @@
 
   <div class="custom-container ">
 
+
     <div class="banner-background">
-      <div class="mod-pic">
-        <img src="" alt="">
-      </div>
+
       <div class="mod-text">
         <h1>Modular Design, Our Next Big Thing</h1>
         <p>Truly flexible systems create maximum possibilities
         </p>
-
         <button class="video-play"> </button>
       </div>
+
+      <div class="mod-pic">
+        <img src="/assets/img/mod/mod-index.png" alt="">
+      </div>
+
+
+
+
     </div>
-
-
 
 
   </div>
 
 
-  {{!--
-  <div class="custom-container ">
-
-    <div class="tab-container">
-      <ul class="nav nav-pills" id="pills-tab" role="tablist">
-        <li class="active">
-          <a data-toggle="pill" href="#home">
-            <div class="tab-set">
-              <div class="tab-img">
-                <img src="./assets/img/cooling/overview.png" alt="">
-              </div>
-              <br>
-              <h>
-                Overview
-              </h>
-
-            </div>
-          </a>
+  <div class="card">
+    <div class="card-header">
+      <ul class="nav nav-tabs card-header-tabs" id="outerTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#tabc" aria-controls="tabc" role="tab"
+            aria-expanded="true">Tab-1</a>
         </li>
-        <div class="vl"></div>
-        <li>
-          <a data-toggle="pill" href="#menu1">
-            <div class="tab-set">
-              <div class="tab-img">
-                <img src="./assets/img/cooling/rack.png" alt="">
-              </div>
-              <br>
-              <h>
-                Rack-Level Liquid Cooling
-              </h>
-            </div>
-          </a>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#tabb" aria-controls="tabb" role="tab">Tab-2</a>
         </li>
-        <div class="vl"></div>
-        <li>
-          <a data-toggle="pill" href="#menu2">
-
-            <div class="tab-set">
-              <div class="tab-img">
-                <img src="./assets/img/cooling/tank.png" alt="">
-              </div>
-              <br>
-              <h>
-                Immersion Cooling
-              </h>
-            </div>
-          </a>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#taba" aria-controls="taba" role="tab">Tab-3</a>
         </li>
       </ul>
-
     </div>
-
-
-
-  </div> --}}
-
-  {{!-- <div class="tab-content bar-bottom">
-    <div id="home" class="tab-pane fade in active">
-
-      <div class="custom-container">
-        <img src="./assets/img/mod/1.png" alt="">
-
-      </div>
-
-
-    </div>
-
-    <div id="menu1" class="tab-pane fade in active">
-
-      <div class="custom-container">
-        <div class="custom-container">
-          <img src="./assets/img/mod/2.png" alt="">
-
+    <div class="card-body tab-content">
+      <div class="tab-pane active" id="tabc" role="tabpanel">
+        Content for Tab-1 and:
+        <div class="card">
+          <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs" id="innerTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#tab1" aria-controls="tab1" role="tab"
+                  aria-expanded="true">Nested Tab-1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab2" aria-controls="tab2" role="tab">Nested Tab-2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tab3" aria-controls="tab3" role="tab">Nested Tab-2</a>
+              </li>
+            </ul>
+          </div>
+          <div class="card-body tab-content">
+            <div class="tab-pane active" id="tab1" role="tabpanel">
+              Content for Nested Tab-1
+            </div>
+            <div class="tab-pane" id="tab2" role="tabpanel">
+              Content for Nested Tab-2
+            </div>
+            <div class="tab-pane" id="tab3" role="tabpanel">
+              Content for Nested Tab-3
+            </div>
+          </div>
         </div>
-
       </div>
+      <div class="tab-pane" id="tabb" role="tabpanel">
+        Content for Tab-2
 
-
-
-    </div>
-
-    <div id="menu2" class="tab-pane fade in active">
-
-      <div class="custom-container">
-        <div class="custom-container">
-          <img src="./assets/img/mod/3.png" alt="">
-
+        <div class="card">
+          <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs" id="innerTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#ta1" aria-controls="ta1" role="tab"
+                  aria-expanded="true">fucks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#ta2" aria-controls="ta2" role="tab">fucks-2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#ta3" aria-controls="tab3" role="tab">Nfucksb-2</a>
+              </li>
+            </ul>
+          </div>
+          <div class="card-body tab-content">
+            <div class="tab-pane active" id="ta1" role="tabpanel">
+              fucks-2Tab-1
+            </div>
+            <div class="tab-pane" id="ta2" role="tabpanel">
+              fucks-2 Tab-2
+            </div>
+            <div class="tab-pane" id="ta3" role="tabpanel">
+              fucks-2 Tab-3
+            </div>
+          </div>
         </div>
-
       </div>
-
-
-
+      <div class="tab-pane" id="taba" role="tabpanel">
+        Content for Tab-3
+      </div>
     </div>
-
-
-
-  </div> --}}
-
-
+  </div>
 
 
 

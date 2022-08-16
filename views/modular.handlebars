@@ -26,89 +26,335 @@
   </div>
 
 
-  <div class="card">
-    <div class="card-header">
-      <ul class="nav nav-tabs card-header-tabs" id="outerTab" role="tablist">
-        <li class="nav-item">
-          <a class="nav-link active" data-toggle="tab" href="#tabc" aria-controls="tabc" role="tab"
-            aria-expanded="true">Tab-1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#tabb" aria-controls="tabb" role="tab">Tab-2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#taba" aria-controls="taba" role="tab">Tab-3</a>
-        </li>
-      </ul>
-    </div>
-    <div class="card-body tab-content">
-      <div class="tab-pane active" id="tabc" role="tabpanel">
-        Content for Tab-1 and:
-        <div class="card">
-          <div class="card-header">
-            <ul class="nav nav-tabs card-header-tabs" id="innerTab" role="tablist">
-              <li class="nav-item">
-                <a class="nav-link active" data-toggle="tab" href="#tab1" aria-controls="tab1" role="tab"
-                  aria-expanded="true">Nested Tab-1</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#tab2" aria-controls="tab2" role="tab">Nested Tab-2</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#tab3" aria-controls="tab3" role="tab">Nested Tab-2</a>
-              </li>
-            </ul>
-          </div>
-          <div class="card-body tab-content">
-            <div class="tab-pane active" id="tab1" role="tabpanel">
-              Content for Nested Tab-1
-            </div>
-            <div class="tab-pane" id="tab2" role="tabpanel">
-              Content for Nested Tab-2
-            </div>
-            <div class="tab-pane" id="tab3" role="tabpanel">
-              Content for Nested Tab-3
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tab-pane" id="tabb" role="tabpanel">
-        Content for Tab-2
+  <div class="custom-container">
+    <div class="card">
+      <div class="card-header chassis-tab">
+        <ul class="nav nav-tabs card-header-tabs" id="outerTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#tabc" aria-controls="tabc" role="tab"
+              aria-expanded="true">Enterprise EIA 19" Racks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#tabb" aria-controls="tabb" role="tab">ORv3 Racks</a>
+          </li>
 
-        <div class="card">
-          <div class="card-header">
-            <ul class="nav nav-tabs card-header-tabs" id="innerTab" role="tablist">
-              <li class="nav-item">
-                <a class="nav-link active" data-toggle="tab" href="#ta1" aria-controls="ta1" role="tab"
-                  aria-expanded="true">fucks</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#ta2" aria-controls="ta2" role="tab">fucks-2</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#ta3" aria-controls="tab3" role="tab">Nfucksb-2</a>
-              </li>
-            </ul>
+        </ul>
+
+
+        <div class="card-body tab-content">
+          <div class="tab-pane active" id="tabc" role="tabpanel">
+
+            <div class="card module-card">
+
+              <div class="card-header">
+                <ul class="nav nav-pills nav-stacked" id="innerTab" role="tablist">
+
+                  <li class="nav-item active">
+                    <a class="nav-link active" data-toggle="tab" href="#tab1" aria-controls="ta1" role="tab"
+                      aria-expanded="true">Host
+                      Processor Module</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tab2" aria-controls="ta2" role="tab">DC-SCM 1.0</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tab3" aria-controls="ta3" role="tab">OCP NIC3.0</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tab4" aria-controls="ta4" role="tab">Drive Cages &
+                      Interposers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tab5" aria-controls="ta5" role="tab">PCIe CEM Card
+                      Modules</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body tab-content modular-tab">
+                <div class="tab-pane active" id="tab1" role="tabpanel">
+                  <img src="/assets/img/mod/ru-hpm.png" alt="">
+
+                </div>
+                <div class="tab-pane" id="tab2" role="tabpanel">
+                  <img src="/assets/img/mod/ru-dcscm.png" alt="">
+                </div>
+                <div class="tab-pane" id="tab3" role="tabpanel">
+                  <img src="/assets/img/mod/ru-nic.png" alt="">
+                </div>
+                <div class="tab-pane" id="tab4" role="tabpanel">
+                  <img src="/assets/img/mod/ru-drive.png" alt="">
+                </div>
+                <div class="tab-pane" id="tab5" role="tabpanel">
+                  <img src="/assets/img/mod/ru-card.png" alt="">
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="card-body tab-content">
-            <div class="tab-pane active" id="ta1" role="tabpanel">
-              fucks-2Tab-1
+          <div class="tab-pane" id="tabb" role="tabpanel">
+
+
+            <div class="card module-card">
+
+              <div class="card-header">
+                <ul class="nav nav-pills nav-stacked" id="innerTab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#ta1" aria-controls="ta1" role="tab"
+                      aria-expanded="true">Host Processor Module</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#ta2" aria-controls="ta2" role="tab">DC-SCM 1.0</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#ta3" aria-controls="ta3" role="tab">OCP NIC3.0</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#ta4" aria-controls="ta4" role="tab">Drive Cages &
+                      Interposers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#ta5" aria-controls="ta5" role="tab">PCIe CEM Card
+                      Modules</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="card-body tab-content modular-tab">
+
+                <div class="tab-pane active" id="ta1" role="tabpanel">
+                  <img src="/assets/img/mod/ou-hpm.png" alt="">
+                </div>
+
+                <div class="tab-pane" id="ta2" role="tabpanel">
+                  <img src="/assets/img/mod/ou-dcscm.png" alt="">
+                </div>
+
+                <div class="tab-pane" id="ta3" role="tabpanel">
+                  <img src="/assets/img/mod/ou-nic.png" alt="">
+                </div>
+
+                <div class="tab-pane" id="ta4" role="tabpanel">
+                  <img src="/assets/img/mod/ou-drive.png" alt="">
+                </div>
+
+                <div class="tab-pane" id="ta5" role="tabpanel">
+                  <img src="/assets/img/mod/ou-card.png" alt="">
+                </div>
+
+              </div>
             </div>
-            <div class="tab-pane" id="ta2" role="tabpanel">
-              fucks-2 Tab-2
-            </div>
-            <div class="tab-pane" id="ta3" role="tabpanel">
-              fucks-2 Tab-3
-            </div>
+          </div>
+          <div class="tab-pane" id="taba" role="tabpanel">
+            Content for Tab-3
           </div>
         </div>
-      </div>
-      <div class="tab-pane" id="taba" role="tabpanel">
-        Content for Tab-3
       </div>
     </div>
   </div>
 
+  <div class="custom-container">
 
+    <div class="advantage-wrapper">
+
+
+      <div class="advantage-item">
+        <h1 class="advantage-header">Flexible
+        </h1>
+        <br>
+        <p>
+          Divide systems into modular components, and mix and match them to create multiple configurations
+        </p>
+      </div>
+      <div class="advantage-item">
+        <h1 class="advantage-header">Customized
+        </h1>
+        <br>
+        <p>
+          Customize components (e.g. HPM, DC-SCM ) without changing other modules to meet customer-specific needs
+        </p>
+      </div>
+      <div class="advantage-item">
+        <h1 class="advantage-header">Efficient
+        </h1>
+        <br>
+        <p>
+          Configure new systems in chassis for Enterprise EIA racks or ORv3 racks, using the same components in
+          different ways
+
+        </p>
+      </div>
+      <div class="advantage-item">
+        <h1 class="advantage-header">Agile
+
+        </h1>
+        <br>
+        <p>
+          Re-use modular components as much as possible to achieve faster time-to-market for customers
+
+
+        </p>
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+  <div class="custom-container">
+
+    <div class="module-wrapper">
+
+      <div class="module-item">
+
+        <div class="item-image">
+          <img src="/assets/img/mod/hpm.png" alt="">
+        </div>
+        <div class="item-text">
+          <h1>Host Processor Module (HPM)
+          </h1>
+          <br>
+
+          <li>
+            Develop one HPM for each CPU family from each CPU supplier
+          </li>
+          <li>
+            Build a HPM for a customer-specified CPU (such as non-x86), and re-use all the other chassis and modules
+          </li>
+
+
+        </div>
+
+      </div>
+
+      <div class="module-item">
+
+        <div class="item-image">
+          <img src="/assets/img/mod/dcscm.png" alt="">
+        </div>
+        <div class="item-text">
+          <h1>DC-SCM v1.0
+          </h1>
+          <br>
+
+          <li>
+            Develop one DC-SCM that can be used across different HPMs and different system configurations
+          </li>
+          <li>
+            Build a customized DC-SCM used across different systems without changing any complex HPMs
+          </li>
+
+
+        </div>
+
+      </div>
+
+      <div class="module-item">
+
+        <div class="item-image">
+          <img src="/assets/img/mod/nic.png" alt="">
+        </div>
+        <div class="item-text">
+          <h1>OCP NIC 3.0
+          </h1>
+          <br>
+
+          <li>
+            Install one of a large variety of OCP NIC 3.0 modules from multiple suppliers, including NVIDIA, Intel,
+            Broadcom,
+            Marvell, and others
+          </li>
+
+
+
+        </div>
+
+      </div>
+
+
+      <div class="module-item">
+
+        <div class="item-image">
+          <img src="/assets/img/mod/drive.png" alt="">
+        </div>
+        <div class="item-text">
+          <h1>Drive Cages & Interposers
+          </h1>
+          <br>
+
+          <li>
+            E1.S NVMe drives
+          </li>
+          <li>
+            2.5” NVMe, SAS or SATA SSDs
+          </li>
+          <li>
+            2.5” SAS or SATA HDDs
+
+          </li>
+          <li>
+            E3.S NVMe SSDs
+
+          </li>
+
+          <li>
+            E3.S CXL memory modules
+
+          </li>
+          <li>
+            E1.S CXL memory modules
+          </li>
+
+
+        </div>
+
+      </div>
+
+      <div class="module-item">
+
+        <div class="item-image">
+          <img src="/assets/img/mod/card.png" alt="">
+        </div>
+        <div class="item-text">
+          <h1>PCIe CEM Card Modules
+          </h1>
+          <br>
+
+          <li>
+            Install one of a large variety of PCIe CEM cards, in FHHL or smaller form factors
+          </li>
+
+          <li>
+            Support standard GPU card form factors in some chassis
+          </li>
+
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+
+  </div>
+
+  <div class="custom-container end-container">
+    <div class="customer-wrapper">
+
+      <div class="customer-img">
+        <img src="/assets/img/mod/server.png" alt="">
+      </div>
+      <br>
+
+      <p>
+        We are dedicated to customizing new modules and system configurations that suit your business needs. If you
+        would like
+        to learn more, please contact us for details.
+
+      </p>
+
+    </div>
+  </div>
 
 </section>

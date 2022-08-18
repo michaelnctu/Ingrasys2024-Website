@@ -1,7 +1,142 @@
+/* banner */
+
 .banner-background {
-  border: solid red;
   position: relative;
   top: 0px;
   width: 100%;
-  height: 100vh
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.mod-text {
+  width: 80%;
+  border: solid blue;
+  text-align: center
+}
+
+.mod-pic {
+  width: 80%;
+  border: solid green;
+}
+
+.mod-pic img {
+  width: 100%;
+}
+
+.custom-container {
+  border: solid red;
+}
+
+
+/* 模組tab */
+.chassis-tab {
+  border: solid orange;
+  width: 100%;
+}
+
+.module-card {
+  border: solid blue;
+  width: 85%;
+  margin-left: 7.5%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.module-card>.card-header {
+  width: 100%;
+}
+
+.module-card>.card-body {
+  border: solid pink;
+  width: 60%;
+}
+
+.modular-tab>.tab-pane>img {
+
+  width: 100%;
+}
+
+
+/* 優勢 */
+
+
+.advantage-wrapper,
+.module-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.advantage-item {
+  width: 60%;
+  text-align: center;
+  margin: 3rem 0;
+}
+
+/* 模組個別 */
+
+.module-item {
+  width: 80%;
+  text-align: center;
+  margin: 3rem 0;
+
+}
+
+.module-item li {
+
+  text-align: left;
+  color: white;
+
+}
+
+/* last part */
+
+
+
+
+.customer-wrapper {
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  padding: 5rem 5%;
+
+}
+
+
+@media (min-width: 768px) {
+
+
+
+  /* 
+模組tab */
+
+  .module-card {
+    width: 80%;
+    margin-left: 10%;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .module-card>.card-header {
+    width: 50%;
+  }
+
+  .module-card>.card-body {
+    border: solid pink;
+    width: 40%;
+  }
+
+  .modular-tab>.tab-pane>img {
+    width: 100%;
+  }
+
 }

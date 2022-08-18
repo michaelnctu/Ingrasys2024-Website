@@ -1,0 +1,402 @@
+[33mcommit a14056b25862469a39d3a63bf4842d053c95352e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: edgoad <michaelnctu@gmail.com>
+Date:   Tue Aug 16 18:09:32 2022 +0800
+
+    0816 modular structure done
+
+[33mcommit 3d4e7f00a0c976a6247bc263215738c2484cdc5a[m
+Author: edgoad <michaelnctu@gmail.com>
+Date:   Fri Aug 12 22:18:16 2022 +0800
+
+    nested tabs
+
+[33mcommit dce37ce17a47f4d6b28234b44afa8af1ded8c141[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: edgoad <michaelnctu@gmail.com>
+Date:   Mon Aug 8 16:03:22 2022 +0800
+
+    done
+
+[33mcommit 592b457d57748d841b07ef11ff6c0fa4676bf292[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Tue Jun 28 10:51:20 2022 +0800
+
+    0628 Start
+
+[33mcommit 66a70fd477bed57847be0c163d5acb4b97ec5999[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Wed Jun 22 16:23:12 2022 +0800
+
+    done
+
+[33mcommit f3373348f47e3efe73e9d5a6e9837e9c637227d0[m[33m ([m[1;31mheroku/master[m[33m)[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Wed Jun 22 16:00:39 2022 +0800
+
+    gallery done
+
+[33mcommit 4d8790744088f812a8b46d5a4021edca59a8e29b[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Tue Jun 21 18:53:09 2022 +0800
+
+    done
+
+[33mcommit 4e601647f1f68349d06559862d7606331b390b4a[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Tue Jun 21 16:38:46 2022 +0800
+
+    done
+
+[33mcommit 67ed53385dfa2d62600321d16a06ef154925f42e[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Mon Jun 20 17:01:43 2022 +0800
+
+    620
+
+[33mcommit 45787ae211b04fc450b459c03ed075c7d2aa2987[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Wed Jun 8 17:21:45 2022 +0800
+
+    done
+
+[33mcommit cf941ad57d70907ec2e50b788d52e52a4cd83a41[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Thu Jun 2 14:01:49 2022 +0800
+
+    done
+
+[33mcommit fda1e9fb39c707d2dc5a9e9e6fb2e8733ee645d1[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Tue May 24 17:58:24 2022 +0800
+
+    done
+
+[33mcommit 9c8400742bc711d5e0f3c4383d5026a99ee47eec[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Fri May 20 11:06:02 2022 +0800
+
+    done
+
+[33mcommit 79494ac913318e54d8e132657b62401e21c06350[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Fri May 20 10:22:33 2022 +0800
+
+    done
+
+[33mcommit 7098f000dcd2fb812826b6917b45153305faa339[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Fri May 20 10:11:42 2022 +0800
+
+    520 Computex
+
+[33mcommit f930c8719fd524d3ee4048541c694bc23912a48d[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Tue May 17 17:35:44 2022 +0800
+
+    05172022
+
+[33mcommit 898631342901ca13920592ef82574193197d4c89[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Tue May 17 09:48:55 2022 +0800
+
+    wangyi
+
+[33mcommit bf19efca77dd654fb6c1b0f7b912478f3f1f81de[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Mon May 9 16:18:57 2022 +0800
+
+    v2
+
+[33mcommit 14c2b6146408314a93a0384da192c76448546a57[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Mon May 9 15:54:19 2022 +0800
+
+    done
+
+[33mcommit da7a7e8743e216526f5689d1dca0c0724a493d1f[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Mon May 9 14:47:26 2022 +0800
+
+    done
+
+[33mcommit 5818a4b6b9f30514edc2302d56e16902ef0c173c[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Mon May 9 14:03:00 2022 +0800
+
+    footer done
+
+[33mcommit b965567e9145ed2bd08e25152ccbb999ed284e85[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Mon May 9 10:01:10 2022 +0800
+
+    done
+
+[33mcommit a894be51fce7e4f6c946c9ee85cd0caf4f8d067e[m
+Merge: 92229dd e2b5fe5
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Wed Mar 30 16:33:19 2022 +0800
+
+    Merge branch 'master' of https://git.heroku.com/foxconn-ie
+
+[33mcommit 92229dda16f79ec39e593214a8e74f9563c015f2[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Tue Mar 29 17:45:05 2022 +0800
+
+    event done
+
+[33mcommit da09c0f36f85b26ec4daf5aa2b5968a8709eb5fb[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Tue Mar 29 16:15:09 2022 +0800
+
+    update329
+
+[33mcommit e2b5fe558a7a3bb5f12cf96d5ca309bacacdafa9[m
+Author: Michael Huang <michaelnctu@gmail.com>
+Date:   Thu Nov 25 17:10:38 2021 +0800
+
+    1125
+
+[33mcommit 1035bc0091e584d9ea074b642db92bf8a44dbd46[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Wed Nov 17 16:44:56 2021 +0800
+
+    done
+
+[33mcommit d1f7c52a1d02464aba6112647818c98448496e8c[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Mon Nov 15 18:49:20 2021 +0800
+
+    done
+
+[33mcommit 1768562be7afb0f809b7f2c7458bc3ab1dc1278c[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Mon Nov 15 18:09:24 2021 +0800
+
+    done
+
+[33mcommit 2e22c2e05c15c6f2af22b841b0025a323f2b6403[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Thu Nov 11 10:24:37 2021 +0800
+
+    done
+
+[33mcommit 4a3e69cefed0af3e803856abbd0fd271b6e366be[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Wed Nov 10 17:27:48 2021 +0800
+
+    done
+
+[33mcommit b33344a24e4e84b6d57be9a32cbbe4d9cab4983d[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Tue Nov 9 16:32:53 2021 +0800
+
+    done
+
+[33mcommit 5b37624d8bfb3d4192373a845d313cb281e3d59e[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Mon Nov 8 17:40:29 2021 +0800
+
+    done
+
+[33mcommit e3c996e0df04f30fc4936ffefb75c5afc0e9484c[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Fri Nov 5 17:55:37 2021 +0800
+
+    done
+
+[33mcommit b0be628c27f52c36f672829cb1a470d1686586b4[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Fri Nov 5 13:59:23 2021 +0800
+
+    done
+
+[33mcommit 3099295809f923fa82b7a57a2f453c6f5d54d219[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Fri Nov 5 12:15:37 2021 +0800
+
+    done
+
+[33mcommit 711c3c6a677966000f8a7ed56d4d599ddef42de2[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Fri Nov 5 10:11:20 2021 +0800
+
+    done
+
+[33mcommit 9a87ae97134259c8175ca465abdb5f3a75c6fdcc[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Fri Nov 5 09:46:54 2021 +0800
+
+    done
+
+[33mcommit 09ef0403ac65a88b35b5b74164276d7261d44732[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Thu Nov 4 17:37:16 2021 +0800
+
+    done
+
+[33mcommit 13eb8eaca3c9c41dc82bb5503d23d3ca5f8b2975[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Wed Nov 3 17:47:04 2021 +0800
+
+    done
+
+[33mcommit 16b7a619ad28a8248fc7b38930f043fbbf378275[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Tue Nov 2 17:45:16 2021 +0800
+
+    done
+
+[33mcommit 2084abea152c8b7ea2123b097cc7d75597045d3d[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Tue Nov 2 09:24:20 2021 +0800
+
+    contact form
+
+[33mcommit b0083cd9532e83887f5833493cf47d75d1f087f5[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Fri Oct 22 11:41:20 2021 +0800
+
+    done
+
+[33mcommit 1e1613a67a080644ef825967431509d801067173[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Fri Oct 22 11:26:21 2021 +0800
+
+    done
+
+[33mcommit 963c2bf21400c2ddcc8ab99a5add90a4740e40af[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Thu Oct 21 18:08:50 2021 +0800
+
+    done
+
+[33mcommit 5610d2c4b68579a979b3a3d41e2ae0f19c62c3f3[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Wed Oct 20 18:03:19 2021 +0800
+
+    done
+
+[33mcommit 68e9a426b267229b29537eeb2d5ca86d31cf2a7d[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Wed Oct 20 16:47:44 2021 +0800
+
+    done
+
+[33mcommit 05dc96c351354f93324e73fb0f7d0a9b784df69e[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Fri Oct 15 17:33:20 2021 +0800
+
+    done
+
+[33mcommit 267fe2cde95473c140750386ad14cb9dd3246189[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Fri Oct 15 10:23:31 2021 +0800
+
+    done
+
+[33mcommit c7658a6862cbe84ba709ee0819c4fc6195b51b45[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Thu Oct 14 20:41:58 2021 +0800
+
+    done
+
+[33mcommit 605893279f3533910864ef2d759e6eb6c2d15682[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Wed Oct 13 19:09:15 2021 +0800
+
+    done
+
+[33mcommit 8853e8dc8c6a57f61f013b83e756c42938660df2[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Wed Oct 13 11:42:46 2021 +0800
+
+    done
+
+[33mcommit ab75bb3f8452315e684669202bdcd267b48ee54e[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Wed Oct 13 11:09:08 2021 +0800
+
+    video
+
+[33mcommit 134e890ed649ce35929152838b8a746c266b76d9[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Tue Oct 12 20:12:17 2021 +0800
+
+    done
+
+[33mcommit afcc87a9462bce76258135b5a3ca48091d83bf30[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Fri Oct 8 12:19:33 2021 +0800
+
+    done
+
+[33mcommit e9ed3421b0b3cadc80a443e0fb84d80f043d51b1[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Wed Oct 6 18:20:32 2021 +0800
+
+    done
+
+[33mcommit 2d91ec935d97c158ce8e111c81641ed2ae14d579[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Wed Oct 6 13:20:04 2021 +0800
+
+    tamazone
+
+[33mcommit 47b58f4461c10451f3df794fd7cb9eda85cf5af2[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Wed Oct 6 09:27:31 2021 +0800
+
+    done
+
+[33mcommit 6432addee3e1eb910eb29bf20912cbfe4a110532[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Mon Oct 4 23:06:34 2021 +0800
+
+    done
+
+[33mcommit 62ab122376071da10f0a35dbd58c8457db92676a[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Mon Oct 4 18:46:03 2021 +0800
+
+    done
+
+[33mcommit 7b1ab200ae487ce20cdfc0cf5efe6606a1ee0297[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Sat Oct 2 23:59:32 2021 +0800
+
+    done
+
+[33mcommit e58de19b54a497a4f979ebd2e19334b6be5c2f45[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Fri Oct 1 17:42:00 2021 +0800
+
+    done
+
+[33mcommit b5f8b6f1fdf3e183df1a9696ad444529205ec1b9[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Wed Sep 29 18:44:35 2021 +0800
+
+    done
+
+[33mcommit 18c128d505613f586a5384bef8402a1679505203[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Wed Sep 29 09:34:38 2021 +0800
+
+    done
+
+[33mcommit 0431cdc6183309f73161086ec1f4ea5983c29d9e[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Tue Sep 28 23:57:44 2021 +0800
+
+    done
+
+[33mcommit fdb619b2cdd3da2c16797197443992988eff2098[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Tue Sep 28 17:39:40 2021 +0800
+
+    done
+
+[33mcommit db2095ad81f4352cd7a1a94355a93bda04fce005[m
+Author: MIchael Huang <michaelnctu@gmail.com>
+Date:   Tue Sep 28 11:54:55 2021 +0800
+
+    done

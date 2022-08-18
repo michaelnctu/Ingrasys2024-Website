@@ -18,12 +18,19 @@
 /* position: fixed; */
 /* } */
 
+.test2{
+  color: #000000;
+  background-color: #00285E;
+
+}
+
+  
 .navbar {
   position: absolute;
   top: 0px;
   width: 100%;
   z-index: 1000;
-  background: rgba(0, 0, 0, 1);
+  background: rgba(0, 0, 0, 0.7);
   border: none;
   border-radius: 0;
 
@@ -136,10 +143,6 @@
     padding: 12px 20px;
     }
 
-}
-
-.dropdown-menu>li>a:hover{
-  background-color: #414040;
 }
 
 .dropdown-menu>li>a:hover{

@@ -19,10 +19,10 @@
 /* } */
 
 .test2 {
-color: #00285E;
-text-overflow: clip;
-}
-
+  color: #00285E;
+  text-overflow: clip;
+  }
+  
 */ .navbar {
   position: absolute;
   top: 0px;
@@ -125,13 +125,21 @@ text-overflow: clip;
 
 
   .dropdown-menu {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 0%;
+    border: none;
   }
 
   .dropdown-menu>li>a {
     color: white;
-  }
+    padding: 12px 20px;
 
+    }
+
+}
+
+.dropdown-menu>li>a:hover{
+  background-color: #414040;
 }
 
 

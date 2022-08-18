@@ -18,8 +18,6 @@
 /* position: fixed; */
 /* } */
 
-
-
 .navbar {
   position: absolute;
   top: 0px;
@@ -29,6 +27,11 @@
   border: none;
   border-radius: 0;
 
+}
+
+.test{
+  color: #000000;
+  background-color:#00285E ;
 }
 
 .navbar-brand {
@@ -131,9 +134,12 @@
   .dropdown-menu>li>a {
     color: white;
     padding: 12px 20px;
-
     }
 
+}
+
+.dropdown-menu>li>a:hover{
+  background-color: #414040;
 }
 
 .dropdown-menu>li>a:hover{

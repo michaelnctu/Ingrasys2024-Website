@@ -18,12 +18,9 @@
 /* position: fixed; */
 /* } */
 
-.test2 {
-color: #00285E;
-text-overflow: clip;
-}
 
-*/ .navbar {
+  
+.navbar {
   position: absolute;
   top: 0px;
   width: 100%;
@@ -32,6 +29,10 @@ text-overflow: clip;
   border: none;
   border-radius: 0;
 
+}
+
+.test{
+  color: #000000;
 }
 
 .navbar-brand {
@@ -125,13 +126,21 @@ text-overflow: clip;
 
 
   .dropdown-menu {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 0%;
+    border: none;
   }
 
   .dropdown-menu>li>a {
     color: white;
-  }
+    padding: 12px 20px;
 
+    }
+
+}
+
+.dropdown-menu>li>a:hover{
+  background-color: #414040;
 }
 
 

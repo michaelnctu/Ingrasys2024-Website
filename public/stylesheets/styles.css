@@ -18,14 +18,12 @@
 /* position: fixed; */
 /* } */
 
-
-  
 .navbar {
   position: absolute;
   top: 0px;
   width: 100%;
-  z-index: 1;
-  background: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  background: rgba(0, 0, 0, 1);
   border: none;
   border-radius: 0;
 
@@ -43,6 +41,7 @@
   justify-content: center;
 
 }
+
 
 
 .navbar-brand img {
@@ -118,8 +117,8 @@
 
     position: absolute;
     width: 100%;
-    z-index: 9;
-    background: rgba(0, 0, 0, 0.5);
+    z-index: 5000;
+    background: rgba(0, 0, 0, 0.7);
     border: none;
   }
 
@@ -135,9 +134,12 @@
   .dropdown-menu>li>a {
     color: white;
     padding: 12px 20px;
-
     }
 
+}
+
+.dropdown-menu>li>a:hover{
+  background-color: #414040;
 }
 
 .dropdown-menu>li>a:hover{

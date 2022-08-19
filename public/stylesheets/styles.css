@@ -18,6 +18,278 @@
 /* position: fixed; */
 /* } */
 
+/* title標籤 */
+h1 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 56px;
+}
+h2{
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+h3{
+  font-size: 2.8rem;
+  line-height: 33px;
+}
+
+h4{
+  font-size: 2.2rem;
+  line-height: 26px;
+}
+
+h5{
+  font-size: 1.7rem;
+  line-height: 20px;
+}
+
+h6{
+  font-size: 1.5rem;
+  line-height: 18px;
+}
+
+p {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: white;
+}
+
+
+a {
+  text-decoration: none !important;
+  color: white;
+}
+
+a:hover {
+  color: unset;
+  opacity: 0.8;
+}
+
+.body1{
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.body2{
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+
+/* spacing- Padding */
+.pt-8{
+  padding-top: 0.8rem;
+}
+.pt-12{
+  padding-top: 1.2rem;
+}
+.pt-16{
+  padding-top: 1.6rem;
+}
+.pt-24{
+  padding-top: 2.4rem;
+}
+
+.pt-32{
+  padding-top: 3.2rem;
+}
+.pt-52{
+  padding-top: 5.2rem;
+}
+
+/* ----- */
+.pb-8{
+  padding-bottom: 0.8rem;
+}
+.pb-12{
+  padding-bottom: 1.2rem;
+}
+.pb-16{
+  padding-bottom: 1.6rem;
+}
+.pb-24{
+  padding-bottom: 2.4rem;
+}
+
+.pb-32{
+  padding-bottom: 3.2rem;
+}
+.pb-52{
+  padding-bottom: 5.2rem;
+}
+
+/* ----- */
+.pr-8{
+  padding-right: 0.8rem;
+}
+.pr-12{
+  padding-right: 1.2rem;
+}
+.pr-16{
+  padding-right: 1.6rem;
+}
+.pr-24{
+  padding-right: 2.4rem;
+}
+
+.pr-32{
+  padding-right: 3.2rem;
+}
+.pr-52{
+  padding-right: 5.2rem;
+}
+
+/* ----- */
+.pl-8{
+  padding-left: 0.8rem;
+}
+.pl-12{
+  padding-left: 1.2rem;
+}
+.pl-16{
+  padding-left: 1.6rem;
+}
+.pl-24{
+  padding-left: 2.4rem;
+}
+
+.pl-32{
+  padding-left: 3.2rem;
+}
+.pl-52{
+  padding-left: 5.2rem;
+}
+
+
+/* spacing- Margin */
+.mt-8{
+  margin-top: 0.8rem;
+}
+.mt-12{
+  margin-top: 1.2rem;
+}
+.mt-16{
+  margin-top: 1.6rem;
+}
+.mt-24{
+  margin-top: 2.4rem;
+}
+
+.mt-32{
+  margin-top: 3.2rem;
+}
+.mt-52{
+  margin-top: 5.2rem;
+}
+
+/* ----- */
+.mb-8{
+  margin-bottom: 0.8rem;
+}
+.mb-12{
+  margin-bottom: 1.2rem;
+}
+.mb-16{
+  margin-bottom: 1.6rem;
+}
+.mb-24{
+  margin-bottom: 2.4rem;
+}
+
+.mb-32{
+  margin-bottom: 3.2rem;
+}
+.mb-52{
+  margin-bottom: 5.2rem;
+}
+
+/* ----- */
+.mr-8{
+  margin-right: 0.8rem;
+}
+.mr-12{
+  margin-right: 1.2rem;
+}
+.mr-16{
+  margin-right: 1.6rem;
+}
+.mr-24{
+  margin-right: 2.4rem;
+}
+
+.mr-32{
+  margin-right: 3.2rem;
+}
+.mr-52{
+  margin-right: 5.2rem;
+}
+
+/* ----- */
+.ml-8{
+  margin-left: 0.8rem;
+}
+.ml-12{
+  margin-left: 1.2rem;
+}
+.ml-16{
+  margin-left: 1.6rem;
+}
+.ml-24{
+  margin-left: 2.4rem;
+}
+
+.ml-32{
+  margin-left: 3.2rem;
+}
+.ml-52{
+  margin-left: 5.2rem;
+}
+
+
+
+/* layout */
+
+.layout{
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+}
+
+
+
+
+/* Color */
+:root { 
+  --primary-color:#4884CA;
+  --secondary-color:#54595F;
+  --primary-text: #121212;
+  --secondary-text: #8C8C8C;
+  --text-highlight:#4884CA;
+  --text-gray:#a7a7a7;
+  --white:#ffffff;
+  --gray-1:#C8C8C8;
+  --gray-2:#F0F0F0;
+  --gray-3:#CCCCCC;
+}
+
+.primary-color{ color:var(--primary-color);}
+.secondary-color{ color:var(--secondary-color);}
+.primary-text{ color:var(--primary-text);}
+.secondary-text{ color:var(--secondary-text);}
+.text-highlight{ color:var(--text-highlight);}
+.text-gray{ color:var(--text-gray);}
+.white{ color:var(--white);}
+.gray-1{ color:var(--gray-1);}
+.gray-2{ color:var(--gray-2);}
+.gray-3{ color:var(--gray-3);}
+
+
+
+/* Navbar */
   
 .navbar {
   position: absolute;
@@ -69,9 +341,13 @@
 
 
 @media screen and (min-width: 768px) {
+  
+  .layout{
+    padding-left: 6.4rem;
+    padding-right: 6.4rem;
+  }
 
   .navbar {
-
     width: 100%;
     padding: 0 5%;
 
@@ -407,7 +683,7 @@ body {
   width: 100%;
   background-color: #000000;
   font-family: "Noto Sans TC", sas-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 1.3;
   margin: 0;
   padding: 0;
@@ -445,9 +721,9 @@ h5 {
 /* breadcrumb */
 
 .under-header {
+  width: 100%;
   position: absolute;
   top: 10rem;
-  left: 0rem;
   z-index: 9;
 }
 
@@ -485,28 +761,6 @@ a:hover {
 
 
 
-/* title標籤 */
-h1 {
-  font-size: 2.4rem;
-}
-
-p {
-  margin: 0;
-  font-size: 1.8rem;
-  line-height: 2.7rem;
-  color: white;
-}
-
-
-a {
-  text-decoration: none !important;
-  color: white;
-}
-
-a:hover {
-  color: unset;
-  opacity: 0.8;
-}
 
 
 
@@ -1483,10 +1737,14 @@ product */
 
 
 @media screen and (min-width: 399px) {
+  
   .office-address {
-
     padding-left: 23%;
 
+  }
+  .layout{
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
   }
 }
 
@@ -1496,6 +1754,11 @@ product */
 /* 電腦版 */
 
 @media screen and (min-width: 717px) {
+  .layout{
+    padding-left: 6.4rem;
+    padding-right: 6.4rem;
+  }
+
   #computex-small {
     display: none;
   }
@@ -1560,6 +1823,10 @@ product */
     border-radius: 100%;
     ;
 
+  }
+  .layout{
+    padding-left: 6.4rem;
+    padding-right: 6.4rem;
   }
 
 
@@ -1653,7 +1920,7 @@ product */
   /* 大標題 */
 
   p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   /* siderbar */
@@ -2071,6 +2338,10 @@ product */
 
 
 @media screen and (min-width: 1024px) {
+  .layout{
+    padding-left: 6.4rem;
+    padding-right: 6.4rem;
+  }
 
 
   .breadcrumb-item {
@@ -2090,14 +2361,14 @@ product */
   h1,
   h {
 
-    font-size: 3rem;
+    font-size: 4.8rem;
     ;
   }
 
 
 
   p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     line-height: 140%;
   }
 
@@ -2177,7 +2448,10 @@ product */
 
 @media screen and (min-width: 1280px) {
 
-
+  .layout{
+    padding-left: 6.4rem;
+    padding-right: 6.4rem;
+  }
 
 
   /* 大標題 */
@@ -2199,14 +2473,14 @@ product */
 
   h1,
   h {
-    font-size: 3.2rem;
+    font-size: 4.8rem;
     ;
   }
 
-  p {
+  /* p {
     font-size: 2rem;
     line-height: 140%;
-  }
+  } */
 
   .caption-title h1 {
     font-size: 5rem;
@@ -2316,6 +2590,10 @@ product */
 }
 
 @media screen and (min-width: 1600px) {
+  .layout{
+    padding-left: 10.8rem;
+    padding-right: 10.8rem;
+  }
 
   #preloader1 {
 
@@ -2332,7 +2610,7 @@ product */
   }
 
   p {
-    font-size: 2.5rem;
+    font-size: 1.7rem;
     line-height: 140%;
   }
 

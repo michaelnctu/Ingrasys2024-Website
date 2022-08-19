@@ -27,7 +27,6 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 
-
   {{!-- event區域的gallery --}}
 
   <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
@@ -904,7 +903,6 @@
   </script>
 
 
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
   <script>
     baguetteBox.run('.tz-gallery');
@@ -958,6 +956,11 @@
   {{#if csrCSS}}
   <script type="text/javascript" src="/javascripts/csr.js"></script>
   {{/if}}
+
+  {{#if modCSS}}
+  <script type="text/javascript" src="/javascripts/mod.js"></script>
+  {{/if}}
+
 
 
   {{#if productCSS}}

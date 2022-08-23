@@ -24,28 +24,29 @@ h1 {
   font-weight: 700;
   line-height: 56px;
 }
-h2{
+
+h2 {
   font-size: 3.2rem;
   font-weight: 700;
   line-height: 38px;
 }
 
-h3{
+h3 {
   font-size: 2.8rem;
   line-height: 33px;
 }
 
-h4{
+h4 {
   font-size: 2.2rem;
   line-height: 26px;
 }
 
-h5{
+h5 {
   font-size: 1.7rem;
   line-height: 20px;
 }
 
-h6{
+h6 {
   font-size: 1.5rem;
   line-height: 18px;
 }
@@ -68,13 +69,13 @@ a:hover {
   opacity: 0.8;
 }
 
-.body1{
+.body1 {
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 18px;
 }
 
-.body2{
+.body2 {
   font-size: 1.3rem;
   font-weight: 500;
   line-height: 18px;
@@ -82,171 +83,203 @@ a:hover {
 
 
 /* spacing- Padding */
-.pt-8{
+.pt-8 {
   padding-top: 0.8rem;
 }
-.pt-12{
+
+.pt-12 {
   padding-top: 1.2rem;
 }
-.pt-16{
+
+.pt-16 {
   padding-top: 1.6rem;
 }
-.pt-24{
+
+.pt-24 {
   padding-top: 2.4rem;
 }
 
-.pt-32{
+.pt-32 {
   padding-top: 3.2rem;
 }
-.pt-52{
+
+.pt-52 {
   padding-top: 5.2rem;
 }
 
 /* ----- */
-.pb-8{
+.pb-8 {
   padding-bottom: 0.8rem;
 }
-.pb-12{
+
+.pb-12 {
   padding-bottom: 1.2rem;
 }
-.pb-16{
+
+.pb-16 {
   padding-bottom: 1.6rem;
 }
-.pb-24{
+
+.pb-24 {
   padding-bottom: 2.4rem;
 }
 
-.pb-32{
+.pb-32 {
   padding-bottom: 3.2rem;
 }
-.pb-52{
+
+.pb-52 {
   padding-bottom: 5.2rem;
 }
 
 /* ----- */
-.pr-8{
+.pr-8 {
   padding-right: 0.8rem;
 }
-.pr-12{
+
+.pr-12 {
   padding-right: 1.2rem;
 }
-.pr-16{
+
+.pr-16 {
   padding-right: 1.6rem;
 }
-.pr-24{
+
+.pr-24 {
   padding-right: 2.4rem;
 }
 
-.pr-32{
+.pr-32 {
   padding-right: 3.2rem;
 }
-.pr-52{
+
+.pr-52 {
   padding-right: 5.2rem;
 }
 
 /* ----- */
-.pl-8{
+.pl-8 {
   padding-left: 0.8rem;
 }
-.pl-12{
+
+.pl-12 {
   padding-left: 1.2rem;
 }
-.pl-16{
+
+.pl-16 {
   padding-left: 1.6rem;
 }
-.pl-24{
+
+.pl-24 {
   padding-left: 2.4rem;
 }
 
-.pl-32{
+.pl-32 {
   padding-left: 3.2rem;
 }
-.pl-52{
+
+.pl-52 {
   padding-left: 5.2rem;
 }
 
 
 /* spacing- Margin */
-.mt-8{
+.mt-8 {
   margin-top: 0.8rem;
 }
-.mt-12{
+
+.mt-12 {
   margin-top: 1.2rem;
 }
-.mt-16{
+
+.mt-16 {
   margin-top: 1.6rem;
 }
-.mt-24{
+
+.mt-24 {
   margin-top: 2.4rem;
 }
 
-.mt-32{
+.mt-32 {
   margin-top: 3.2rem;
 }
-.mt-52{
+
+.mt-52 {
   margin-top: 5.2rem;
 }
 
 /* ----- */
-.mb-8{
+.mb-8 {
   margin-bottom: 0.8rem;
 }
-.mb-12{
+
+.mb-12 {
   margin-bottom: 1.2rem;
 }
-.mb-16{
+
+.mb-16 {
   margin-bottom: 1.6rem;
 }
-.mb-24{
+
+.mb-24 {
   margin-bottom: 2.4rem;
 }
 
-.mb-32{
+.mb-32 {
   margin-bottom: 3.2rem;
 }
-.mb-52{
+
+.mb-52 {
   margin-bottom: 5.2rem;
 }
 
 /* ----- */
-.mr-8{
+.mr-8 {
   margin-right: 0.8rem;
 }
-.mr-12{
+
+.mr-12 {
   margin-right: 1.2rem;
 }
-.mr-16{
+
+.mr-16 {
   margin-right: 1.6rem;
 }
-.mr-24{
+
+.mr-24 {
   margin-right: 2.4rem;
 }
 
-.mr-32{
+.mr-32 {
   margin-right: 3.2rem;
 }
-.mr-52{
+
+.mr-52 {
   margin-right: 5.2rem;
 }
 
 /* ----- */
-.ml-8{
+.ml-8 {
   margin-left: 0.8rem;
 }
-.ml-12{
+
+.ml-12 {
   margin-left: 1.2rem;
 }
-.ml-16{
+
+.ml-16 {
   margin-left: 1.6rem;
 }
-.ml-24{
+
+.ml-24 {
   margin-left: 2.4rem;
 }
 
-.ml-32{
+.ml-32 {
   margin-left: 3.2rem;
 }
-.ml-52{
+
+.ml-52 {
   margin-left: 5.2rem;
 }
 
@@ -254,43 +287,71 @@ a:hover {
 
 /* layout */
 
-.layout{
+.layout {
   padding-left: 2.4rem;
   padding-right: 2.4rem;
 }
 
 
 
-
 /* Color */
-:root { 
-  --primary-color:#4884CA;
-  --secondary-color:#54595F;
+:root {
+  --primary-color: #4884CA;
+  --secondary-color: #54595F;
   --primary-text: #121212;
   --secondary-text: #8C8C8C;
-  --text-highlight:#4884CA;
-  --text-gray:#a7a7a7;
-  --white:#ffffff;
-  --gray-1:#C8C8C8;
-  --gray-2:#F0F0F0;
-  --gray-3:#CCCCCC;
+  --text-highlight: #4884CA;
+  --text-gray: #a7a7a7;
+  --white: #ffffff;
+  --gray-1: #C8C8C8;
+  --gray-2: #F0F0F0;
+  --gray-3: #CCCCCC;
 }
 
-.primary-color{ color:var(--primary-color);}
-.secondary-color{ color:var(--secondary-color);}
-.primary-text{ color:var(--primary-text);}
-.secondary-text{ color:var(--secondary-text);}
-.text-highlight{ color:var(--text-highlight);}
-.text-gray{ color:var(--text-gray);}
-.white{ color:var(--white);}
-.gray-1{ color:var(--gray-1);}
-.gray-2{ color:var(--gray-2);}
-.gray-3{ color:var(--gray-3);}
+.primary-color {
+  color: var(--primary-color);
+}
+
+.secondary-color {
+  color: var(--secondary-color);
+}
+
+.primary-text {
+  color: var(--primary-text);
+}
+
+.secondary-text {
+  color: var(--secondary-text);
+}
+
+.text-highlight {
+  color: var(--text-highlight);
+}
+
+.text-gray {
+  color: var(--text-gray);
+}
+
+.white {
+  color: var(--white);
+}
+
+.gray-1 {
+  color: var(--gray-1);
+}
+
+.gray-2 {
+  color: var(--gray-2);
+}
+
+.gray-3 {
+  color: var(--gray-3);
+}
 
 
 
 /* Navbar */
-  
+
 .navbar {
   position: absolute;
   top: 0px;
@@ -341,8 +402,8 @@ a:hover {
 
 
 @media screen and (min-width: 768px) {
-  
-  .layout{
+
+  .layout {
     padding-left: 6.4rem;
     padding-right: 6.4rem;
   }
@@ -407,11 +468,11 @@ a:hover {
   .dropdown-menu>li>a {
     color: white;
     padding: 12px 20px;
-    }
+  }
 
 }
 
-.dropdown-menu>li>a:hover{
+.dropdown-menu>li>a:hover {
   background-color: #414040;
 }
 
@@ -1451,7 +1512,7 @@ canvas {
 }
 
 .event-content {
-  border: solid green;
+
   width: 85%;
   padding: 5% 5%;
   background-color: #BF5E87;
@@ -1737,12 +1798,13 @@ product */
 
 
 @media screen and (min-width: 399px) {
-  
+
   .office-address {
     padding-left: 23%;
 
   }
-  .layout{
+
+  .layout {
     padding-left: 2.4rem;
     padding-right: 2.4rem;
   }
@@ -1754,7 +1816,7 @@ product */
 /* 電腦版 */
 
 @media screen and (min-width: 717px) {
-  .layout{
+  .layout {
     padding-left: 6.4rem;
     padding-right: 6.4rem;
   }
@@ -1778,7 +1840,6 @@ product */
   }
 
   .event-banner {
-    border: solid green;
     margin: 48px 180PX 48px 48px;
     max-width: 1212px;
   }
@@ -1824,7 +1885,8 @@ product */
     ;
 
   }
-  .layout{
+
+  .layout {
     padding-left: 6.4rem;
     padding-right: 6.4rem;
   }
@@ -2338,7 +2400,7 @@ product */
 
 
 @media screen and (min-width: 1024px) {
-  .layout{
+  .layout {
     padding-left: 6.4rem;
     padding-right: 6.4rem;
   }
@@ -2448,7 +2510,7 @@ product */
 
 @media screen and (min-width: 1280px) {
 
-  .layout{
+  .layout {
     padding-left: 6.4rem;
     padding-right: 6.4rem;
   }
@@ -2590,7 +2652,7 @@ product */
 }
 
 @media screen and (min-width: 1600px) {
-  .layout{
+  .layout {
     padding-left: 10.8rem;
     padding-right: 10.8rem;
   }

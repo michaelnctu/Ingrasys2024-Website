@@ -3,8 +3,12 @@ hr {
   opacity: 1 !important;
 }
 
-.section {
+section {
   position: relative;
+  background-position: bottom 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("/assets/img/events/event-bg.png");
 }
 
 .new-breadcrumb {

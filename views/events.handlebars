@@ -1,158 +1,165 @@
 <section>
-  <div>
-     <nav class="under-header row" aria-label="breadcrumb">
-        <ol class="breadcrumb row">
-          <li class="breadcrumb-item"><a href="/">Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Events</li>
-        </ol>
-     </nav>
+
+
+  <p class="new-breadcrumb">
+    <a href="/"><i class="fa-solid fa-arrow-left"></i> Homepage / </a>
+    Events
+  </p>
 
 
 
 
-    <div class="upper-events">
-      <div class="events-banner">
-        <img src="./assets/img/events/events.png" alt="" class="events-img">
+  <div class="upper-events">
+    <div class="events-banner">
+      <img src="./assets/img/events/events.png" alt="" class="events-img">
+    </div>
+
+    <div class="latest-events">
+      <div class="events-logo row">
+        <img src="./assets/img/logos/Ingrasys logo_white2.svg" alt="Ingrasys_logo_white">
       </div>
 
-      <div class="latest-events">
-        <div class="events-logo row">
-          <img src="./assets/img/logos/Ingrasys logo_white2.svg" alt="Ingrasys_logo_white">
+      <div class="row pt-12">
+        <h2>OCP Global Summit 2022: EMPOWERING OPEN.</h2>
+        <br>
+      </div>
+
+      <div class="row">
+        <p class="pt-12"><i class="fa-solid fa-calendar-days"></i> October 18-20, 2022</p>
+        <p class="pt-12"><i class="fa-solid fa-location-dot"></i> San Jose, California</p>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <div class="bottom-events ">
+
+    {{!-- Upcoming event cards --}}
+    <div class="events-wrapper">
+      <div>
+        <h1 class="primary-text">Upcoming Events</h1>
+        <br>
+      </div>
+      {{!-- card--}}
+      <div class="events-container">
+        <div class="thumbnail card">
+          <div>
+            <div class="upcoming">Upcoming</div>
+            <a href="https://www.opencompute.org/summit/global-summit">
+              <img src="assets/img/events/img_events_OCP2022.png" alt="...">
+            </a>
+          </div>
+
+          <div class="caption">
+            <div class="card-body">
+              <h5 class="card-title">OCP Global Summit 2022: EMPOWERING OPEN.</h5>
+              <br>
+
+              <div class="text-box">
+                <p>San Jose, California</p>
+                <p>October 18-20, 2022</p>
+              </div>
+
+            </div>
+          </div>
         </div>
 
-        <div class="row pt-12">
-          <h2>Supercomputing 2022: hpc accelerates.</h2>
+
+        <div class="thumbnail card">
+          <div>
+            <div class="upcoming">Upcoming</div>
+            <a href="https://www.opencompute.org/summit/global-summit">
+              <img src="assets/img/events/img_events_SC22.png" alt="...">
+            </a>
+          </div>
+
+          <div class="caption">
+            <div class="card-body">
+              <h5 class="card-title">Supercomputing 2022: hpc accelerates.</h5>
+              <br>
+              <div class="text-box">
+                <p>Dallas, TX</p>
+                <p>November 14–17, 2022</p>
+              </div>
+
+
+            </div>
+          </div>
         </div>
 
-        <div class="row">
-          <p class="pt-12"><i class="fa-solid fa-calendar-days"></i> November 14-17, 2022</p>
-          <p class="pt-12"><i class="fa-solid fa-location-dot"></i> Kay Bailey Hutchison Convention Center Dallas</p>
-        </div>
 
       </div>
     </div>
 
 
 
-    <div class="bottom-events ">
-
-        {{!-- Upcoming event cards --}}
-      <div class="events-wrapper">
-        <div>
-          <h1 class="primary-text">Upcoming Events</h1>
-          <br>
-        </div>
-           {{!-- card--}}
-        <div class="events-container">
-          <div class="thumbnail card">
-            <div>
-              <div class="upcoming">Upcoming</div>
-              <a href="https://www.opencompute.org/summit/global-summit">
-                <img src="assets/img/events/img_events_OCP2022.png" alt="...">
-              </a>
-            </div>
-
-            <div class="caption">
-              <div class="card-body">
-                <h5 class="card-title">OCP 2022</h5>
-
-                <div class="text-box">
-                  <p>Unboxing the Power of Hybrid Performance Computing Experiences with Completing Cloud Solutions and Support.</p>
-                </div>
-                <p>Date: November 13, 2022</p> 
-              </div>
-            </div>
-          </div>
-
-
-          <div class="thumbnail card">
-            <div>
-              <div class="upcoming">Upcoming</div>
-              <a href="https://www.opencompute.org/summit/global-summit">
-                <img src="assets/img/events/img_events_SC22.png" alt="...">
-              </a>
-            </div>
-
-            <div class="caption">
-              <div class="card-body">
-                <h5 class="card-title">OCP 2022</h5>
-
-                <div class="text-box">
-                  <p>Unboxing the Power of Hybrid Performance Computing Experiences with Completing Cloud Solutions and Support.</p>
-                </div>
-                <p>Date: November 13, 2022</p> 
-              </div>
-            </div>
-          </div>
-
-
-        </div>
+    {{!-- Past event cards --}}
+    <div class="events-wrapper">
+      <div>
+        <h1 class="primary-text">Past Events</h1>
+        <br>
       </div>
-
-
-
-     {{!-- Past event cards --}}
-      <div class="events-wrapper">
-        <div>
-          <h1 class="primary-text">Past Events</h1>
-          <br>
-        </div>
-           {{!-- card--}}
-        <div class="events-container">
-          <div class="thumbnail card">
-            <div>
-              <a href="https://www.opencompute.org/summit/global-summit">
-                <img src="assets/img/events/img_events_computex2022.png" alt="...">
-              </a>
-            </div>
-
-            <div class="caption">
-              <div class="card-body">
-                <h5 class="card-title">OCP 2022</h5>
-
-                <div class="text-box">
-                  <p>Unboxing the Power of Hybrid Performance Computing Experiences with Completing Cloud Solutions and Support.</p>
-                </div>
-                <p>Date: November 13, 2022</p> 
-              </div>
-            </div>
+      {{!-- card--}}
+      <div class="events-container">
+        <div class="thumbnail card">
+          <div>
+            <a href="https://www.opencompute.org/summit/global-summit">
+              <img src="assets/img/events/img_events_computex2022.png" alt="...">
+            </a>
           </div>
 
+          <div class="caption">
+            <div class="card-body">
+              <h5 class="card-title">COMPUTEX 2022: Your Data, Our Mission</h5>
+              <br>
 
-          <div class="thumbnail card">
-            <div>
-              <a href="https://www.opencompute.org/summit/global-summit">
-                <img src="assets/img/events/img_events_SC21.png" alt="...">
-              </a>
-            </div>
-
-            <div class="caption">
-              <div class="card-body">
-                <h5 class="card-title">OCP 2022</h5>
-
-                <div class="text-box">
-                  <p>Unboxing the Power of Hybrid Performance Computing Experiences with Completing Cloud Solutions and Support.</p>
-                </div>
-                <p>Date: November 13, 2022</p> 
+              <div class="text-box">
+                <p>Virtual Booth</p>
+                <p>May 24-27, 2022</p>
               </div>
+
             </div>
           </div>
-
-
         </div>
+
+
+        <div class="thumbnail card">
+          <div>
+            <a href="/event">
+              <img src="assets/img/events/img_events_SC21.png" alt="...">
+            </a>
+          </div>
+
+          <div class="caption">
+            <div class="card-body">
+              <h5 class="card-title">Supercomputing 2021: science & beyond.</h5>
+              <br>
+              <div class="text-box">
+                <p>St. Louis, MO</p>
+                <p>November 15-18, 2021</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
       </div>
-      
-    
-
-
-
     </div>
+
+
+
 
 
   </div>
 
 
-  
+
+
+
+
 
 
 

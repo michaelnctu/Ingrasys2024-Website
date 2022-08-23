@@ -15,13 +15,17 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: solid pink
+  background-position: bottom 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("/assets/img/mod/bg-mod.png");
 }
 
 .mod-text {
   width: 90%;
   text-align: center;
   white-space: nowrap;
+
 }
 
 .mod-pic {

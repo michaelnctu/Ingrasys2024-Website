@@ -97,20 +97,6 @@ section {
   margin: 5rem 5%;
 }
 
-.card {
-  background-color: #3c3c3c;
-  /* height:700px; */
-  position: relative;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-clip: border-box;
-  border: 1px solid #e7eaf3;
-  border-radius: 0.3125rem;
-}
-
 
 
 .card {
@@ -120,23 +106,15 @@ section {
 
 }
 
-.card-img-top {
-  /* ie purpose */
-  flex: 1 0 auto;
-  min-height: 1px;
+.thumbnail {
+  padding: 0 !important;
 }
 
-.card img {
-  flex: 1 0 auto;
-  min-height: 1px;
-  width: 100% !important;
-
+.card-title,
+.text-box>p {
+  color: black;
 }
 
-.card-title {
-  font-size: 2rem;
-  line-height: 1.5em
-}
 
 
 

@@ -15,7 +15,7 @@ hr {
 .upper-events {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 460px;
   overflow: hidden;
   background-color: #121212;
 }
@@ -23,9 +23,14 @@ hr {
 
 .events-banner {
   position: absolute;
-  z-index: -0.5;
-  opacity: 50%;
+  z-index: -0.5 !important;
+  opacity: 70%;
+  overflow: auto;
+  object-fit: cover;
+  ;
 }
+
+
 
 .latest-events {
   width: 90%;
@@ -46,6 +51,34 @@ hr {
 .events-logo img {
   width: 100%;
 }
+
+
+/* 中間 */
+
+.mid-events {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: #121212;
+}
+
+.virtual-booth {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 89px 0
+}
+
+.v-img {
+  width: 100%;
+}
+
+.v-img>img {
+  width: 100%;
+}
+
 
 
 .bottom-events {
@@ -75,7 +108,7 @@ hr {
 
 
 .card {
-  background-color: whites;
+  background-color: white;
   /* height:700px; */
   position: relative;
   display: flex;
@@ -92,9 +125,8 @@ hr {
   /* flex: 1 0 auto; */
   min-height: 1px;
 
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
 }
+
 
 .thumbnail {
   padding: 0 !important;
@@ -157,15 +189,27 @@ hr {
   .upper-events {
     position: relative;
     width: 100%;
-    height: 80vh;
     overflow: hidden;
     background-color: #121212;
   }
 
+  .virtual-booth {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .v-img {
+    width: 55%;
+
+  }
 
 
+  /* .virtual-booth div {
+    border: solid blue;
+  } */
 
-  /* product */
+
+  /* card */
 
   .events-container {
     display: flex;
@@ -187,21 +231,11 @@ hr {
 
 
 
-
-
 }
 
-@media (min-width: 1280px) {
+/* @media (min-width: 1280px) {
 
-  .cdi-text {
-    /* all: unset; */
-    position: relative;
-    padding-left: 0;
-    width: 50%;
-    bottom: 50%;
-    left: 30%;
-    transform: translate(-50%, 0%);
-  }
+
 
   .events-logo {
     width: 150px;
@@ -228,29 +262,4 @@ hr {
     margin-top: 24px;
   }
 
-}
-
-/* 大尺寸寬度超過1920px */
-@media(min-width: 1920px) {
-
-
-
-  .cdi-banner img {
-    width: 100%;
-    /* min-height: 100vh; */
-    z-index: -5;
-  }
-
-  .events-logo {
-    width: 150px;
-  }
-
-  .title-slogan {
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 38px;
-    margin-top: 24px;
-  }
-
-
-}
+} */

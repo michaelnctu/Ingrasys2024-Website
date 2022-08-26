@@ -110,9 +110,13 @@ app.get('/events', (req, res) => {
 })
 
 //單頁活動頁
-app.get('/event', (req, res) => {
-  res.render('./event', { eventCSS: true })
+app.get('/sc21', (req, res) => {
+  res.render('./sc21', { eventCSS: true })
 })
+
+// app.get('/comp22', (req, res) => {
+//   res.render('./comp22', { eventCSS: true })
+// })
 
 //modular design
 app.get('/modular', (req, res) => {

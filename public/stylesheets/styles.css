@@ -18,46 +18,71 @@
 /* position: fixed; */
 /* } */
 
-/* title標籤 */
-h1 {
-  font-size: 4.8rem;
-  font-weight: 700;
-  line-height: 56px;
-}
-
-h2 {
-  font-size: 3.2rem;
-  font-weight: 700;
-  line-height: 38px;
-}
-
-h3 {
-  font-size: 2.8rem;
-  line-height: 33px;
-}
-
-h4 {
-  font-size: 2.2rem;
-  line-height: 26px;
-}
-
-h5 {
-  font-size: 1.7rem;
-  line-height: 20px;
-}
-
-h6 {
-  font-size: 1.5rem;
-  line-height: 18px;
+:root {
+  --fs-h1: 3.5rem;
+  --fs-h2: 2.5rem;
+  --fs-h3: 2.5rem;
+  --fs-h4: 1.55rem;
+  --fs-h5: 1.55rem;
+  --fs-h6: 1.4rem;
+  --fs-p: 1.4rem;
+  --lh-h1: 4.1rem;
+  --lh-h2: 3.5rem;
+  --lh-h3: 2.9rem;
+  --lh-h4: 1.8rem;
+  --lh-h5: 1.8rem;
+  --lh-h6: 1.6rem;
+  --fs-p: 1.6rem;
 }
 
 p {
   margin: 0;
-  font-size: 1.5rem;
-  line-height: 1.5rem;
+  font-size: var(--fs-p);
+  line-height: var(--lh-p);
   color: white;
 }
 
+/* title標籤 */
+h1 {
+  font-size: var(--fs-h1);
+  line-height: var(--lh-h1);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: var(--fs-h2);
+  line-height: var(--lh-h2);
+  font-weight: 700;
+}
+
+h3 {
+  font-size: var(--fs-h3);
+  line-height: var(--lh-h3);
+}
+
+h4 {
+  font-size: var(--fs-h4);
+  line-height: var(--lh-h4);
+  font-weight: bold;
+}
+
+h5 {
+  font-size: var(--fs-h5);
+  line-height: var(--lh-h5);
+}
+
+h6 {
+  font-size: var(--fs-h6);
+  line-height: var(--lh-h6);
+}
+
+p {
+  margin: 0;
+  font-size: var(--fs-p);
+  ;
+  line-height: var(--lh-p);
+  color: white;
+}
 
 a {
   text-decoration: none !important;
@@ -771,11 +796,9 @@ h3,
 h4,
 h5 {
   margin: 0;
-  line-height: 0.9;
-  /* font-size: 2rem; */
   /* 有safari issue */
   color: white;
-  font-family: 'Abhaya Libre', serif;
+
 }
 
 
@@ -1875,6 +1898,23 @@ product */
 
 @media screen and (min-width: 768px) {
 
+  :root {
+    --fs-h1: 4rem;
+    --fs-h2: 3rem;
+    --fs-h3: 2.5rem;
+    --fs-h4: 1.55rem;
+    --fs-h5: 1.5rem;
+    --fs-h6: 1.4rem;
+    --fs-p: 1.4rem;
+    --lh-h1: 4.68rem;
+    --lh-h2: 3.51rem;
+    --lh-h3: 2.9rem;
+    --lh-h4: 1.8rem;
+    --lh-h5: 1.8rem;
+    --lh-h6: 1.6rem;
+    --fs-p: 1.6rem;
+  }
+
 
   /* 暫時 等kioxia 進來後刪掉 */
   .owl-theme .owl-dots .owl-dot {
@@ -2400,6 +2440,24 @@ product */
 
 
 @media screen and (min-width: 1024px) {
+  :root {
+    --fs-h1: 4.5rem;
+    --fs-h2: 3.5rem;
+    --fs-h3: 2.3rem;
+    --fs-h4: 1.75rem;
+    --fs-h5: 1.5rem;
+    --fs-h6: 1.4rem;
+    --fs-p: 1.4rem;
+    --lh-h1: 5.2rem;
+    --lh-h2: 4.1rem;
+    --lh-h3: 2.7rem;
+    --lh-h4: 2.05rem;
+    --lh-h5: 1.8rem;
+    --lh-h6: 1.6rem;
+    --fs-p: 1.6rem;
+  }
+
+
   .layout {
     padding-left: 6.4rem;
     padding-right: 6.4rem;

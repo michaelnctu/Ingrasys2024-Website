@@ -25,7 +25,6 @@ img {
   width: 90%;
   text-align: center;
   white-space: nowrap;
-
 }
 
 .mod-pic {
@@ -121,7 +120,7 @@ img {
 
 
 .white-back a,
-.white-back h1,
+.white-back h4,
 .white-back li {
   color: rgb(0, 0, 0) !important;
 }

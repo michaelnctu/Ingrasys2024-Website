@@ -69,6 +69,7 @@ h4 {
 h5 {
   font-size: var(--fs-h5);
   line-height: var(--lh-h5);
+  font-weight: bold;
 }
 
 h6 {
@@ -86,6 +87,9 @@ p {
 
 a {
   text-decoration: none !important;
+  font-size: var(--fs-p);
+  ;
+  line-height: var(--lh-p);
   color: white;
 }
 
@@ -803,7 +807,6 @@ h5 {
 
 
 /* breadcrumb */
-
 .under-header {
   width: 100%;
   position: absolute;
@@ -2021,9 +2024,9 @@ product */
 
   /* 大標題 */
 
-  p {
+  /* p {
     font-size: 1.3rem;
-  }
+  } */
 
   /* siderbar */
 
@@ -2487,10 +2490,10 @@ product */
 
 
 
-  p {
+  /* p {
     font-size: 1.5rem;
     line-height: 140%;
-  }
+  } */
 
 
   /* siderbar */
@@ -2723,7 +2726,7 @@ product */
 
   /* 大標題 */
 
-  h1,
+  /* h1,
   h {
     font-size: 4rem;
     ;
@@ -2732,7 +2735,7 @@ product */
   p {
     font-size: 1.7rem;
     line-height: 140%;
-  }
+  } */
 
   .btn-underline {
     font-size: 2rem;

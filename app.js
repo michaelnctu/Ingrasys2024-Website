@@ -16,6 +16,8 @@ app.set('view engine', 'handlebars')
 //models
 const officeList = require('./models/office.json')
 
+const eventsList = require('./models/events.json')
+
 
 // routes setting
 app.get('/', (req, res) => {
@@ -111,7 +113,7 @@ app.get('/events', (req, res) => {
 
 //單頁活動頁
 app.get('/sc21', (req, res) => {
-  res.render('./sc21', { eventCSS: true })
+  res.render('./sc21', { eventCSS: true, events: eventsList })
 })
 
 // app.get('/comp22', (req, res) => {

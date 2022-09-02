@@ -20,7 +20,6 @@ section {
 }
 
 .upper-cotainer {
-
   margin-top: 16vh;
   width: 100%;
   height: auto;
@@ -127,11 +126,16 @@ section {
   padding: 2px;
 } */
 
+
+
 .tz-gallery .lightbox img {
   width: 100%;
   border-radius: 0;
   position: relative;
+
 }
+
+
 
 .tz-gallery .lightbox:before {
   position: absolute;
@@ -183,6 +187,8 @@ div.scrollmenu .a {
   text-align: center;
   text-decoration: none;
   padding: 5px 5px;
+  overflow: hidden !important;
+
 }
 
 .mobile-pic {
@@ -200,12 +206,17 @@ div.scrollmenu .a:hover {
 
 
   /* 第一部分 */
+
+
+
   .event-details {
 
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
   }
+
+
 
   .event-banner {
     width: 40%;

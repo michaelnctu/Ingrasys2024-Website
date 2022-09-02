@@ -24,12 +24,19 @@ hr {
 .events-banner {
   position: absolute;
   z-index: -0.5 !important;
-  opacity: 70%;
   overflow: auto;
-  object-fit: cover;
-  ;
+
+
+
 }
 
+.events-banner img {
+  object-position: 60% -300px
+}
+
+.vb-image {
+  width: 280%;
+}
 
 
 .latest-events {
@@ -181,9 +188,7 @@ hr {
 
 
   .events-banner img {
-    width: 100%;
-    object-fit: cover;
-
+    object-fit: cover
   }
 
   .upper-events {
@@ -203,6 +208,9 @@ hr {
 
   }
 
+  .vb-image {
+    width: 120%;
+  }
 
   /* .virtual-booth div {
     border: solid blue;

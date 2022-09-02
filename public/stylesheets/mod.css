@@ -8,6 +8,7 @@ img {
 
 .banner-background {
   position: relative;
+  padding-top: 30px !important;
   top: 0px;
   width: 100%;
   height: 100vh;

@@ -130,7 +130,7 @@ hr {
   width: 100%;
 }
 
-.pain-para h1 {
+.pain-para h3 {
   color: #F58522;
   font-size: 2.3rem;
   line-height: 4rem;
@@ -192,7 +192,7 @@ hr {
   margin: auto;
 }
 
-.advan-item h {
+.advan-item h4 {
   font-size: 2rem;
   line-height: 3rem;
   color: #F58522;
@@ -355,7 +355,7 @@ hr {
     justify-content: center;
   }
 
-  .pain-para h1 {
+  .pain-para h3 {
     color: #F58522;
     font-size: 2.3rem;
   }
@@ -467,7 +467,7 @@ hr {
 }
 
 @media (min-width: 1280px) {
-  .pain-para h1 {
+  .pain-para h3 {
     color: #F58522;
     font-size: 3rem;
   }

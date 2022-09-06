@@ -93,12 +93,6 @@ a {
   color: white;
 }
 
-li {
-  text-decoration: none !important;
-  font-size: var(--fs-p);
-  line-height: var(--lh-p);
-
-}
 
 a:hover {
   color: unset;
@@ -393,7 +387,7 @@ a:hover {
   top: 0px;
   width: 100%;
   z-index: 1000;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.9);
   border: none;
   border-radius: 0;
 

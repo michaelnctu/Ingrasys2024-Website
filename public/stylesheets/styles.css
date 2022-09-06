@@ -93,6 +93,13 @@ a {
   color: white;
 }
 
+li {
+  text-decoration: none !important;
+  font-size: var(--fs-p);
+  line-height: var(--lh-p);
+
+}
+
 a:hover {
   color: unset;
   opacity: 0.8;
@@ -823,7 +830,7 @@ h5 {
 
 .breadcrumb-item {
   color: white;
-  font-size: 2rem;
+  /* font-size: 2rem; */
 }
 
 .breadcrumb-item>li>a:hover {
@@ -837,7 +844,7 @@ a:hover {
 
 .breadcrumb-item.active {
   color: #F58522;
-  font-size: 2rem;
+  /* font-size: 2rem; */
 }
 
 
@@ -1794,12 +1801,13 @@ product */
   font-size: 2rem;
 }
 
-.copyright {
+.copyright,
+.copyright>a {
   margin-top: 0.8rem;
   ;
   font-size: 0.8rem;
   color: white;
-  opacity: 0.8
+
 }
 
 .btn-contact {
@@ -2469,12 +2477,12 @@ product */
 
   .breadcrumb-item {
     color: white;
-    font-size: 3rem;
+    /* font-size: 3rem; */
   }
 
   .breadcrumb-item.active {
     color: #F58522;
-    font-size: 3rem;
+    /* font-size: 3rem; */
   }
 
 

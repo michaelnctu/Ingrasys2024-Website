@@ -24,5 +24,21 @@
       "id": 6,
       "image": "https://i.imgur.com/gXkLnDO.jpg"
     }
+  ],
+  "PR- SC21": [
+    {
+      "id": 1,
+      "title": "Ingrasys showcases environment-friendly liquid cooling solutions for datacenters at Computex 2022",
+      "date": "May 27, 2022",
+      "platform": "Digitimes",
+      "Link": "https://www.digitimes.com/news/a20220527PR200/computex-2022-ingrasys-liquid-cooling.html"
+    },
+    {
+      "id": 1,
+      "title": "出席SC 21 大秀高效運算實力 鴻佰科技一站式服務成就元宇宙運行基礎",
+      "date": "May 27, 2022",
+      "platform": "Digitimes",
+      "Link": "https://www.digitimes.com/news/a20220527PR200/computex-2022-ingrasys-liquid-cooling.html"
+    }
   ]
 }

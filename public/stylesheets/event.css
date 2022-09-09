@@ -23,12 +23,6 @@ section {
   margin-top: 16vh;
   width: 100%;
   height: auto;
-
-
-}
-
-.bottom-cotainer {
-  padding: 5%;
 }
 
 
@@ -50,6 +44,21 @@ section {
   width: 100%;
 }
 
+
+.bottom-container {
+  padding: 5%;
+
+}
+
+.mid-container {
+  padding: 5%;
+  border: solid blue;
+}
+
+.link-wrapper {
+  height: auto;
+  width: 100%;
+}
 
 /* media */
 
@@ -81,50 +90,16 @@ section {
 
 
 
-/* upcoming tag */
-.author {
-  position: absolute;
-  padding: 5px;
-  left: 0;
-  top: 0;
-  color: white;
-  background-color: #4884CA;
+.link-wrapper {
+  border: solid blue;
+  width: 100%;
 }
 
-.events-wrapper {
-  width: 90%;
-  margin: 5rem 5%;
-}
-
-
-
-.card {
-  width: 30%;
-  margin: 3%;
-  margin-left: 0rem;
-
-}
-
-.thumbnail {
-  padding: 0 !important;
-}
-
-.card-title,
-.text-box>p {
-  color: black;
-}
 
 
 
 
 /* gallery */
-
-
-
-/* Override bootstrap column paddings
-.tz-gallery .row>div {
-  padding: 2px;
-} */
 
 
 

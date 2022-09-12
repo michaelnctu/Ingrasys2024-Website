@@ -504,7 +504,7 @@ li {
   width: 90%;
 }
 
-.use-para h1 {
+.use-para h2 {
   text-align: center;
   color: #F58522;
   font-size: 2.3rem;
@@ -930,7 +930,7 @@ usage */
     width: 100%;
   }
 
-  .use-para h1 {
+  .use-para h2 {
     text-align: center;
     color: #F58522;
     font-size: 2.3rem;
@@ -1039,7 +1039,7 @@ usage */
 
   }
 
-  .use-para h1 {
+  .use-para h2 {
 
     font-size: 2.8rem;
     line-height: 4rem;

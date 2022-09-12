@@ -2371,7 +2371,7 @@ product */
 
   .collapse-open {
     margin-left: 0;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     display: block !important;
 
   }

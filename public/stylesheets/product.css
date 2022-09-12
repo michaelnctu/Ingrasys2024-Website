@@ -14,8 +14,8 @@
   }
 }
 
-.trial{
-  color:white
+.trial {
+  color: white
 }
 
 @media screen and (max-width: 767px) {
@@ -532,7 +532,7 @@ th {
     display: flex;
     flex-direction: row;
     align-items: stretch;
-    padding-bottom: 5rem;
+    /* padding-bottom: 5rem; */
     padding-top: 21rem;
 
   }

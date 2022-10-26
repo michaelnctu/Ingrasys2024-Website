@@ -1,0 +1,69 @@
+<section>
+
+  <p class="new-breadcrumb">
+    <a href="/events"><i class="fa-solid fa-arrow-left"></i> Homepage / </a>
+    Events / OCP
+  </p>
+
+  <div class="upper-cotainer">
+
+
+    <div class="event-details">
+
+
+      <div class="event-detail-list">
+        <h2>OCP</h2><br>
+        <p>Exhibits @ Booth #C16<br>
+          October 18–20, 2022<br>
+          San Jose Convention Center<br>
+          150 W San Carlos St, San Jose, CA <br>95113</p>
+
+      </div>
+
+      <div class="event-banner">
+        <img src="./assets/img/events/banner-ocp.webp" alt="" class="event-img">
+      </div>
+
+    </div>
+
+
+  </div>
+  <div class="bottom-container">
+
+
+    <div class="gallery">
+
+      <h5>Photos</h5>
+      <hr>
+      <br>
+      <div class="tz-gallery  ">
+
+        <div class="scrollmenu">
+
+          {{#each events.ocp}}
+          <div class="mobile-pic  col-sm-3 a ">
+            <a class="lightbox" href="{{this.image}} ">
+              <img src={{this.image}} alt="Tunnel">
+            </a>
+          </div>
+
+
+          {{/each}}
+
+        </div>
+
+      </div>
+
+
+
+
+
+
+    </div>
+
+  </div>
+
+
+
+
+</section>

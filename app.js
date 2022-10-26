@@ -116,6 +116,11 @@ app.get('/sc21', (req, res) => {
   res.render('./sc21', { eventCSS: true, events: eventsList })
 })
 
+//單頁活動頁
+app.get('/ocp', (req, res) => {
+  res.render('./ocp', { eventCSS: true, events: eventsList })
+})
+
 // app.get('/comp22', (req, res) => {
 //   res.render('./comp22', { eventCSS: true })
 // })

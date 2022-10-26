@@ -40,5 +40,35 @@
       "platform": "Digitimes",
       "Link": "https://www.digitimes.com/news/a20220527PR200/computex-2022-ingrasys-liquid-cooling.html"
     }
+  ],
+  "ocp": [
+    {
+      "id": 1,
+      "image": "./assets/img/events/ocp/ocp(1).webp"
+    },
+    {
+      "id": 2,
+      "image": "./assets/img/events/ocp/ocp(2).webp"
+    },
+    {
+      "id": 3,
+      "image": "./assets/img/events/ocp/ocp(3).webp"
+    },
+    {
+      "id": 4,
+      "image": "./assets/img/events/ocp/ocp(4).webp"
+    },
+    {
+      "id": 5,
+      "image": "./assets/img/events/ocp/ocp(5).webp"
+    },
+    {
+      "id": 6,
+      "image": "./assets/img/events/ocp/ocp(6).webp"
+    },
+    {
+      "id": 7,
+      "image": "./assets/img/events/ocp/ocp(7).webp"
+    }
   ]
 }

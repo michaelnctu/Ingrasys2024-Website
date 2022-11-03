@@ -26,13 +26,11 @@ hr {
   z-index: -0.5 !important;
   overflow: auto;
 
-
-
 }
 
-.events-banner img {
+/* .events-banner img {
   object-position: 60% -300px
-}
+} */
 
 .vb-image {
   width: 280%;
@@ -186,9 +184,14 @@ hr {
   }
 
 
+  .events-banner {
+
+    width: 100%;
+  }
 
   .events-banner img {
-    object-fit: cover
+    object-fit: cover;
+    width: 100%;
   }
 
   .upper-events {

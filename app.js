@@ -19,6 +19,7 @@ const officeList = require('./models/office.json')
 const eventsList = require('./models/events.json')
 
 
+
 // routes setting
 app.get('/', (req, res) => {
   res.render('index')
@@ -27,6 +28,7 @@ app.get('/', (req, res) => {
 app.get('/server', (req, res) => {
   res.render('./server/server', { productsCSS: true })
 })
+
 
 // server
 app.get('/sv2080a', (req, res) => {
@@ -101,8 +103,15 @@ app.get('/privacy-and-policy', (req, res) => {
   res.render('privacy-and-policy', { csrCSS: true })
 })
 
+// amd
+
 app.get('/amd', (req, res) => {
   res.render('amd', { amdCSS: true })
+})
+
+// xeon
+app.get('/xeon', (req, res) => {
+  res.render('./xeon', { xeonCSS: true })
 })
 
 //活動頁

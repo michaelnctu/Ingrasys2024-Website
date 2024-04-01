@@ -2,30 +2,32 @@
 
 
   <p class="new-breadcrumb">
-    <a href="/"><i class="fa-solid fa-arrow-left"></i> Homepage / </a>
+    <a class="b" href="/"><i class="fa-solid fa-arrow-left"></i> Homepage / </a>
     Events
   </p>
 
 
   <div class="upper-events">
     <div class="events-banner">
-      <img src="./assets/img/events/sc22-banner.webp" alt="" class="events-img">
+      <img id="webbg" src="./assets/img/events/img_nv_event_bg.jpg" alt="" class="events-img">
+
+      <img id="mobilebg" src="./assets/img/events/img_gtc_event_bg_mobile.jpg" alt="" class="events-img">
     </div>
 
     <div class="latest-events">
-
+      {{!--
       <div class="events-logo">
-        <img src="./assets/img/logos/Ingrasys logo_white2.svg" alt="Ingrasys_logo_white">
-      </div>
+        <img src="./assets/img/logos/logo_br.png" alt="Ingrasys_logo_white">
+      </div> --}}
       <br>
 
       <div class="events-box">
-        <h2>Supercomputing 2022: hpc accelerates.</h2>
-        <br>
+        <h2>NVIDIA GTC</h2>
 
-
-        <p class="pt-12"><i class="fa-solid fa-calendar-days"></i> November 14–17, 2022</p>
-        <p class="pt-12"><i class="fa-solid fa-location-dot"></i> Dallas, Texas</p>
+        <p class="pt-12"><i class="fa-solid fa-calendar-days"></i> March 18 - March 21, 2024</p>
+        <p class="pt-12"><i class="fa-solid fa-location-dot"></i> San Jose Convention Center
+        </p><br>
+        {{!-- <h4>BOOTH #2125</h4> --}}
 
       </div>
 
@@ -33,7 +35,7 @@
     </div>
   </div>
 
-  <div class="mid-events">
+  {{!-- <div class="mid-events">
     <div class="events-banner">
       <img src="./assets/img/events/vb-back.webp" alt="" class="vb-image">
     </div>
@@ -45,7 +47,7 @@
           Exhibtion</h1>
         <br>
         <br>
-        <p><a href="https://www.ingrasys-events.com/" class="btn btn-primary" role="button">Enter Booth</a> </p>
+        <p><a href="http://events.ingrasys.com/" class="btn btn-primary" role="button">Enter Booth</a> </p>
       </div>
       <br>
 
@@ -60,15 +62,35 @@
 
     </div>
 
-  </div>
+  </div> --}}
 
 
   <div class="bottom-events ">
 
     {{!-- Upcoming event cards --}}
     <div class="events-wrapper">
-      <div>
+      {{!-- <div>
         <h2 class="primary-text">Upcoming Events</h2>
+        <br>
+      </div> --}}
+
+      {{!-- card--}}
+      <div class="events-container">
+
+
+
+
+      </div>
+
+
+    </div>
+
+
+
+    {{!-- Past event cards --}}
+    <div class="events-wrapper">
+      <div>
+        <h2 class="primary-text">Past Events</h2>
         <br>
       </div>
       {{!-- card--}}
@@ -76,8 +98,87 @@
 
         <div class="thumbnail card">
           <div>
-            <div class="upcoming">Upcoming</div>
-            <a href="https://sc22.supercomputing.org/">
+            {{!-- <div class="upcoming">Upcoming</div> --}}
+            <a href="https://www.nvidia.com/gtc/sponsors/#/exhibitor/1699051785904001AI4b">
+              <img src="assets/img/events/img_card_events_nv2.jpg" alt="...">
+            </a>
+          </div>
+
+          <div class="caption">
+            <div class="card-body">
+              <h5 class="card-title">NVIDIA GTC</h5>
+              <br>
+              <div class="text-box">
+                <p>San Jose Convention Center</p>
+                <p>March 18 - March 21, 2024</p>
+
+              </div>
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="thumbnail card">
+          <div>
+            {{!-- <div class="upcoming">Upcoming</div> --}}
+            <a href="/sc23">
+              <img src="assets/img/events/img_card_events_SC23.png" alt="...">
+            </a>
+          </div>
+
+          <div class="caption">
+            <div class="card-body">
+              <h5 class="card-title">i am HPC</h5>
+              <br>
+              <div class="text-box">
+                <p>Colorado Convention Center</p>
+                <p>NOV 14 - NOV 16, 2023</p>
+                <p>BOOTH #2125</p>
+              </div>
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="thumbnail card">
+          <div>
+
+            <a href="/computex23">
+              <img src="assets/img/events/img_events_comp23.png" alt="...">
+            </a>
+          </div>
+
+          <div class="caption">
+            <div class="card-body">
+              <h5 class="card-title">Accelerate Your Evolution with Our Innovation</h5>
+              <br>
+              <div class="text-box">
+                <p>Taipei Nangang Exhibtion Center, Hall 1, 1F (TaiNex 1)</p>
+                <p>MAY 30 - JUNE 2, 2023</p>
+                <p>BOOTH #I0418</p>
+              </div>
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="thumbnail card">
+          <div>
+            {{!-- <div class="upcoming">Upcoming</div> --}}
+            <a href="/sc22">
               <img src="assets/img/events/img_events_SC22.webp" alt="...">
             </a>
           </div>
@@ -96,20 +197,6 @@
           </div>
         </div>
 
-
-      </div>
-    </div>
-
-
-
-    {{!-- Past event cards --}}
-    <div class="events-wrapper">
-      <div>
-        <h2 class="primary-text">Past Events</h2>
-        <br>
-      </div>
-      {{!-- card--}}
-      <div class="events-container">
 
         <div class="thumbnail card">
 
@@ -136,7 +223,7 @@
 
         <div class="thumbnail card">
           <div>
-            <a href="https://www.ingrasys-events.com/">
+            <a href="http://events.ingrasys.com/">
               <img src="assets/img/events/img_events_computex2022.webp" alt="...">
             </a>
           </div>

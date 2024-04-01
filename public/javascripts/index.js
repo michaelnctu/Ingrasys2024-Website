@@ -1,160 +1,264 @@
 
+console.log("Script loaded!");
+// Function to remove elements with the class 'void-item' in portrait view
+function removeVoidItemsInPortrait() {
+  const voidItems = document.querySelectorAll('.void-item');
+  const isPortraitView = window.matchMedia("(orientation: portrait)").matches;
 
-//burger
+  if (isPortraitView) {
+    voidItems.forEach(item => {
+      item.remove(); // Remove void items from the DOM
+    });
+  }
+}
 
-
-
-// $(document).ready(function () {
-
-//   // $('.sub-btn').click(function () {
-//   //   // $('.sub-menu').slideUp();
-//   //   // $(this).next('.sub-menu').slideToggle();
-
-//   //   $(this).find('.dropdown').toggleClass('rotate');
-//   // });
-//   $('.sub-btn').click(function () {
-
-//     // $(this).toggleClass('submenu-open').parent('div').siblings('div').children('a.submenu-open').removeClass('submenu-open');
-
-//     $(this).find('.dropdown').toggleClass('rotate');
-
-//     $('html, body').animate({
-//       scrollTop: (0),
-//     }, "fast");
-
-//     $(this).parent().toggleClass('submenu-open').children('div').slideToggle(300).end().siblings('.submenu-open').removeClass('submenu-open').children('div').slideUp(300).parent().children('.sub-btn').children('.dropdown').toggleClass('rotate');
+// Call the function initially and listen for orientation change events
+removeVoidItemsInPortrait();
+window.addEventListener('orientationchange', removeVoidItemsInPortrait);
 
 
 
-//     // $(this).find('.dropdown').toggleClass('rotate');
-//     // $('html, body').animate({
-//     //   scrollTop: (0),
-//     // }, "fast"); /*this will scroll upto the top, not sure if I want to use this yet */
-//   });
+function animateCounting(element) {
+  const counters = $(element).find('.color.counter'); // Select counters within the active item
+
+  counters.each(function () {
+    const startValue = 0; // Starting value for the counter
+    const endValue = parseFloat($(this).text()); // Get the target end value from the element's text
+    const duration = 50000; // Duration in milliseconds (adjust as needed)
+    const increment = (endValue - startValue) / (duration / 1000); // Calculate the increment per second
+
+    let current = startValue;
+    const counter = $(this);
+
+    const timer = setInterval(function () {
+      current += increment;
+
+      // Check if the current value is an integer
+      if (current % 1 === 0) {
+        // Display as an integer
+        counter.text(current.toFixed(0));
+      } else {
+        // Display with one decimal place
+        counter.text(current.toFixed(1));
+      }
+
+      if (current >= endValue) {
+        clearInterval(timer);
+        // Ensure the final value is displayed as an integer if it's an integer
+        counter.text(endValue % 1 === 0 ? endValue.toFixed(0) : endValue.toFixed(1));
+      }
+    }, 1000 / 60); // 60 FPS
+  });
+}
 
 
-// });
+// location carousel
+$(document).ready(function () {
+  var $carousel = $(".carousel-location1");
 
-// $(document).ready(function () {
-//   $(".hamburger").click(function () {
-//     $(this).toggleClass("is-active");
-//     $('.menu').toggleClass('active');
-//     $('.blur-mask').toggleClass('active');
-
-
-//   });
-
-
-
-
-// });
-
-// ParticlesJS Config.
-particlesJS("particles-js", {
-  "particles": {
-    "number": {
-      "value": 150,
-      "density": {
-        "enable": true,
-        "value_area": 800
+  // Initialize Owl Carousel and store it in a variable
+  var owl = $carousel.owlCarousel({
+    margin: 25,
+    nav: true,
+    dots: false,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 3
+      },
+      1000: {
+        items: 3
       }
     },
-    "color": {
-      "value": "#003865"
+    onTranslated: function (event) {
+      // Remove shine class from all items
+      $(".location-item").children(":first-child").addClass("cover");
+
+      // Get the currently active item
+      var $activeItem = $carousel.find(".owl-item.active .location-item");
+
+      $activeItem.first().children(":first-child").removeClass("cover");
     },
-    "shape": {
-      "type": "circle",
-      "stroke": {
-        "width": 0,
-        "color": "#003865"
-      },
-      "polygon": {
-        "nb_sides": 5
-      },
-    },
-    "opacity": {
-      "value": 0.5,
-      "random": false,
-      "anim": {
-        "enable": false,
-        "speed": 0.1,
-        "opacity_min": 0.1,
-        "sync": false
-      }
-    },
-    "size": {
-      "value": 3,
-      "random": true,
-      "anim": {
-        "enable": false,
-        "speed": 10,
-        "size_min": 0.1,
-        "sync": false
-      }
-    },
-    "line_linked": {
-      "enable": true,
-      "distance": 150,
-      "color": "#003865",
-      "opacity": 0.9,
-      "width": 2
-    },
-    "move": {
-      "enable": true,
-      "speed": 5,
-      "direction": "none",
-      "random": false,
-      "straight": false,
-      "out_mode": "out",
-      "bounce": false,
-      "attract": {
-        "enable": false,
-        "rotateX": 600,
-        "rotateY": 1200
-      }
-    }
-  },
-  "interactivity": {
-    "detect_on": "canvas",
-    "events": {
-      "onhover": {
-        "enable": true,
-        "mode": "grab"
-      },
-      "onclick": {
-        "enable": true,
-        "mode": "push"
-      },
-      "resize": true
-    },
-    "modes": {
-      "grab": {
-        "distance": 140,
-        "line_linked": {
-          "opacity": 1
-        }
-      },
-      "bubble": {
-        "distance": 400,
-        "size": 40,
-        "duration": 2,
-        "opacity": 8,
-        "speed": 3
-      },
-      "repulse": {
-        "distance": 200,
-        "duration": 0.4
-      },
-      "push": {
-        "particles_nb": 4
-      },
-      "remove": {
-        "particles_nb": 2
-      }
-    }
-  },
-  "retina_detect": true
+  });
 });
+
+$(document).ready(function () {
+  const owl = $('.carousel-esg-care').owlCarousel({
+    margin: 10,
+    nav: true,
+    dots: false,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 1
+      },
+      1000: {
+        items: 1
+      },
+    },
+    onChanged: handleCarouselChange
+  });
+
+
+  function handleCarouselChange(event) {
+    // Delay the execution of the animateCounting function by a small amount of time
+    setTimeout(function () {
+      const activeItem = $(event.target).find('.owl-item.active');
+      console.log("active item", activeItem);
+      animateCounting(activeItem);
+    }, 100); // Adjust the delay as needed
+  }
+
+  // function handleCarouselChange(event) {
+  //   // const activeItem = event.item;
+  //   const activeItem = $(event.target).find('.owl-item.active'); // Corrected the selector here
+  //   console.log("active item1", activeItem)
+  //   animateCounting(activeItem);
+  // }
+});
+
+
+// $(document).ready(function () {
+//   $("#gr1-content .carousel-inner").owlCarousel({
+//     items: 1, // Set this to 1 to show one item per slide
+//     loop: true,
+//     nav: true,
+//     responsive: {
+//       0: {
+//         items: 1 // 螢幕大小為 0~600 顯示 1 個項目
+//       },
+//       600: {
+//         items: 3 // 螢幕大小為 600~1000 顯示 3 個項目
+//       },
+//       1000: {
+//         items: 3 // 螢幕大小為 1000 以上 顯示 5 個項目
+//       }
+//     }
+
+//   });
+// });
+
+
+
+
+$(document).ready(function () {
+  $("#carousel-news").owlCarousel({
+    margin: 10, // 外距 10px
+    nav: true,
+    dots: false,// 顯示點點
+    responsive: {
+      0: {
+        items: 1 // 螢幕大小為 0~600 顯示 1 個項目
+      },
+      600: {
+        items: 3 // 螢幕大小為 600~1000 顯示 3 個項目
+      },
+      1000: {
+        items: 3 // 螢幕大小為 1000 以上 顯示 5 個項目
+      }
+    }
+  });
+
+});
+
+$(document).ready(function () {
+  $(".carousel-esg").owlCarousel({
+    margin: 10, // 外距 10px
+    nav: true,
+    dots: false,// 顯示點點
+    responsive: {
+      0: {
+        items: 1 // 螢幕大小為 0~600 顯示 1 個項目
+      },
+      600: {
+        items: 2 // 螢幕大小為 600~1000 顯示 3 個項目
+      },
+      1000: {
+        items: 2 // 螢幕大小為 1000 以上 顯示 5 個項目
+      }
+    }
+  });
+
+})
+
+
+
+
+
+
+
+
+
+
+
+// $(document).ready(function () {
+//   var $carousel = $(".carousel-location1");
+
+//   // Initialize Owl Carousel and store it in a variable
+//   var owl = $carousel.owlCarousel({
+//     margin: 25,
+//     nav: true,
+//     dots: false,
+//     responsive: {
+//       0: {
+//         items: 1
+//       },
+//       600: {
+//         items: 3
+//       },
+//       1000: {
+//         items: 3
+//       }
+//     },
+
+//     onTranslated: function (event) {
+//       // Remove shine class from all items
+//       $(".location-item").children(":first-child").addClass("cover");
+
+//       // Get the currently active item
+//       var $activeItem = $carousel.find(".owl-item.active .location-item");
+
+//       $activeItem.first().children(":first-child").removeClass("cover");
+//     },
+//   });
+
+// });
+
+$(document).ready(function () {
+  $("#trial-carousel").owlCarousel({
+    items: 4,
+    loop: false,
+    center: true,
+    margin: 10,
+    URLhashListener: true,
+    autoplayHoverPause: true,
+    startPosition: 'URLHash',
+    nav: true, // Enable navigation
+
+    responsive: {
+      // Define responsive breakpoints
+      0: {
+        items: 1, // Number of items to show at this breakpoint
+        // Other settings for small screens
+      },
+      768: {
+        items: 2, // Number of items to show at this breakpoint
+        // Other settings for medium screens
+      },
+      1200: {
+        items: 4, // Number of items to show at this breakpoint
+        // Other settings for large screens
+      }
+    }
+  });
+});
+
+
+
 
 document.documentElement.setAttribute("data-agent", navigator.userAgent);
 
@@ -210,49 +314,9 @@ function MultiCarousel($thisSlide, $maxSize) {
 
 
 
-$(document).ready(function () {
-  $(".owl-carousel").owlCarousel({
-    margin: 10, // 外距 10px
-    nav: true,
-    dots: true,// 顯示點點
-    responsive: {
-      0: {
-        items: 1 // 螢幕大小為 0~600 顯示 1 個項目
-      },
-      600: {
-        items: 3 // 螢幕大小為 600~1000 顯示 3 個項目
-      },
-      1000: {
-        items: 3 // 螢幕大小為 1000 以上 顯示 5 個項目
-      }
-    }
-  });
-
-});
-
 $('.dropdown-toggle').dropdown();
 
 
-// (function ($) { // Begin jQuery
-//   $(function () { // DOM ready
-//     // If a link has a dropdown, add sub menu toggle.
-//     $('nav ul li a:not(:only-child)').click(function (e) {
-//       $(this).siblings('.nav-dropdown').toggle();
-//       // Close one dropdown when selecting another
-//       $('.nav-dropdown').not($(this).siblings()).hide();
-//       e.stopPropagation();
-//     });
-//     // Clicking away from dropdown will remove the dropdown class
-//     $('html').click(function () {
-//       $('.nav-dropdown').hide();
-//     });
-//     // Toggle open and close nav styles on click
-//     $('#nav-toggle').click(function () {
-//       $('nav ul').slideToggle();
-//     });
-//     // Hamburger to X toggle
-//     $('#nav-toggle').on('click', function () {
-//       this.classList.toggle('active');
-//     });
-//   }); // end DOM ready
-// })(jQuery); // end jQuery
+
+
+console.log("Script fucked");

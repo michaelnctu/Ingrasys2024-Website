@@ -37,13 +37,19 @@
 
   <link rel="stylesheet" href="/stylesheets/styles.css">
 
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous" />
+
   {{!-- font-awesome --}}
   {{!-- font-awesome --}}
   {{!--
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous" />
+  --}}
+  {{!--
+  <script src="https://kit.fontawesome.com/cb61e2be4e.js" crossorigin="anonymous"></script> --}}
+  {{!--
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous" /> --}}
-
-  <link rel="stylesheet" href="/stylesheets/styles.css">
-
   {{#if dlCSS}}
   <link rel="stylesheet" href="/stylesheets/dl.css">
   {{/if}}
@@ -53,6 +59,19 @@
   {{#if csrCSS}}
   <link rel="stylesheet" href="/stylesheets/csr.css">
   {{/if}}
+  {{#if esg2CSS}}
+  <link rel="stylesheet" href="/stylesheets/esg2.css">
+  <script type="text/javascript" src="/javascripts/esg.js"></script>
+
+
+  {{/if}}
+
+  {{#if esgCSS}}
+
+  <link rel="stylesheet" href="/stylesheets/esg.css">
+
+  {{/if}}
+
   {{#if productCSS}}
   <link rel="stylesheet" href="/stylesheets/product.css">
   {{/if}}
@@ -121,7 +140,7 @@
 
 
           <a href="/" class="navbar-brand">
-            <img src="/assets/img/logos/Ingrasys logo_white2.svg" alt="Ingrasy logo" class="header-img"
+            <img src="/assets/img/logos/Ingrasys logo_white2.png" alt="Ingrasy logo" class="header-img"
               style="display:block; ">
           </a>
 
@@ -138,9 +157,9 @@
                 <li><a href="/server" class="sub-item">Server</a></li>
                 <li><a href="/es2000" class="sub-item">Storage</a></li>
                 <li><a href="/accelerator" class="sub-item">HPC Accelerator</a></li>
-                <li>
+                {{!-- <li>
                   <a href="/ws5010a" class="sub-item">Workstation</a>
-                </li>
+                </li> --}}
                 <li>
                   <a href="/ea5165n" class="sub-item">Edge Server</a>
                 </li>
@@ -156,12 +175,14 @@
                 <li><a href="/modular" class="sub-item">Modular Building Block Design </a></li>
                 <li><a href="/cooling" class="sub-item">Advanced Cooling Solution</a></li>
                 <li><a href="/cdi" class="sub-item">Composable HCI</a></li>
+                <li><a href="/xeon" class="sub-item">Intel® Xeon® Solution </a></li>
                 <li><a href="/amd" class="sub-item">AMD EPYC™ Solution </a></li>
 
 
               </ul>
             </li>
             <li><a href="/events">Events</a></li>
+            <li><a href="/esg">Sustainability</a></li>
             <li><a href="/download">Docs</a></li>
           </ul>
 
@@ -689,7 +710,7 @@
 
               <a href="/about"> About Ingrasys</a>
               <br>
-              <a href="/csr"> Corporate Responsibility (CSR)</a>
+              <a href="/esg">Sustainability</a>
             </div>
 
 
@@ -711,8 +732,8 @@
               <a href="/es2000"> Storage</a>
               <br>
               <a href="/accelerator"> HPC Accelerator</a>
-              <br>
-              <a href="/ws5010a"> Workstation</a>
+              {{!-- <br>
+              <a href="/ws5010a"> Workstation</a> --}}
               <br>
               <a href="/ea5165n"> Edge</a>
             </div>
@@ -735,6 +756,9 @@
               <br>
               <a href="/cdi">Composable HCI</a>
               <br>
+              <a href="/xeon" class="sub-item">Intel® Xeon® Solution </a>
+
+              <br>
               <a href="/amd">AMD EPYC™ Solution </a>
             </div>
 
@@ -751,7 +775,7 @@
             <div class="collapse collapse-open" id="news">
               <a href="/events">Events</a>
               <br>
-              <a href="https://www.ingrasys-events.com/">Virtual Booth</a>
+              {{!-- <a href="http://events.ingrasys.com/">Virtual Booth</a> --}}
               <br>
 
             </div>
@@ -806,10 +830,16 @@
         </div>
         <div href="#" class="footer-item footer-logo">
           <div class="footer-logo">
-            <img src="/assets/img/logos/Ingrasys logo_white2.svg" alt="Ingrasy logo" class="footer-img">
-            <p class="copyright">© 2022 Ingrasys Technology Inc. All rights reserved.
+            <div class="footer-logo-img">
+              <img src="/assets/img/logos/Ingrasys logo_white2.png" alt="Ingrasy logo" class="footer-img">
+            </div>
+
+            <p class="copyright">© 2024 Ingrasys Technology Inc. All rights reserved.
+              <br>
+
 
             </p>
+
 
             <p class="copyright">
               <a href="/privacy-and-policy
@@ -835,6 +865,7 @@
 
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" defer="defer"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
   <script src="https://kit.fontawesome.com/d66b7d84e9.js" crossorigin="anonymous"></script>
 
   <script type="text/javascript">
@@ -962,6 +993,8 @@
   {{#if coolCSS}}
   <script type="text/javascript" src="/javascripts/cooling.js"></script>
   {{/if}}
+
+
 
 
 

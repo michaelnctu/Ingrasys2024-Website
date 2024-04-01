@@ -1,0 +1,103 @@
+<section>
+
+  <p class="new-breadcrumb">
+    <a href="/events"><i class="fa-solid fa-arrow-left"></i> Homepage / </a>
+    Events / SC22
+  </p>
+
+  <div class="upper-cotainer">
+
+
+    <div class="event-details">
+
+
+      <div class="event-detail-list">
+        <h2>SC22</h2><br>
+        <p>Exhibits @ Booth #538<br>
+          November 14–17, 2022<br>
+          Dallas, TX<br></p>
+
+      </div>
+
+      <div class="event-banner">
+        <img src="./assets/img/events/img_events_SC22.webp" alt="" class="event-img">
+      </div>
+
+    </div>
+
+
+  </div>
+
+  {{!-- <div class="bottom-container">
+
+    <h5>Links</h5>
+    <hr>
+    <br>
+    <div class="media-list ">
+      <div class="thumbnail card white media-card ">
+        <div>
+          <a href="https://www.opencompute.org/summit/global-summit">
+            <img src="assets/img/events/img_events_computex2022.png" alt="...">
+          </a>
+        </div>
+
+        <div class="caption">
+          <div class="card-body">
+            <h5 class="card-title">COMPUTEX 2022: Your Data, Our Mission</h5>
+            <br>
+
+            <div class="text-box">
+              <p>Virtual Booth</p>
+              <p>May 24-27, 2022</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+  </div> --}}
+
+  <div class="bottom-container">
+
+
+    <div class="gallery">
+
+      <h5>Photos</h5>
+      <hr>
+      <br>
+      <div class="tz-gallery  ">
+
+        <div class="scrollmenu">
+
+          {{#each events.sc22}}
+          <div class="mobile-pic  col-sm-3 a ">
+            <a class="lightbox" href="{{this.image}} ">
+              <img src={{this.image}} loading="lazy" alt="Tunnel">
+            </a>
+          </div>
+
+
+          {{/each}}
+
+        </div>
+
+      </div>
+
+
+
+
+
+
+    </div>
+
+  </div>
+
+
+
+
+</section>

@@ -1,0 +1,2208 @@
+/* 因esg定義 */
+
+h1.color {
+  display: inline-block;
+  white-space: nowrap;
+  /* Set display property to inline-block */
+  /* Adjust the margin as needed for spacing */
+}
+
+h {
+  font-weight: bold;
+}
+
+a {
+  font-size: var(--fs-h4) !important;
+}
+
+.location-item-popup>a,
+.nz-popup>a {
+  font-size: 3rem !important;
+}
+
+/* .location-item-popup {
+  position: relative;
+} */
+
+h3 {
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+section {
+  background-size: cover;
+  background-position: 20% -100%;
+  background-image: url("/assets/img/esg/esg_bg.png");
+  background-attachment: fixed;
+
+}
+
+.counting-animation {
+  animation-duration: 2s;
+  /* Set the duration of the animation (in seconds) */
+  animation-timing-function: ease;
+  /* Choose the easing function */
+}
+
+.owl-nav>button {
+  color: white !important;
+}
+
+.modal-dialog {
+  top: 5%;
+}
+
+/* Add this CSS to your stylesheet or within a <style> tag in the <head> section of your HTML document */
+.color {
+  display: inline;
+  /* Display the elements inline */
+}
+
+.counter span {
+  display: inline;
+  /* Display the span element inside the counter inline */
+}
+
+/* text-size */
+
+.esg-text>ul>li {
+  font-size: var(--fs-p);
+  font-weight: bold;
+}
+
+.sus-tabs>li>a {
+  font-size: var(--fs-h4);
+  line-height: var(--lh-h4);
+  font-weight: bold;
+}
+
+#gr-box-3 {
+  display: flex;
+  flex-direction: row;
+}
+
+#gr-box-3>div {
+  width: 33%;
+  padding: 1px;
+}
+
+.gr-box-number>div>h2 {
+  text-align: center;
+}
+
+.gr-box-number>div>h4 {
+  text-align: center;
+}
+
+
+.under-header {
+  top: 8%;
+  left: 10;
+  z-index: 8
+}
+
+.about-banner {
+  width: 100%;
+  padding-top: 57%;
+  margin-top: 0;
+  position: relative;
+  background-image: url('/assets/img/esg/core/esg-banner.png');
+  background-size: 100% 100%;
+  /* Set background size to cover */
+  background-repeat: no-repeat;
+}
+
+.esg-slogan {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  font-size: 2.8rem;
+
+}
+
+
+
+.btn-underline {
+  border-bottom: none;
+}
+
+.modal-header .close {
+  position: absolute;
+  top: 4px;
+  right: 10px;
+}
+
+.owl-theme .item {
+  padding: 0
+}
+
+.tab-content {
+  padding-bottom: 8rem;
+
+}
+
+
+.box {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* 1st tab- ESG Core Value */
+
+
+/* 1st-tab-Our Vision */
+
+/* 
+our vision底圖 */
+.esg-vision {
+  position: relative;
+  background-image: url('/assets/img/esg/core/esg-vision.png');
+  width: 100%;
+  padding-top: 800px;
+  /* Set the height as a percentage of the width (adjust for your aspect ratio) */
+  background-size: 100% 100%;
+  /* Set background size to cover */
+  background-repeat: no-repeat;
+
+}
+
+.esg-vision-text {
+  width: 80%;
+  position: absolute;
+  z-index: 5;
+  bottom: 0;
+  transform: translate(-50%, 0);
+  left: 50%;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* 灰階 */
+.esg-vision::before {
+  content: "";
+  /* Required for pseudo-elements */
+  position: absolute;
+  /* Position the overlay absolutely within the box */
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* Make the overlay cover the entire box */
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.47) -11.93%, rgba(0, 0, 0, 0.96) 88.07%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+
+}
+
+.vision {
+  text-align: left;
+  position: relative;
+  left: 50%;
+  transform: translate(-30%, 0%);
+}
+
+
+
+#v-sub2 {
+  max-width: 80%;
+
+
+}
+
+/* vision細調 */
+
+
+.v-sub-content {
+  margin-bottom: 1rem;
+}
+
+
+.sub-vision {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sub-vision>div {
+
+  margin-bottom: 1rem;
+}
+
+.v-sub-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-around;
+
+}
+
+.v-sub-content img {
+  width: 32px;
+}
+
+.v-sub-content p {
+  margin-left: 5%;
+}
+
+/* 1st-tab-Sustainable focus */
+
+.sus-tabs {
+  width: 120%;
+  margin-left: -10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+}
+
+.nav-tabs a.custom-btn:hover {
+  background-color: transparent;
+  /* Change to the desired hover color */
+  border: none;
+}
+
+/* Orange active tab */
+.nav-tabs .orange.active a.custom-btn {
+  border: none;
+  border-bottom: 3px solid rgba(255, 168, 69, 1);
+  color: rgba(255, 168, 69, 1) !important;
+  background-color: transparent;
+
+}
+
+/* green active tab */
+.nav-tabs .green.active a.custom-btn {
+  border: none;
+  border-bottom: 3px solid rgba(148, 195, 1, 1);
+  color: rgba(148, 195, 1, 1) !important;
+  background-color: transparent;
+
+}
+
+/* blue active tab */
+.nav-tabs .blue.active a.custom-btn {
+  border: none;
+  border-bottom: 3px solid rgba(53, 101, 226, 1);
+  color: rgba(53, 101, 226, 1) !important;
+  background-color: transparent;
+
+}
+
+
+.esg-focus-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.esg-focus-wrapper>* {
+  margin-bottom: 5px;
+  /* Remove margins between items */
+}
+
+.esg-focus-item {
+  width: 100%;
+  position: relative;
+  padding-top: 100%;
+  /* 1:1 Aspect Ratio (height = width) */
+  overflow: hidden;
+  background-size: 100% 100%;
+  /* Match width and height to div size */
+  border-radius: 5%;
+}
+
+.esg-focus-item::before {
+  content: "";
+  /* Required for pseudo-elements */
+  position: absolute;
+  /* Position the overlay absolutely within the box */
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* Make the overlay cover the entire box */
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  background-blend-mode: darken;
+
+}
+
+.focus-e {
+  background-image: url('/assets/img/esg/core/focus/e.jpg');
+}
+
+#s1 {
+  background-image: url('/assets/img/esg/core/focus/s_mobile1.jpg');
+}
+
+#s2 {
+  background-image: url('/assets/img/esg/core/focus/s_mobile2.jpg');
+}
+
+#g1 {
+  background-image: url('/assets/img/esg/core/focus/g_mobile1.jpg');
+}
+
+#g2 {
+  background-image: url('/assets/img/esg/core/focus/g_mobile2.jpg');
+}
+
+.esg-text {
+  position: absolute;
+  width: 80%;
+  padding: 10px;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+
+.esg-text h2 {
+  text-align: center;
+}
+
+/* color text  */
+.green {
+  color: rgba(148, 195, 1, 1)
+}
+
+.blue {
+  color: rgba(53, 101, 226, 1)
+}
+
+
+
+/* 2nd tab- ESG Core Value */
+/* Shine effect for the active item */
+
+
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* Black cover with 50% opacity */
+  opacity: 1;
+  /* Initial opacity */
+  transition: opacity 0.3s ease-in-out;
+  z-index: 2;
+  border-radius: 3.5%;
+  /* Add a smooth transition */
+}
+
+
+
+/* video */
+.tab-pane {
+  position: relative;
+}
+
+.esg-video {
+  position: absolute;
+  top: 0;
+  width: 100%;
+
+}
+
+.esg-video video {
+  width: 100%;
+  padding-top: 3rem;
+}
+
+.video-behind {
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+  top: 5px;
+  padding-top: 15rem;
+
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.card-wrapper>.item {
+  margin: 1rem;
+}
+
+.item>.sub-health-item>img {
+  width: 100%;
+}
+
+/* 
+location card 各廠區 */
+
+.location-item {
+  padding: 0 0 2rem 0 !important;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5%;
+
+}
+
+.location-item img {
+
+  border-radius: 5% 5% 0 0;
+
+}
+
+.location-item-text>* {
+  margin: 0;
+  color: black
+}
+
+.location-item-text {
+  width: 95%;
+  margin-left: 2.5%;
+
+  padding-top: 4rem;
+
+}
+
+.location-item-popup {
+
+  position: absolute;
+  right: 5px;
+  bottom: 0;
+}
+
+.location-info {
+  display: flex;
+  /* Use flexbox to align items in the same line */
+  align-items: center;
+  /* Vertically center the items */
+
+}
+
+
+/* location-modal */
+
+.location-modal-wrapper {
+
+  padding: 7.8%;
+
+
+  background: #333333f0;
+}
+
+.location-modal-wrapper .modal-header .close {
+  position: absolute;
+  top: -8px;
+  right: -5%;
+}
+
+.location-icon {
+  position: absolute;
+  left: -9%;
+  top: 5px
+}
+
+.location-certificate {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  /* Centers text within each item */
+}
+
+.certif-item {
+  margin: 10px;
+
+}
+
+.certif-item>h3 {
+
+  color: rgba(51, 102, 234, 1);
+
+}
+
+/* stake-holder */
+
+.esg-card-wrapper {
+  background: rgba(197, 197, 197, 0.4);
+  ;
+  display: flex;
+  flex-direction: column;
+  border-radius: 22px;
+}
+
+.card-img {
+  max-height: 500px;
+  overflow: hidden;
+  /* Hide overflowing content */
+  border-radius: 5% 5% 0 0;
+}
+
+.card-img img {
+  width: 100%;
+  border-radius: 5% 5% 0 0;
+  ;
+  /* Set the height to 70% of its parent container */
+}
+
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 0.05%;
+}
+
+.card-text>* {
+  line-height: 1.5;
+  /* Set line height to 1 for text size */
+
+}
+
+/* 3rd tab - Sustainable Environment */
+
+.sub-title {
+  padding: 4rem 0;
+}
+
+.sub-title i,
+.sub-title h3 {
+  display: inline;
+}
+
+
+.nz-wrapper {
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nz-wrapper>* {
+  margin: 3rem;
+}
+
+.nz-card {
+  position: relative;
+  width: 100%;
+  background-color: rgba(197, 197, 197, 0.4);
+  border-radius: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2rem 5rem;
+}
+
+.nz-card-modal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.sub-nz-card-modal {
+  background-color: rgba(197, 197, 197, 0.4);
+  border-radius: 1rem;
+  width: 48%;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+}
+
+.sub-nz-card-modal>#arrow-web,
+.nz-card>#arrow-web {
+  display: none;
+}
+
+.sub-nz-card-modal>#arrow-mobile,
+.nz-card>#arrow-mobile {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -150%);
+}
+
+.nz-popup {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+
+.nz-popup>a {
+  font-size: 2rem;
+}
+
+
+
+.nz-card>* {
+  width: 50%;
+}
+
+.nz-img img {
+  width: 50%;
+}
+
+
+/* net zero modal */
+.r-item {
+  width: 100%;
+
+}
+
+/* green solution */
+
+.gr-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+.gr-box-img {
+  width: 100%;
+  padding-top: 40%;
+  margin-top: 0;
+  position: relative;
+  /* Set background size to cover */
+  background-repeat: no-repeat;
+  border-radius: 15px 15px 0 0
+}
+
+#gr1 {
+  background-image: url('/assets/img/esg/env/green/1-2.png');
+  background-size: 100% auto;
+  /* Set background size to cover */
+}
+
+
+
+#gr2 {
+  background-image: url('/assets/img/esg/env/green/2.jpg');
+  background-size: 100% auto;
+}
+
+#gr3 {
+  background-image: url('/assets/img/esg/env/green/3.png');
+  background-size: 101% auto;
+
+}
+
+
+
+.gr-box-contnet {
+  width: 100%;
+  background-color: rgba(197, 197, 197, 0.4);
+  padding-top: 60%;
+  position: relative;
+  border-radius: 0 0 10px 10px;
+}
+
+.gr-box-header {
+  width: 100%;
+  padding: 1rem 0;
+  border-bottom: 1px solid white;
+}
+
+/* #gr1-content {
+  background-image: url('/assets/img/esg/env/green/cooling.png');
+  background-size: 90% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+} */
+
+.gr-box-contnet>div {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  top: 0;
+}
+
+.gr-box-contnet>div>.gr-box-header,
+.gr-box-number {
+  flex: 1;
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+  /* Center content vertically */
+
+
+}
+
+#gr1-content-mobile {
+
+  width: 100%;
+  padding-top: 5%;
+}
+
+.carousel-inner {
+  width: 100%;
+  margin-left: 0;
+}
+
+
+#gr1-content-mobile>.carousel-inner>.item {
+  width: 100%;
+
+}
+
+#gr1-content-mobile>.carousel-inner>.item>img {
+  width: 98%;
+
+}
+
+.carousel-control {
+  width: 8%;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.gr-box-number {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* padding: 2rem; */
+
+}
+
+.gr-box-number>div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* padding: 2rem; */
+
+}
+
+.lc-card {
+  margin-bottom: 2rem;
+  flex: 1 !important;
+}
+
+.lc-card>div {
+  width: 100%;
+}
+
+.lc-card-img>img {
+  width: 100%;
+}
+
+.lc-card-content {
+  padding: 1rem;
+  background-color: rgba(197, 197, 197, 0.4) !important;
+  height: 70%;
+  border-radius: 0 0 15px 15px;
+}
+
+.lc-card-content>h4 {
+  text-align: center;
+}
+
+/* 4th tab -  better society */
+
+
+.title-box {
+  text-align: center;
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  /* Center content vertically */
+}
+
+/* Employee Care and Diversity &  Social Participation carousel */
+
+/* 1st carousel */
+
+.care-item {
+  width: 100%;
+
+}
+
+.sub-item-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: rgba(197, 197, 197, 0.4);
+  width: 100%;
+  border-radius: 20px;
+  min-height: 578px;
+  /* margin-left: 10%; */
+
+}
+
+.sub-item {
+  position: relative;
+  width: 100%;
+  max-height: 350px;
+  overflow: hidden;
+}
+
+.sub-item>img {
+  object-fit: cover;
+  /* Optional: Define how the image should fit within the container */
+  object-position: center top;
+  /* Move the image to the upper side */
+  /* Ensure the image doesn't exceed the div's width */
+  border-radius: 20px 20px 0 0;
+
+}
+
+
+/* card 裡面的文字部分 */
+.sub-item-content {
+  position: relative;
+  padding: 2rem;
+  text-align: left !important
+}
+
+/* 
+modal */
+
+.popup {
+  position: absolute;
+  text-align: right;
+  bottom: 0;
+  right: 10px;
+}
+
+.modal-title {
+  color: white
+}
+
+
+
+/* modal in 3rd Carousel Social Participation */
+.esg-modal-wrapper {
+  background: #333333f0;
+  padding: 2rem;
+}
+
+
+.modal-header {
+  position: relative;
+}
+
+
+.color {
+  color: rgba(255, 119, 58, 1)
+}
+
+.modal-img-wrapper {
+
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-img-wrapper>div {
+
+  margin: 1rem;
+}
+
+.modal-img-wrapper>div>img {
+
+  width: 100%;
+}
+
+
+
+
+
+.owl-nav {
+  position: absolute;
+  width: 110%;
+  margin: -5%;
+  top: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.owl-nav>button>span {
+  border: solid colorrgba(53, 101, 226, 1);
+  font-size: 5rem;
+  text-align: unset;
+  width: 100%;
+
+}
+
+.owl-carousel .owl-stage-outer {
+
+  overflow: visible;
+
+}
+
+/*2nd Carousel health and safety  */
+
+
+#health-item {
+  width: 100%;
+  padding-bottom: 2rem;
+  position: relative;
+  background: rgba(197, 197, 197, 0.4);
+  ;
+  border-radius: 5%;
+  /* min-height: 500px; */
+}
+
+.health-popup {
+  position: absolute;
+  right: 2rem;
+  bottom: 0
+}
+
+
+
+.health-item-content {
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+/*modal in 2nd Carousel health and safety carousel */
+
+
+
+.hp-modal {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between !important;
+}
+
+.hp-modal>p {
+  width: 100%;
+  /* white-space: nowrap; */
+}
+
+.hp-modal>.hp-modal-pic-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.hp-modal-pic-wrapper>.hp-modal-pic {
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row
+}
+
+
+.hp-modal-pic>img {
+  width: 100%;
+}
+
+
+/*modal in 3rd Carousel social carousel */
+
+.sc-modal-wrapper {
+  width: 100%;
+}
+
+.sc-modal-img-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sc-modal-img {
+  width: 100%;
+  padding: 1rem;
+}
+
+.sc-modal-img>img {
+  width: 100%;
+}
+
+#sc-1>.modal-dialog>.esg-modal-wrapper {
+  padding: 3rem 2rem;
+}
+
+#sc-2>.modal-dialog>.esg-modal-wrapper {
+  padding: 3rem 2rem;
+}
+
+#sc-2>.modal-dialog {
+  max-width: 400px;
+}
+
+/* new code */
+
+
+
+
+
+
+.margin-box {
+  padding-top: 4rem;
+  width: 80%;
+  margin-left: 10%;
+
+}
+
+
+
+
+/* 
+
+
+
+.grn-box {
+  width: 100%;
+  background-color: rgba(89, 123, 99, 1);
+  padding: 1rem 0;
+
+}
+
+#vert {
+  position: relative;
+
+
+}
+
+#vert div {
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+
+.margin-box .mid-img {
+  width: 90%;
+  margin-left: 5%;
+}
+
+#esg_nz {
+  width: 70%;
+  margin-left: 20%;
+}
+ */
+
+
+/* office card */
+
+
+/* 
+
+.country-section {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  overflow: visible;
+  padding: 2rem;
+}
+
+.card-location img {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  object-position: center;
+  -webkit-filter: grayscale(100%) blur(3px);
+  filter: grayscale(100%) blur(3px);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+
+/* 
+.city-text {
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 30%;
+  opacity: 1;
+}
+
+.card-address {
+  text-align: left;
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+
+.card:hover .city-text {
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+.card:hover img {
+  opacity: 1;
+  -webkit-filter: grayscale(0) blur(0px);
+  filter: grayscale(0) blur(0px);
+  -webkit-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
+}
+
+.card-body a {
+  display: block;
+  color: #2251ff;
+} */
+
+
+
+
+.nav-pills>li.active>a {
+  background-color: #F58522 !important;
+  color: white !important;
+  border: none;
+}
+
+.nav-pills>li a {
+  text-align: center;
+  font-size: 1.3rem;
+
+}
+
+
+.tab-bar {
+  width: 100%;
+  position: relative;
+  left: 0;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 0;
+  box-shadow: none;
+  white-space: nowrap;
+  overflow-x: auto;
+
+}
+
+.tab-bar li a,
+.tab-bar li a:hover {
+  background-color: rgba(35, 37, 44, 1);
+}
+
+
+
+
+
+
+.scale-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1a1b1b;
+  opacity: 0.9;
+  display: block;
+  padding: 8rem 1rem;
+  width: 100%;
+
+}
+
+.sr-item {
+
+  margin-bottom: 3rem;
+  flex: 1 0 auto;
+  min-height: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+}
+
+/* temp */
+
+.advan-icon {
+
+  width: 100%;
+  /* ie purpose */
+  flex: 1 0;
+  min-height: 80px;
+
+}
+
+.advan-icon img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.sr-item h {
+  font-size: 4rem;
+  line-height: 4rem;
+  color: #F58522;
+}
+
+.sr-item p {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+
+.sr-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .collapse-open a {
+    font-size: 1.25rem !important;
+    opacity: 0.8;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .void-item {
+    display: block;
+  }
+
+  .video-behind {
+    padding-top: 25rem;
+
+  }
+
+  .vision {
+    left: 0;
+    transform: translate(0%, 0%);
+  }
+
+  #v-sub2 {
+    padding-left: 12%;
+
+  }
+
+  .sub-vision {
+
+    align-items: center;
+  }
+
+  #health-item {
+    /* width: 100%;
+    padding-bottom: 2rem;
+    position: relative;
+    background: rgba(197, 197, 197, 0.4);
+    ;
+    border-radius: 5%; */
+    min-height: 440px;
+  }
+
+  .under-header {
+    top: 15%;
+    left: 10;
+    z-index: 8
+  }
+
+  .esg-slogan {
+
+    left: 4rem;
+    font-size: 4rem;
+
+  }
+
+  .about-banner {
+    width: 100%;
+    padding-top: 40%;
+    margin-top: 0;
+    position: relative;
+    background-image: url('/assets/img/esg/core/esg-banner.png');
+    background-size: 110% auto;
+
+  }
+
+  .tab-bar {
+
+    position: relative;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 15rem;
+    white-space: unset;
+    overflow-x: unset;
+
+  }
+
+
+  /* 1st tab esg focus */
+
+  /* 
+  our vision */
+
+  .esg-vision-text {
+
+    bottom: 5%;
+
+  }
+
+  .esg-focus-item::before {
+
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.864) -40.62%, rgba(0, 0, 0, 0.68273) 28.03%, rgba(0, 0, 0, 0.594) 61.64%);
+    background-blend-mode: darken;
+
+  }
+
+
+  #v-sub1 {
+    text-align: center;
+    padding: 2rem;
+  }
+
+  #v-sub1>*,
+  #v-sub2>* {
+
+    padding: 0.5rem;
+  }
+
+  .v-sub-content img {
+    width: 15%;
+  }
+
+  /* #v-sub2 {
+    width: 80%;
+    margin-left: 40px;
+  } */
+
+
+  /* esg focus */
+
+  .esg-focus-wrapper {
+    display: flex;
+    flex-direction: row !important;
+    width: 100%;
+    height: 50%;
+
+  }
+
+  .esg-focus-item {
+    width: 100%;
+    position: relative;
+    padding-top: 60%;
+    overflow: hidden;
+    background-size: cover;
+    /* Match width and height to div size while covering the entire area */
+    margin: 4px;
+    /* Optional margin for spacing between items */
+  }
+
+  /* social 圖片 */
+  #s1 {
+    background-image: url('/assets/img/esg/core/focus/s_web1.jpg');
+  }
+
+  #s2 {
+    background-image: url('/assets/img/esg/core/focus/s_web2.jpg');
+  }
+
+  /* governence 圖片 */
+
+  #g1 {
+    background-image: url('/assets/img/esg/core/focus/g_web1.jpg');
+  }
+
+  #g2 {
+    background-image: url('/assets/img/esg/core/focus/g_web2.jpg');
+  }
+
+
+  /* 2ndtab */
+
+  /* location modal */
+
+  /* modal大小 */
+  .location-modal-dialog {
+
+    width: 75%;
+    margin: 30px auto;
+  }
+
+  .location-icon {
+    position: absolute;
+    left: -7%;
+  }
+
+  .location-modal-wrapper .modal-header .close {
+    position: absolute;
+    top: -35%;
+    right: -8%;
+  }
+
+  .video-behind {
+
+    padding-top: 35rem;
+
+  }
+
+  .card-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .esg-card-wrapper {
+
+    flex-direction: row;
+  }
+
+  .card-img {
+    height: unset;
+    overflow: hidden;
+    border-radius: 25px 0 0 25px;
+    /* Hide overflowing content */
+  }
+
+  .card-img img {
+    width: 100%;
+    border-radius: 25px 0 0 25px;
+    ;
+  }
+
+  /* 3rd tab - Sustainable Environment */
+
+  #env-modal>button.close {
+    top: 10px !important;
+
+  }
+
+  .nz-wrapper {
+    all: unset;
+    width: 100%;
+    padding-left: 5%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  .nz-wrapper>* {
+    /* all: unset; */
+    /* width: 33%; */
+    margin: 3rem;
+
+  }
+
+  .nz-card {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+    width: 30%;
+
+  }
+
+  .nz-card-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    /* Distribute available height equally among items */
+  }
+
+  .sub-nz-card-modal {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* Arrange items vertically */
+    justify-content: center;
+    /* Center items vertically */
+    align-items: center;
+    /* Center items horizontally */
+    padding: 2rem;
+    position: relative;
+    margin: 5px 0;
+    /* Add small gap between items (adjust as needed) */
+  }
+
+  .sub-nz-card-modal>#arrow-mobile,
+  .nz-card>#arrow-mobile {
+    display: none;
+  }
+
+  .sub-nz-card-modal>#arrow-web,
+  .nz-card>#arrow-web {
+    display: unset;
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .nz-popup {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .nz-popup {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .nz-popup>a {
+    font-size: 3rem;
+  }
+
+  .nz-card>* {
+    width: 100%;
+  }
+
+  .nz-img img {
+    width: 50%;
+  }
+
+
+  /* net zero modal */
+
+  .env-modal-body {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    width: 100%;
+
+  }
+
+  .r-item-content {
+    width: 95%;
+    border-right: 1px solid white;
+    padding: 3rem 0;
+  }
+
+  .r-item-content>ul>li {
+    margin-bottom: 1rem;
+  }
+
+  #r-item3 {
+    border: unset;
+  }
+
+  /* green solution */
+  .gr-box {
+
+    display: flex;
+    flex-direction: row;
+    align-items: stretch !important;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+
+    ;
+  }
+
+  .gr-box-img {
+    width: 26%;
+    padding-top: 40%;
+    position: relative;
+    border-radius: 15px 0 0 15px
+  }
+
+  .gr-box-contnet {
+    border-radius: 0 15px 15px 0;
+  }
+
+  #gr1-content-mobile {
+    display: none;
+  }
+
+  #gr1-content {
+    background-image: url('/assets/img/esg/env/green/cooling.png');
+    background-size: 90% auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  #gr1 {
+    background-image: url('/assets/img/esg/env/green/1.png');
+    background-size: auto 100%;
+  }
+
+  #gr1-content {
+    background-size: 90% auto;
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+
+  #gr2 {
+    background-image: url('/assets/img/esg/env/green/2.jpg');
+    background-size: auto 100%;
+  }
+
+  #gr3 {
+    background-image: url('/assets/img/esg/env/green/3-2.png');
+    background-size: 101% 100%;
+  }
+
+
+
+  .gr-box-contnet {
+    width: 74%;
+    padding-top: 40%;
+    position: relative;
+  }
+
+  .gr-box-contnet>div {
+    position: absolute;
+
+    top: 50%;
+    transform: translate(0%, -50%);
+  }
+
+
+  .lc-card {
+    flex: 1;
+    margin: 1rem;
+    flex-direction: column;
+    /* To make sure the card content stacks vertically */
+    width: 33%;
+  }
+
+  /* 4thtab carousel page */
+
+  .esg-carousel-wrapper {
+    width: 78%;
+    margin-left: 5%;
+    /* margin-left: 10%; */
+    position: relative;
+  }
+
+
+  /* carousel 1 */
+  .sub-item-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    justify-content: stretch;
+    min-height: unset;
+
+
+  }
+
+  .modal-img-wrapper {
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sub-item {
+    flex: 1 !important;
+    max-height: unset;
+    margin: 0
+  }
+
+  .sub-item>img {
+    border-radius: 0 20px 20px 0
+  }
+
+  /* carousel1 modal */
+
+  .modal-bts1 {
+    width: 70%;
+    margin-left: 20%;
+    padding: 4rem 1rem !important
+  }
+
+  /* 文字內容位置 */
+  .sub-item-content {
+    width: 90%;
+    margin-left: 2%;
+  }
+
+  .sub-item-content>* {
+    margin-bottom: 2rem;
+  }
+
+  /* .popup {
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+  } */
+
+
+  /* carousel 2  */
+
+  .bts-2-modal .modal-header .close {
+    top: 10px;
+
+  }
+
+  .popup {
+    position: absolute;
+    text-align: right;
+    bottom: 0;
+    right: 52%;
+  }
+
+  .health-item-content {
+    padding: 3rem;
+
+  }
+
+
+  .vision {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .esg-vision {
+
+    width: 100%;
+    padding-top: 46%;
+
+
+  }
+
+  .esg-vision {
+
+    padding-top: 100vh;
+
+
+  }
+
+
+
+
+  /* carousel 2 - modal 2 */
+
+  .modal-2-heading {
+    width: 85%;
+  }
+
+  .hp-modal-wrapper {
+    width: 80vw;
+  }
+
+  .hp-modal-gallary {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+  }
+
+  .hp-modal {
+    width: 100%;
+  }
+
+  .hp-modal-gallary>.hp-modal {
+    padding: 1.5rem;
+  }
+
+  .left-divider {
+    border-left: 1px solid white;
+  }
+
+  /* carousel 2 modal 3 */
+  .sc-modal-img-wrapper {
+
+    flex-direction: row;
+  }
+
+
+
+  /* leader */
+
+
+  .leader {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .img-left {
+    flex-direction: row-reverse;
+  }
+
+  .leader-content {
+    width: 100%;
+    /* ie purpose */
+    flex: 1 0 auto;
+    min-height: 1px;
+  }
+
+
+
+  .leader-pic {
+    width: 50%;
+    margin-bottom: 3rem;
+
+  }
+
+
+  .leader-pic img {
+    margin-left: 5%;
+    width: 90%;
+
+  }
+
+
+  .leader-para {
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10%;
+
+  }
+
+  .leader-quote p {
+    font-size: 2.8rem;
+    font-family: 'Abhaya Libre', serif;
+  }
+
+  /* scale */
+  .scale-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: stretch;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+
+  }
+
+
+
+  .sr-item {
+
+    width: 15%;
+    margin-right: 3%;
+  }
+
+
+
+
+
+
+  /* office */
+
+  .collapse-header h {
+    font-size: 3rem;
+  }
+
+  .office-wrapper {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .office-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* align-content: stretch; */
+    padding: 0 5%;
+    ;
+
+    /* overflow:visible; */
+  }
+
+  .card-location {
+    width: 45%;
+    /* height: 450px; */
+    overflow: hidden;
+  }
+
+
+  .container-boxy {
+    width: 90%;
+
+  }
+
+  .city-text {
+    font-size: 2rem;
+  }
+
+  .country h4 {
+    font-size: 2rem;
+  }
+
+  .card-address {
+    font-size: 2rem;
+    line-height: 3.5rem;
+  }
+
+  .sr-container {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 878px) {
+  /* #v-sub2 {
+    margin-left: 50px;
+  } */
+
+  #health-item {
+
+    min-height: 550px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+
+  .location-certificate {
+
+    justify-content: flex-start;
+    /* Centers text within each item */
+  }
+
+  .certif-item {
+    margin: 12px;
+
+  }
+
+  .popup {
+
+    right: 52%;
+  }
+
+  #health-item {
+
+    min-height: unset;
+  }
+
+  /* #v-sub2 {
+    margin-left: 100px;
+  } */
+
+  s #health-item {
+
+    min-height: unset;
+  }
+
+  /* 1st tab */
+
+  .esg-text {
+    position: absolute;
+    width: 80%;
+    padding: 10px;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+
+  .esg-focus-item {
+
+    padding-top: 40%;
+
+  }
+
+
+  /* 3rd */
+  .lc-card-content {
+    height: 50%;
+  }
+
+
+
+
+
+  .esg-vision-text {
+
+    bottom: 10%;
+
+  }
+
+  .esg-vision-text h2 {
+    margin-bottom: 3rem;
+  }
+
+
+
+
+
+  .nav-pills>li>a {
+    font-size: 2rem;
+  }
+
+  .content-wrapper {
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  /* .content-video{
+  width:80%;
+  margin-left:10%;
+  margin-bottom:3rem;
+} */
+
+  .content-video video {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+
+
+  .content-img {
+    width: 100%;
+
+    margin-bottom: 3rem;
+  }
+
+
+
+
+  .country h4 {
+    font-size: 2.5rem;
+  }
+
+
+
+}
+
+@media screen and (min-width: 1440px) {
+
+
+  .story-para p {
+
+    font-size: 2rem;
+
+  }
+
+  .city-text {
+    font-size: 2.5rem;
+  }
+
+
+
+
+}
+
+
+/* for iphone */
+@media screen and (max-width:850px) and (orientation: portrait) {
+
+  #sit-img {
+    width: 85%;
+  }
+
+  .sub-title>h3>i>img {
+    width: 20px;
+  }
+
+  .nz-popup>a {
+    font-size: 2rem !important;
+    padding: 0 6px;
+  }
+
+  :root {
+    --fs-h: 5rem;
+    --fs-h1: 2.8rem;
+    --fs-h2: 2.5rem;
+    --fs-h3: 1.7rem;
+    --fs-h4: 1.55rem;
+    --fs-h5: 1.55rem;
+
+  }
+
+  .void-item {
+
+    display: none;
+  }
+
+  #sc-close {
+    top: -10px;
+  }
+
+  #modal-dialog-3-2 {
+    top: 20%;
+  }
+
+
+  #esg-text-g {
+    top: 0;
+  }
+
+  #env-modal>button.close {
+    top: 10px !important;
+
+  }
+
+  .location-icon>i>img {
+
+    width: 78% !important;
+
+  }
+
+  .nav-pills>li a {
+    text-align: center;
+    font-size: 1rem;
+
+  }
+
+  .gr-box-contnet {
+    padding-top: 87%;
+
+  }
+
+  #gr1-content {
+    padding-top: 70%;
+  }
+
+  .esg-vision {
+    position: relative;
+    background-image: url('/assets/img/esg/core/esg-vision.png');
+    width: 100%;
+    padding-top: 650px;
+    /* Set the height as a percentage of the width (adjust for your aspect ratio) */
+    background-size: auto 100%;
+    /* Set background size to cover */
+    background-repeat: no-repeat;
+
+  }
+
+  .story-para p {
+
+    font-size: 2rem;
+
+  }
+
+  .city-text {
+    font-size: 2.5rem;
+  }
+
+  .nav-pills>li a {
+    text-align: center;
+    padding: 8px;
+  }
+
+}
